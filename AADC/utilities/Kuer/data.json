@@ -1,0 +1,64 @@
+{
+   "meta": [ 
+       {
+           "counter": "31"
+       }
+   ],
+   "chat": [ 
+       {
+           "time": "11:46:20", 
+           "name": "Car 1", 
+           "message": "Hi! Kannst du mich sehen?"
+       }, 
+       {
+           "time": "11:46:22", 
+           "name": "Car 2", 
+           "message": "Ah, Hallo! Ja, ich sehe dich!"
+       }, 
+       {
+           "time": "11:46:22", 
+           "name": "Car 1", 
+           "message": "Was hast du vor, wohin möchtest du?"
+       }, 
+       {
+           "time": "11:46:30", 
+           "name": "Car 2", 
+           "message": "Ich möchte geradeaus fahren."
+       }, 
+       {
+           "time": "11:46:30", 
+           "name": "Car 1", 
+           "message": "Oh... okay! Und ich möchte nach links!"
+       }, 
+       {
+           "time": "11:46:43", 
+           "name": "Car 2", 
+           "message": "Hm... Dann haben wir ein Problem!"
+       }, 
+       {
+           "time": "11:46:43", 
+           "name": "Car 1", 
+           "message": "Wer soll nun zuerst fahren?"
+       }, 
+       {
+           "time": "11:46:51", 
+           "name": "Car 2", 
+           "message": "Du warst als Erster an der Kreuzung... fahr du!"
+       }, 
+       {
+           "time": "11:46:51", 
+           "name": "Car 1", 
+           "message": "Alles klar. Dankeschön! Dann fahr ich jetzt los!"
+       }, 
+       {
+           "time": "11:47:00", 
+           "name": "Car 2", 
+           "message": "Ok, ich warte, bis du weg bist. Tschüss!"
+       }, 
+       {
+           "time": "11:47:00", 
+           "name": "Car 1", 
+           "message": "Tschüss und schönen Tag!"
+       }
+   ] 
+}

@@ -1,0 +1,25 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tFloat32">
+        <Value> 42.0  </Value>  
+    </Property>
+    <Property type="tInt32">
+        <Value> -72 </Value>
+        <Value> 72 </Value>
+    </Property>>
+    <Property type="tUInt32">
+        <Value> 128 </Value>
+    </Property>
+    <Property type="tBool">
+        <Value> 0 </Value>
+    </Property>
+    <Property type="string">
+        <Value> test test2 test </Value>
+    </Property>
+    <Property type="tInt64">
+        <Value> -666 </Value>
+    </Property>
+    <Property type="tUInt64">
+        <Value> 666 </Value>
+    </Property>
+</calibration>
+

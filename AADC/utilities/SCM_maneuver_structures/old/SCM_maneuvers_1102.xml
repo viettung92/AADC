@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maneuvers>
+    <maneuver name="basic_startup" description="Basic startup maneuver, necessary for remote start from jury modul. DO NOT CHANGE!">
+        <step>
+            <active>
+                <filter id="10">
+                    <command id="10990"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10991" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7011"/>
+                </filter>
+                <filter id="8">
+                    <command id="8010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="8">
+                    <response id="8011" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="10">
+                    <command id="10520"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10521" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7200"/>
+                </filter>
+                <filter id="10">
+                    <command id="10100"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10011" reaction="3" destination="turn_left"/>
+                    <response id="10021" reaction="3" destination="turn_right"/>
+                    <response id="10031" reaction="3" destination="straight_ahead"/>
+                    <response id="10051" reaction="3" destination="cross_parking"/>
+                    <response id="10061" reaction="3" destination="pull_out_left"/>
+                    <response id="10071" reaction="3" destination="pull_out_right"/>
+                    <response id="10091" reaction="3" destination="stop_and_chill"/>
+                    <response id="10601" reaction="3" destination="cross_parking_spot_one"/>
+                    <response id="10611" reaction="3" destination="cross_parking_spot_two"/>
+                    <response id="10621" reaction="3" destination="cross_parking_spot_three"/>
+                    <response id="10631" reaction="3" destination="cross_parking_spot_four"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="next_man_stopped" description="Get next maneuver from STOPPED position! Car has speed zero.">
+        <step>
+            <active>
+                <filter id="10">
+                    <command id="10120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10011" reaction="3" destination="turn_left"/>
+                    <response id="10021" reaction="3" destination="turn_right"/>
+                    <response id="10031" reaction="3" destination="straight_ahead"/>
+                    <response id="10051" reaction="3" destination="cross_parking"/>
+                    <response id="10061" reaction="3" destination="pull_out_left"/>
+                    <response id="10071" reaction="3" destination="pull_out_right"/>
+                    <response id="10091" reaction="3" destination="stop_and_chill"/>
+                    <response id="10601" reaction="3" destination="cross_parking_spot_one"/>
+                    <response id="10611" reaction="3" destination="cross_parking_spot_two"/>
+                    <response id="10621" reaction="3" destination="cross_parking_spot_three"/>
+                    <response id="10631" reaction="3" destination="cross_parking_spot_four"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="next_man_running" description="Get next maneuver from RUNNING position! Car has speed != zero, follow-line mode active.">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="10">
+                    <command id="10120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10011" reaction="3" destination="turn_left"/>
+                    <response id="10021" reaction="3" destination="turn_right"/>
+                    <response id="10031" reaction="3" destination="straight_ahead"/>
+                    <response id="10051" reaction="3" destination="cross_parking"/>
+                    <response id="10061" reaction="3" destination="pull_out_left"/>
+                    <response id="10071" reaction="3" destination="pull_out_right"/>
+                    <response id="10091" reaction="3" destination="stop_and_chill"/>
+                    <response id="10601" reaction="3" destination="cross_parking_spot_one"/>
+                    <response id="10611" reaction="3" destination="cross_parking_spot_two"/>
+                    <response id="10621" reaction="3" destination="cross_parking_spot_three"/>
+                    <response id="10631" reaction="3" destination="cross_parking_spot_four"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="turn_left" description="">
+        <step name="drive_till_intersection">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1000" reaction="1"/>
+                    <response id="1001" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="move_to_stopline">
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+                <filter id="7">
+                    <command id="7002"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_roadsign_type">
+            <active>
+                <filter id="3">
+                    <command id="3110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3111" reaction="1"/>
+                    <response id="3112" reaction="2" destination="wait_stop_line"/>
+                    <response id="3113" reaction="2" destination="wait_stop_line"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_intersection_priority">
+            <active>
+                <filter id="1">
+                    <command id="1200"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1201" reaction="2" destination="ac_left_turn"/>
+                    <response id="1202" reaction="2" destination="vertical_check_ahead"/>
+                    <response id="1203" reaction="2" destination="vertical_check_ahead"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="wait_stop_line">
+            <active>
+                <filter id="4">
+                    <command id="4005"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_intersection_stop_line">
+            <active>
+                <filter id="1">
+                    <command id="1200"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1201" reaction="2" destination="horizontal_check_left"/>
+                    <response id="1202" reaction="2" destination="vertical_check_left"/>
+                    <response id="1203" reaction="2" destination="check_cross_left"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="horizontal_check_left">
+            <active>
+                <filter id="4">
+                    <command id="4520"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="horizontal_check_right">
+            <active>
+                <filter id="4">
+                    <command id="4530"/>
+                </filter>
+                <filter id="6">
+                    <command id="6020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="vertical_check_left">
+            <active>
+                <filter id="4">
+                    <command id="4530"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="vertical_check_ahead">
+            <active>
+                <filter id="4">
+                    <command id="4530"/>
+                </filter>
+                <filter id="6">
+                    <command id="6010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_cross_left">
+            <active>
+                <filter id="4">
+                    <command id="4530"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_cross_right/ahead">
+            <active>
+                <filter id="4">
+                    <command id="4060"/>
+                </filter>
+                <filter id="6">
+                    <command id="6030"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="2" destination="ac_left_turn"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="ac_left_turn">
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2021" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="fin">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3120"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3121" reaction="3" destination="next_man_running"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="turn_right" description="">
+        <step name="drive_till_intersection">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1000" reaction="1"/>
+                    <response id="1001" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="move_to_stopline">
+            <active>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_roadsign_type">
+            <active>
+                <filter id="3">
+                    <command id="3110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3111" reaction="2" destination="turn_right"/>
+                    <response id="3112" reaction="2" destination="wait_stop_line"/>
+                    <response id="3113" reaction="2" destination="wait_stop_line"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="wait_stop_line">
+            <active>
+                <filter id="4">
+                    <command id="4005"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_intersection_type">
+            <active>
+                <filter id="1">
+                    <command id="1200"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1201" reaction="1"/>
+                    <response id="1202" reaction="2" destination="turn_right"/>
+                    <response id="1203" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="check_horizontal_left">
+            <active>
+                <filter id="4">
+                    <command id="4030"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="turn_right">
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2030"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2031" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="fin">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3120"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3121" reaction="3" destination="next_man_running"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="straight_ahead" description="">
+        <step name="drive_till_intersection">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1000" reaction="1"/>
+                    <response id="1001" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="get_crossing_sign">
+            <active>
+                <filter id="3">
+                    <command id="3110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3111" reaction="2" destination="goto_stop_line_no_stop"/>
+                    <response id="3112" reaction="2" destination="goto_stop_line_stop"/>
+                    <response id="3113" reaction="2" destination="goto_stop_line_stop"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="goto_stop_line_no_stop">
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2360"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2361" reaction="2" destination="go_straight"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="goto_stop_line_stop">
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4005"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1200"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1202" reaction="1"/>
+                    <response id="1203" reaction="2" destination="giveway_left"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4050"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="2" destination="go_straight"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="2" destination="go_straight"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="giveway_left">
+            <active>
+                <filter id="4">
+                    <command id="4050"/>
+                </filter>
+                <filter id="5">
+                    <command id="5050"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4060"/>
+                </filter>
+                <filter id="6">
+                    <command id="6020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="go_straight">
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2090"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2091" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="fin">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3121" reaction="3" destination="next_man_running"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="cross_parking" description="Automatically find next free spot for cross parking (if no particular parking spot ID is given).">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3002" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="detect_parking_spots">
+            <active>
+                <filter id="1">
+                    <command id="1120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1121" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2010"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2011" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="branching_point">
+            <active>
+                <filter id="5">
+                    <command id="5010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="5">
+                    <response id="5001" reaction="2" destination="no_obstacle"/>
+                    <response id="5002" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2370"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2371" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="5">
+                    <command id="5010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="5">
+                    <response id="5001" reaction="2" destination="no_obstacle"/>
+                    <response id="5002" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2380"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2381" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="5">
+                    <command id="5010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="5">
+                    <response id="5001" reaction="2" destination="no_obstacle"/>
+                    <response id="5002" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2370"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2371" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="5">
+                    <command id="5010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="5">
+                    <response id="5001" reaction="2" destination="no_obstacle"/>
+                    <response id="5002" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2135"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2136" reaction="2" destination="detect_parking_spots"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="no_obstacle">
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2040"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2041" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7004" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7001" reaction="3" destination="next_man_stopped"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="6">
+                    <command id="6210"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="cross_parking_spot_one" description="">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3002" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1121" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="6">
+                    <command id="6120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2040"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2041" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7101" reaction="3" destination="next_man_stopped"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="cross_parking_spot_two" description="">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3002" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1121" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2320"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2321" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2040"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2041" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7101" reaction="3" destination="next_man_stopped"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="6">
+                    <command id="6120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="cross_parking_spot_three" description="">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3002" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1121" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2330"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2331" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2040"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2041" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7101" reaction="3" destination="next_man_stopped"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="6">
+                    <command id="6120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="cross_parking_spot_four" description="">
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="3">
+                    <command id="3100"/>
+                </filter>
+                <filter id="9">
+                    <command id="9110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="3">
+                    <response id="3002" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9111" reaction="3" destination="overtake_static_obstacle"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1121" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2350"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2351" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1040"/>
+                </filter>
+                <filter id="2">
+                    <command id="2340"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2341" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="6">
+                    <command id="6120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2040"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2041" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4040"/>
+                </filter>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7001" reaction="3" destination="next_man_stopped"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="pull_out_left" description="">
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7002"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7002" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4100"/>
+                </filter>
+                <filter id="5">
+                    <command id="5030"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2060"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2061" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7001" reaction="3" destination="next_man_running"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="pull_out_right" description="">
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7003" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4100"/>
+                </filter>
+                <filter id="5">
+                    <command id="5030"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="5">
+                    <response id="5001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2050"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2051" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="7">
+                    <response id="7001" reaction="3" destination="next_man_running"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="overtake_static_obstacle" description="">
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4030"/>
+                </filter>
+                <filter id="9">
+                    <command id="9120"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="9">
+                    <response id="9121" reaction="2" destination="last_step"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="2">
+                    <command id="2160"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2161" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="6">
+                    <command id="6110"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="6">
+                    <response id="6001" reaction="2" destination="last_step"/>
+                    <response id="6011" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="4">
+                    <command id="4050"/>
+                </filter>
+                <filter id="6">
+                    <command id="6120"/>
+                </filter>
+                <filter id="7">
+                    <command id="7002"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2170"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2171" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1025"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="1">
+                    <response id="1026" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1025"/>
+                </filter>
+                <filter id="2">
+                    <command id="2340"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2341" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1025"/>
+                </filter>
+                <filter id="4">
+                    <command id="4050"/>
+                </filter>
+                <filter id="6">
+                    <command id="6130"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="4">
+                    <response id="4001" reaction="1"/>
+                </filter>
+                <filter id="6">
+                    <response id="6001" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step>
+            <active>
+                <filter id="1">
+                    <command id="1010"/>
+                </filter>
+                <filter id="2">
+                    <command id="2180"/>
+                </filter>
+                <filter id="7">
+                    <command id="7003"/>
+                </filter>
+                <filter id="9">
+                    <command id="9020"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="2">
+                    <response id="2181" reaction="1"/>
+                </filter>
+            </passive>
+        </step>
+        <step name="last_step">
+            <active>
+                <filter id="1">
+                    <command id="1020"/>
+                </filter>
+                <filter id="7">
+                    <command id="7001"/>
+                </filter>
+                <filter id="9">
+                    <command id="9010"/>
+                </filter>
+                <filter id="10">
+                    <command id="10100"/>
+                </filter>
+            </active>
+            <passive>
+                <filter id="10">
+                    <response id="10011" reaction="3" destination="turn_left"/>
+                    <response id="10021" reaction="3" destination="turn_right"/>
+                    <response id="10031" reaction="3" destination="straight_ahead"/>
+                    <response id="10051" reaction="3" destination="cross_parking"/>
+                    <response id="10061" reaction="3" destination="pull_out_left"/>
+                    <response id="10071" reaction="3" destination="pull_out_right"/>
+                    <response id="10091" reaction="3" destination="stop_and_chill"/>
+                    <response id="10601" reaction="3" destination="cross_parking_spot_one"/>
+                    <response id="10611" reaction="3" destination="cross_parking_spot_two"/>
+                    <response id="10621" reaction="3" destination="cross_parking_spot_three"/>
+                    <response id="10631" reaction="3" destination="cross_parking_spot_four"/>
+                </filter>
+            </passive>
+        </step>
+    </maneuver>
+    <maneuver name="stop_and_chill" description="">
+        <step>
+            <active>
+                <filter id="7">
+                    <command id="7004"/>
+                </filter>
+                <filter id="8">
+                    <command id="8010"/>
+                </filter>
+            </active>
+            <passive/>
+        </step>
+    </maneuver>
+</maneuvers>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!-- DO NOT TOUCH THE FOLLOWING LINES until stated otherwise ! -->
+<!-- Do not change the order of the maneuvers, as maneuverID is used for jump-commands! -->
+<!-- Maneuvers start from id = 0, steps start from id = 0 -->
+<SCM-Structure-List description="Internal Structure of StateControlManagement, Basic template, first version">
+	<SCM-Maneuver id="0" description="Basic Startup Maneuver, necessary for remote start from jury mode , DO NOT CHANGE!"> 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10990"/> <!-- AC_JURY_ALIVE_AND_READY = 10990 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10991" command="1"/> <!-- FB_JURY_ALIVE_AND_READY = 10991, C_STEP_PLUS_ONE = 1 --> 
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="8"> 
+						<SCM-Action enable="true" start="true" command="8010"/> <!-- AC_SA_STOP_CAR = 8010 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7011"/> <!-- 7011: head light: no change, reverse: off, turn light: off -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="8"> 
+						<SCM-Request status="8011" command="1"/> <!-- FB_SA_STOPPED = 8011, C_STEP_PLUS_ONE = 1 --> 
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10520"/> <!-- AC_JURY_WAIT_FOR_COMMAND_START = 10520,-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10521" command="1"/> <!-- FB_JURY_COMMAND_RECEIVED_START = 10521, C_STEP_PLUS_ONE = 1-->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10100"/> <!-- AC_JURY_MAN_GET_FIRST = 10100 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7200"/> <!-- AC_LC_HEAD_LIGHT_ON = 7200 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10041" command="206"/> <!-- FB_JURY_MAN_PARALLEL_PARKING = 10041, C_MAN_JUMP_TO_SIX = 206 -->
+						<SCM-Request status="10051" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10051, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="208"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="209"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+				 		<SCM-Request status="10091" command="206"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER ZERO -->
+	<SCM-Maneuver id="1" description="Get next maneuver from STOPPED position! Car has speed zero." > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10120"/> <!-- AC_JURY_MAN_FINISHED_GET_NEXT = 10120 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10041" command="206"/> <!-- FB_JURY_MAN_PARALLEL_PARKING = 10041, C_MAN_JUMP_TO_SIX = 206 -->
+						<SCM-Request status="10051" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10051, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="208"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="209"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+				 		<SCM-Request status="10091" command="206"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER ONE -->
+	<SCM-Maneuver id="2" description="Get next maneuver from RUNNING position! Car has speed != zero, follow-line mode active." > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- -->
+					</SCM-FilterID>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10120"/> <!-- AC_JURY_MAN_FINISHED_GET_NEXT = 10120 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10041" command="206"/> <!-- FB_JURY_MAN_PARALLEL_PARKING = 10041, C_MAN_JUMP_TO_SIX = 206 -->
+						<SCM-Request status="10051" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10051, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="208"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="209"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+				 		<SCM-Request status="10091" command="206"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER TWO -->
+<!-- !!! DO NOT TOUCH UNTIL HERE !!! -->
+<!-- Maneuvers open to modification start from here. Do not change the order, as maneuverID is used for jump-commands! -->
+	<SCM-Maneuver id="3" description="Follow Line and turn Left at stopline" > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1021" command="1"/> <!-- FB_LS_SLOW = 1021 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1000" command="1"/> <!-- FB_LS_STOPLINE = 1000 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2010"/> <!-- AC_FP_GOTO_XY = 2010 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7002"/> <!-- AC_LC_TURN_LEFT = 7002 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2011" command="1"/> <!-- FB_FP_REACHED_POINT = 2011 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="4"> 
+						<SCM-Action enable="true" start="true" command="4020"/> <!-- AC_TF_WAIT_TWO_SEC = 4020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="4"> 
+						<SCM-Request status="4001" command="1"/> <!-- FB_TF_FINISHED = 4001 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="4">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="6"> <!-- Obstacle Detection --> 
+						<SCM-Action enable="true" start="true" command="6030"/> <!-- AC_OD_INTERSECTION_CHECK_ALL = 6030 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="6"> 
+						<SCM-Request status="6001" command="1"/> <!-- FB_OD_NO_OBSTACLE = 6001 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="5">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2020"/> <!-- AC_FP_LEFT_TURN = 2020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2021" command="1"/> <!-- FB_FP_LEFT_TURN = 2021 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="6">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7001"/> <!-- AC_LC_TURN_DISABLE = 7001 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="7"> 
+						<SCM-Request status="7001" command="202"/> <!-- returns action command, go to request from running state -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+	<SCM-Maneuver id="4" description="Follow Line and turn Right at stopline" > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1021" command="1"/> <!-- FB_LS_SLOW = 1021 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1000" command="1"/> <!-- FB_LS_STOPLINE = 1000 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2010"/> <!-- AC_FP_GOTO_XY = 2010 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7003"/> <!-- AC_LC_TURN_RIGHT = 7003 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2011" command="1"/> <!-- FB_FP_REACHED_POINT = 2011 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="4"> 
+						<SCM-Action enable="true" start="true" command="4020"/> <!-- AC_TF_WAIT_TWO_SEC = 4020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="4"> 
+						<SCM-Request status="4001" command="1"/> <!-- FB_TF_FINISHED = 4001 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="4">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2030"/> <!-- AC_FP_RIGHT_TURN = 2030 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2031" command="1"/> <!-- FB_FP_RIGHT_TURN = 2031 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="5">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7001"/> <!-- AC_LC_TURN_DISABLE = 7001 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="7"> 
+						<SCM-Request status="7001" command="202"/> <!-- returns action command, go to request from running state -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+	<SCM-Maneuver id="5" description="Follow Line and go straight at stopline" > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1021" command="1"/> <!-- FB_LS_SLOW = 1021 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW = 1020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1000" command="1"/> <!-- FB_LS_STOPLINE = 1000 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2010"/> <!-- AC_FP_GOTO_XY = 2010 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2011" command="1"/> <!-- FB_FP_REACHED_POINT = 2011 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="4"> 
+						<SCM-Action enable="true" start="true" command="4020"/> <!-- AC_TF_WAIT_TWO_SEC = 4020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="4"> 
+						<SCM-Request status="4001" command="1"/> <!-- FB_TF_FINISHED = 4001 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="4">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="6"> 
+						<SCM-Action enable="true" start="true" command="6020"/> <!-- AC_OD_INTERSECTION_CHECK_CROSS_TRAFFIC_RIGHT = 6020 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="6"> 
+						<SCM-Request status="6001" command="1"/> <!-- FB_OD_NO_OBSTACLE = 6001 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="5">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2090"/> <!-- AC_FP_GO_STRAIGHT = 2090 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2091" command="202"/> <!-- FB_FP_GO_STRAIGHT = 2091 -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+	<SCM-Maneuver id="6" description="Stop and Chill " > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7004"/> <!-- -->
+					</SCM-FilterID>
+					<SCM-FilterID id="8"> 
+						<SCM-Action enable="true" start="true" command="8010"/> <!-- AC_SA_STOP_CAR = 8010 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1234" command="1"/> <!-- -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+</SCM-Structure-List>

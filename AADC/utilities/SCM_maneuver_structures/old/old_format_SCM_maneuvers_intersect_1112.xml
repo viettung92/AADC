@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCM-Structure-List description="Internal structure of StateControlManagement">
+    <SCM-Maneuver id="0" description="basic_startup">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10990"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10991" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7011"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="8">
+                        <SCM-Action enable="true" start="true" command="8010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="8">
+                        <SCM-Request status="8011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10520"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10521" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7200"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10100"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10011" command="203"/>
+                        <SCM-Request status="10021" command="204"/>
+                        <SCM-Request status="10031" command="205"/>
+                        <SCM-Request status="10051" command="206"/>
+                        <SCM-Request status="10061" command="211"/>
+                        <SCM-Request status="10071" command="212"/>
+                        <SCM-Request status="10091" command="214"/>
+                        <SCM-Request status="10601" command="207"/>
+                        <SCM-Request status="10611" command="208"/>
+                        <SCM-Request status="10621" command="209"/>
+                        <SCM-Request status="10631" command="210"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="1" description="next_man_stopped">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10011" command="203"/>
+                        <SCM-Request status="10021" command="204"/>
+                        <SCM-Request status="10031" command="205"/>
+                        <SCM-Request status="10051" command="206"/>
+                        <SCM-Request status="10061" command="211"/>
+                        <SCM-Request status="10071" command="212"/>
+                        <SCM-Request status="10091" command="214"/>
+                        <SCM-Request status="10601" command="207"/>
+                        <SCM-Request status="10611" command="208"/>
+                        <SCM-Request status="10621" command="209"/>
+                        <SCM-Request status="10631" command="210"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="2" description="next_man_running">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10011" command="203"/>
+                        <SCM-Request status="10021" command="204"/>
+                        <SCM-Request status="10031" command="205"/>
+                        <SCM-Request status="10051" command="206"/>
+                        <SCM-Request status="10061" command="211"/>
+                        <SCM-Request status="10071" command="212"/>
+                        <SCM-Request status="10091" command="214"/>
+                        <SCM-Request status="10601" command="207"/>
+                        <SCM-Request status="10611" command="208"/>
+                        <SCM-Request status="10621" command="209"/>
+                        <SCM-Request status="10631" command="210"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="3" description="turn_left">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Action enable="true" start="true" command="15010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Request status="15011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7002"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3111" command="1"/>
+                        <SCM-Request status="3112" command="105"/>
+                        <SCM-Request status="3113" command="105"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1200"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1201" command="113"/>
+                        <SCM-Request status="1202" command="110"/>
+                        <SCM-Request status="1203" command="110"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4005"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1200"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1201" command="107"/>
+                        <SCM-Request status="1202" command="109"/>
+                        <SCM-Request status="1203" command="111"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4520"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4530"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="113"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="113"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4530"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="10">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4530"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="113"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="113"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="11">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4530"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="12">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4060"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6030"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="113"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="113"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="13">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2021" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="14">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3120"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3121" command="202"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="4" description="turn_right">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Action enable="true" start="true" command="15010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Request status="15011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3111" command="107"/>
+                        <SCM-Request status="3112" command="104"/>
+                        <SCM-Request status="3113" command="104"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4005"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1200"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1201" command="1"/>
+                        <SCM-Request status="1202" command="107"/>
+                        <SCM-Request status="1203" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4030"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2030"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2031" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3120"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3121" command="202"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="5" description="straight_ahead">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Action enable="true" start="true" command="15010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="15">
+                        <SCM-Request status="15011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3111" command="102"/>
+                        <SCM-Request status="3112" command="103"/>
+                        <SCM-Request status="3113" command="103"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2360"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2361" command="109"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4005"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1200"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1202" command="1"/>
+                        <SCM-Request status="1203" command="107"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4050"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="109"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="109"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4050"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5050"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4060"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2090"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2091" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="10">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3121" command="202"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="6" description="cross_parking">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3002" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1121" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="112"/>
+                        <SCM-Request status="5002" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2370"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2371" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="112"/>
+                        <SCM-Request status="5002" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2380"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2381" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="112"/>
+                        <SCM-Request status="5002" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2370"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2371" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="10">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="112"/>
+                        <SCM-Request status="5002" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="11">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2135"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2136" command="101"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="12">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="13">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2041" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="14">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7004" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="15">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="16">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7001" command="201"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="17">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6210"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="7" description="cross_parking_spot_one">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3002" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1121" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2041" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7101" command="201"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="8" description="cross_parking_spot_two">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3002" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1121" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2320"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2321" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2041" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7101" command="201"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="9" description="cross_parking_spot_three">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3002" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1121" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2330"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2331" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2041" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7101" command="201"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="10" description="cross_parking_spot_four">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="3">
+                        <SCM-Action enable="true" start="true" command="3100"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="3">
+                        <SCM-Request status="3002" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9111" command="213"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1121" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2350"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2351" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2340"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2341" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2041" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4040"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7001" command="201"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="11" description="pull_out_left">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7002"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7002" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4030"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5030"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2060"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2061" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7001" command="202"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="12" description="pull_out_right">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7003" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4030"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Action enable="true" start="true" command="5030"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="5">
+                        <SCM-Request status="5001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2050"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2051" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="7">
+                        <SCM-Request status="7001" command="202"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="13" description="overtake_static_obstacle">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4030"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9120"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Request status="9121" command="109"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="1">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2160"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2161" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="2">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6110"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="109"/>
+                        <SCM-Request status="6011" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="3">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4050"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6120"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7002"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="4">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2170"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2171" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="5">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1025"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="1">
+                        <SCM-Request status="1026" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="6">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1025"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2390"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2390" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="7">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1025"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="4">
+                        <SCM-Action enable="true" start="true" command="4050"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Action enable="true" start="true" command="6130"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="4">
+                        <SCM-Request status="4001" command="1"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="6">
+                        <SCM-Request status="6001" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="8">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="2">
+                        <SCM-Action enable="true" start="true" command="2180"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7003"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9020"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="2">
+                        <SCM-Request status="2181" command="1"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+        <SCM-Step id="9">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="1">
+                        <SCM-Action enable="true" start="true" command="1020"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7001"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="9">
+                        <SCM-Action enable="true" start="true" command="9010"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="10">
+                        <SCM-Action enable="true" start="true" command="10100"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive>
+                    <SCM-FilterID id="10">
+                        <SCM-Request status="10011" command="203"/>
+                        <SCM-Request status="10021" command="204"/>
+                        <SCM-Request status="10031" command="205"/>
+                        <SCM-Request status="10051" command="206"/>
+                        <SCM-Request status="10061" command="211"/>
+                        <SCM-Request status="10071" command="212"/>
+                        <SCM-Request status="10091" command="214"/>
+                        <SCM-Request status="10601" command="207"/>
+                        <SCM-Request status="10611" command="208"/>
+                        <SCM-Request status="10621" command="209"/>
+                        <SCM-Request status="10631" command="210"/>
+                    </SCM-FilterID>
+                </SCM-Passive>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+    <SCM-Maneuver id="14" description="stop_and_chill">
+        <SCM-Step id="0">
+            <SCM-ActivityLevel>
+                <SCM-Active>
+                    <SCM-FilterID id="7">
+                        <SCM-Action enable="true" start="true" command="7004"/>
+                    </SCM-FilterID>
+                    <SCM-FilterID id="8">
+                        <SCM-Action enable="true" start="true" command="8010"/>
+                    </SCM-FilterID>
+                </SCM-Active>
+                <SCM-Passive/>
+            </SCM-ActivityLevel>
+        </SCM-Step>
+    </SCM-Maneuver>
+</SCM-Structure-List>

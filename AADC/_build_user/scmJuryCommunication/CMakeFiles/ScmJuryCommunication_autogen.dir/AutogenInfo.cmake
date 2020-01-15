@@ -1,0 +1,34 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "2")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/aadc/AADC/src/aadcUser")
+set(AM_CMAKE_BINARY_DIR "/home/aadc/AADC/_build_user")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/aadc/AADC/src/aadcUser/scmJuryCommunication")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/aadc/AADC/_build_user/scmJuryCommunication")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/aadc/AADC/_build_user/scmJuryCommunication/ScmJuryCommunication_autogen")
+set(AM_INCLUDE_DIR "include")
+# Files
+set(AM_SOURCES "/home/aadc/AADC/src/aadcUser/scmJuryCommunication/DriverModuleWidget.cpp;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/ScmJuryCommunication.cpp")
+set(AM_HEADERS "/home/aadc/AADC/src/aadcUser/scmJuryCommunication/DriverModuleWidget.h;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/Maneuverlist.h;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/ScmJuryCommunication.h;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/StateControl.h;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/stdafx.h")
+set(AM_SETTINGS_FILE "/home/aadc/AADC/_build_user/scmJuryCommunication/CMakeFiles/ScmJuryCommunication_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/aadc/AADC/_build_user/scmJuryCommunication/ScmJuryCommunication_autogen/mocs_compilation.cpp")
+set(AM_MOC_DEFINITIONS "BUILD_WITH_EASY_PROFILER=1;EASY_DEFAULT_PORT=28077;EASY_PROFILER_STATIC=1;EASY_PROFILER_VERSION_MAJOR=1;EASY_PROFILER_VERSION_MINOR=3;EASY_PROFILER_VERSION_PATCH=0;LINUX64;QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/aadc/AADC/_build_user/scmJuryCommunication/ScmJuryCommunication_autogen/include;/home/aadc/AADC/src/aadcUser/../../include;/home/aadc/AADC/src/aadcUser/../../_install/linux64/include;/opt/boost/1.66.0/include;/home/aadc/AADC/src/aadcUser/scmJuryCommunication/.;/opt/ADTF/3.3.3/pkg/adtffiltersdk/include;/opt/ADTF/3.3.3/pkg/a_utils/include;/opt/ADTF/3.3.3/pkg/adtfucom3/include;/opt/ADTF/3.3.3/pkg/adtfbase/include;/opt/ADTF/3.3.3/pkg/adtfstreaming3/include;/opt/ADTF/3.3.3/pkg/adtfsystemsdk/include;/opt/ADTF/3.3.3/pkg/adtfmediadescription/include;/opt/ADTF/3.3.3/pkg/adtfddl/include;/opt/ADTF/3.3.3/pkg/adtfremotesdk/include;/opt/ADTF/3.3.3/pkg/adtfrpc/include;/opt/ADTF/3.3.3/pkg/easy_profiler/include;/opt/ADTF/3.3.3/pkg/adtfui/include;/opt/qt/5.9.0/5.9/gcc_64/include;/opt/qt/5.9.0/5.9/gcc_64/include/QtWidgets;/opt/qt/5.9.0/5.9/gcc_64/include/QtGui;/opt/qt/5.9.0/5.9/gcc_64/include/QtCore;/opt/qt/5.9.0/5.9/gcc_64/./mkspecs/linux-g++;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/aadc/AADC/_build_user/scmJuryCommunication/ScmJuryCommunication_autogen/mocs_compilation.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

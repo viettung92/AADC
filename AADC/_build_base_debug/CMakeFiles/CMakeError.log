@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_704ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_704ae.dir/build.make CMakeFiles/cmTC_704ae.dir/build
+make[1]: Entering directory '/home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_704ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_704ae.dir/CheckSymbolExists.c.o   -c /home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_704ae
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_704ae.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_704ae.dir/CheckSymbolExists.c.o  -o cmTC_704ae 
+CMakeFiles/cmTC_704ae.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_704ae.dir/build.make:86: recipe for target 'cmTC_704ae' failed
+make[1]: *** [cmTC_704ae] Error 1
+make[1]: Leaving directory '/home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_704ae/fast' failed
+make: *** [cmTC_704ae/fast] Error 2
+
+File /home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdadd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cdadd.dir/build.make CMakeFiles/cmTC_cdadd.dir/build
+make[1]: Entering directory '/home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdadd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cdadd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cdadd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdadd.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cdadd.dir/CheckFunctionExists.c.o  -o cmTC_cdadd -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cdadd.dir/build.make:86: recipe for target 'cmTC_cdadd' failed
+make[1]: *** [cmTC_cdadd] Error 1
+make[1]: Leaving directory '/home/aadc/AADC/_build_base_debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cdadd/fast' failed
+make: *** [cmTC_cdadd/fast] Error 2
+
+

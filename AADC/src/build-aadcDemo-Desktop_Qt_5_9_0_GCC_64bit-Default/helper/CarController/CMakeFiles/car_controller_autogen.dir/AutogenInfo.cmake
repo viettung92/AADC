@@ -1,0 +1,34 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "2")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/aadc/AADC/src/aadcDemo")
+set(AM_CMAKE_BINARY_DIR "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/aadc/AADC/src/aadcDemo/helper/CarController")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController/car_controller_autogen")
+set(AM_INCLUDE_DIR "include")
+# Files
+set(AM_SOURCES "/home/aadc/AADC/include/aadc_create_mediadescription.cpp;/home/aadc/AADC/include/aadc_transmit_samples.cpp;/home/aadc/AADC/src/aadcDemo/helper/CarController/CarControllerFilter.cpp;/home/aadc/AADC/src/aadcDemo/helper/CarController/CarControllerWidget.cpp")
+set(AM_HEADERS "/home/aadc/AADC/src/aadcDemo/helper/CarController/CarControllerFilter.h;/home/aadc/AADC/src/aadcDemo/helper/CarController/CarControllerWidget.h;/home/aadc/AADC/src/aadcDemo/helper/CarController/stdafx.h")
+set(AM_SETTINGS_FILE "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController/CMakeFiles/car_controller_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController/car_controller_autogen/mocs_compilation.cpp")
+set(AM_MOC_DEFINITIONS "BUILD_WITH_EASY_PROFILER=1;EASY_DEFAULT_PORT=28077;EASY_PROFILER_STATIC=1;EASY_PROFILER_VERSION_MAJOR=1;EASY_PROFILER_VERSION_MINOR=3;EASY_PROFILER_VERSION_PATCH=0;LINUX64;QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController/car_controller_autogen/include;/home/aadc/AADC/src/aadcDemo/../../include;/home/aadc/AADC/src/aadcDemo/../../_install/linux64/include;/opt/boost/1.66.0/include;/home/aadc/AADC/src/aadcDemo/helper/CarController/.;/opt/ADTF/3.3.1/pkg/adtffiltersdk/include;/opt/ADTF/3.3.1/pkg/a_utils/include;/opt/ADTF/3.3.1/pkg/adtfucom3/include;/opt/ADTF/3.3.1/pkg/adtfbase/include;/opt/ADTF/3.3.1/pkg/adtfstreaming3/include;/opt/ADTF/3.3.1/pkg/adtfsystemsdk/include;/opt/ADTF/3.3.1/pkg/adtfmediadescription/include;/opt/ADTF/3.3.1/pkg/adtfddl/include;/opt/ADTF/3.3.1/pkg/adtfremotesdk/include;/opt/ADTF/3.3.1/pkg/adtfrpc/include;/opt/ADTF/3.3.1/pkg/easy_profiler/include;/opt/ADTF/3.3.1/pkg/adtfui/include;/opt/qt/5.9.0/5.9/gcc_64/include;/opt/qt/5.9.0/5.9/gcc_64/include/QtWidgets;/opt/qt/5.9.0/5.9/gcc_64/include/QtGui;/opt/qt/5.9.0/5.9/gcc_64/include/QtCore;/opt/qt/5.9.0/5.9/gcc_64/./mkspecs/linux-g++;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/g++;-dM;-E;-c;/usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/aadc/AADC/src/build-aadcDemo-Desktop_Qt_5_9_0_GCC_64bit-Default/helper/CarController/car_controller_autogen/mocs_compilation.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

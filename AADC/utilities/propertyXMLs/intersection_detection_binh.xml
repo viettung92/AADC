@@ -1,0 +1,33 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tUInt32">
+        <Value> 450 </Value> <!-- m_propROIPoint1X -->
+        <Value> 520 </Value> <!-- m_propROIPoint1Y -->
+        <Value> 700 </Value> <!-- m_propROIPoint2X -->
+        <Value> 520 </Value> <!-- m_propROIPoint2Y -->
+        <Value> 850 </Value> <!-- m_propROIPoint3X -->
+        <Value> 600 </Value> <!-- m_propROIPoint3Y -->
+        <Value> 150 </Value> <!-- m_propROIPoint4X -->
+        <Value> 600 </Value> <!-- m_propROIPoint4Y -->
+        
+        <Value> 640 </Value> <!-- m_propTransformedImageWidth -->
+        <Value> 480 </Value> <!-- m_propTransformedImageHeight -->
+        
+        <Value>   5 </Value> <!-- m_propGaussianKernelSize -->
+        
+        <Value> 180 </Value> <!-- m_propBinaryThreshold -->
+        
+        <Value>   2 </Value> <!-- m_propHarrisBlockSize -->
+        <Value>   3 </Value> <!-- m_propHarrisAperture -->
+        <Value> 180 </Value> <!-- m_propHarrisThreshold -->
+        
+        <Value> 150 </Value> <!-- m_propLaneRoiWidth -->
+        <Value> 2 </Value> <!-- m_propFrame -->
+        
+    </Property>
+	<Property type="tBool">
+        <Value> 0 </Value><!-- m_propEnableGaussianBlur -->
+        <Value> 1 </Value><!-- m_propEnableBinaryThreshold -->
+        <Value> 1 </Value><!-- m_propEnableCornerHarris -->
+    </Property>
+</calibration>
+

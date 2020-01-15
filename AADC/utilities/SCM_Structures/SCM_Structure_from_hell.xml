@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!-- DO NOT TOUCH THE FOLLOWING LINES until stated otherwise ! -->
+<!-- Do not change the order of the maneuvers, as maneuverID is used for jump-commands! -->
+<!-- Maneuvers start from id = 0, steps start from id = 0 -->
+<SCM-Structure-List description="Internal Structure of StateControlManagement, Basic template, first version">
+	<SCM-Maneuver id="0" description="Basic Startup Maneuver, necessary for remote start from jury mode , DO NOT CHANGE!"> 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10990"/> <!-- AC_JURY_ALIVE_AND_READY = 10990 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10991" command="1"/> <!-- FB_JURY_ALIVE_AND_READY = 10991, C_STEP_PLUS_ONE = 1 --> 
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="17"> 
+						<SCM-Action enable="true" start="true" command="17030"/> <!-- AC_SA_STOP_CAR = 8010 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7011"/> <!-- 7011: head light: no change, reverse: off, turn light: off -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="17"> 
+						<SCM-Request status="17031" command="1"/> <!-- FB_SA_STOPPED = 8011, C_STEP_PLUS_ONE = 1 --> 
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10520"/> <!-- AC_JURY_WAIT_FOR_COMMAND_START = 10520,-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10521" command="1"/> <!-- FB_JURY_COMMAND_RECEIVED_START = 10521, C_STEP_PLUS_ONE = 1-->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10100"/> <!-- AC_JURY_MAN_GET_FIRST = 10100 -->
+					</SCM-FilterID>
+					<SCM-FilterID id="7"> 
+						<SCM-Action enable="true" start="true" command="7200"/> <!-- AC_LC_HEAD_LIGHT_ON = 7200 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10601" command="206"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10602" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10603" command="208"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10604" command="209"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10605" command="210"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10606" command="211"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10607" command="212"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10608" command="213"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="214"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="215"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+						<SCM-Request status="10091" command="216"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER ZERO -->
+	<SCM-Maneuver id="1" description="Get next maneuver from STOPPED position! Car has speed zero." > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10120"/> <!-- AC_JURY_MAN_FINISHED_GET_NEXT = 10120 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10601" command="206"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10602" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10603" command="208"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10604" command="209"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10605" command="210"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10606" command="211"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10607" command="212"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10608" command="213"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="214"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="215"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+						<SCM-Request status="10091" command="216"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER ONE -->
+	<SCM-Maneuver id="2" description="Get next maneuver from RUNNING position! Car has speed != zero, follow-line mode active." > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW -->
+					</SCM-FilterID>
+					<SCM-FilterID id="10"> 
+						<SCM-Action enable="true" start="true" command="10120"/> <!-- AC_JURY_MAN_FINISHED_GET_NEXT = 10120 -->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="10"> 
+						<SCM-Request status="10011" command="203"/> <!-- FB_JURY_MAN_LEFT = 10011, C_MAN_JUMP_TO_THREE = 203 -->
+						<SCM-Request status="10021" command="204"/> <!-- FB_JURY_MAN_RIGHT = 10021, C_MAN_JUMP_TO_FOUR = 204 -->
+						<SCM-Request status="10031" command="205"/> <!-- FB_JURY_MAN_STRAIGHT = 10031, C_MAN_JUMP_TO_FIVE = 205 -->
+						<SCM-Request status="10601" command="206"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10602" command="207"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10603" command="208"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10604" command="209"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10605" command="210"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10606" command="211"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10607" command="212"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10608" command="213"/> <!-- FB_JURY_MAN_CROSS_PARKING = 10061, C_MAN_JUMP_TO_SEVEN = 207 -->
+						<SCM-Request status="10061" command="214"/> <!-- FB_JURY_MAN_PULL_OUT_LEFT = 10061, C_MAN_JUMP_TO_EIGHT = 208 -->
+						<SCM-Request status="10071" command="215"/> <!-- FB_JURY_MAN_PULL_OUT_RIGHT = 10071, C_MAN_JUMP_TO_NINE = 209 -->
+						<SCM-Request status="10091" command="216"/> <!-- FB_JURY_NO_MAN_REMAINING = 10091, C_MAN_JUMP_TO_TEN = 210-->
+
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+	</SCM-Maneuver>
+<!-- END OF BASIS MANEUVER TWO -->
+<!-- !!! DO NOT TOUCH UNTIL HERE !!! -->
+<!-- Maneuvers open to modification start from here. Do not change the order, as maneuverID is used for jump-commands! -->
+<!--OVERTAKING-->
+	<SCM-Maneuver id="3" description="OVERTAKING" > 
+		<SCM-Step id="0">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="1"> 
+						<SCM-Action enable="true" start="true" command="1020"/> <!-- AC_LS_SLOW-->
+					</SCM-FilterID>
+					<SCM-FilterID id="3"> 
+						<SCM-Action enable="true" start="true" command="3100"/> <!-- AC_RS_START-->
+					</SCM-FilterID>
+					<SCM-FilterID id="9"> 
+						<SCM-Action enable="true" start="true" command="9110"/> <!-- AC_UA_CHECK_NO_MOVEMENT-->
+					</SCM-FilterID>
+					<SCM-FilterID id="17"> 
+						<SCM-Action enable="true" start="true" command="17010"/> <!-- AC_SES_LANEDETECTION-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="1"> 
+						<SCM-Request status="1021" command="1"/> <!--FB_LS_SLOW -->
+					</SCM-FilterID>
+					<SCM-FilterID id="17"> 
+						<SCM-Request status="17011" command="1"/> <!--FB_SES_LANEDETECTION -->
+					</SCM-FilterID>
+					<SCM-FilterID id="9"> 
+						<SCM-Request status="9111" command="201"/> <!-- FB_UA_NO_MOVEMENT -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		
+		<SCM-Step id="1">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="9"> 
+						<SCM-Action enable="true" start="true" command="9020"/> <!-- AC_UA_MTP_MODE-->
+					</SCM-FilterID>
+					<SCM-FilterID id="17"> 
+						<SCM-Action enable="true" start="true" command="17020"/> <!-- AC_SES_MOVETOPOINT-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="17"> 
+						<SCM-Request status="17021" command="1"/> <!--FB_SES_MOVETOPOINT -->
+					</SCM-FilterID>
+					<SCM-FilterID id="9"> 
+						<SCM-Request status="9021" command="202"/> <!--FB_UA_MTP_MODE -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+
+		
+		<SCM-Step id="2">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2160"/> <!-- AC_FP_BACK-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2011" command="202"/> <!--MTP_FB_REACHEDPOINT -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		
+		<SCM-Step id="3">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="9"> 
+						<SCM-Action enable="true" start="true" command="9320"/> <!-- OVERTAKE_CHECK_ONCOMING_TRAFFIC-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="9"> 
+						<SCM-Request status="9131" command="204"/> <!--FB_UA_NO_OBSTACLE -->
+						<SCM-Request status="9132" command="204"/> <!--FB_UA_STATIC_OBSTACLE -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+
+
+		<SCM-Step id="4">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="2"> 
+						<SCM-Action enable="true" start="true" command="2170"/> <!-- CHANGE_TO_ONCOMING_LANE-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="2"> 
+						<SCM-Request status="2011" command="205"/> <!--REACHED_POINT -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+		
+
+		<SCM-Step id="5">
+			<SCM-ActivityLevel>
+				<SCM-Active>
+					<SCM-FilterID id="9"> 
+						<SCM-Action enable="true" start="true" command="9010"/> <!-- AC_UA_DRIVING_MODE-->
+					</SCM-FilterID>
+					<SCM-FilterID id="17"> 
+						<SCM-Action enable="true" start="true" command="17010"/> <!-- AC_SES_LANEDETECTION-->
+					</SCM-FilterID>
+				</SCM-Active>
+				<SCM-Passive>
+					<SCM-FilterID id="17"> 
+						<SCM-Request status="17011" command="1"/> <!--FB_SES_LANEDETECTION -->
+					</SCM-FilterID>
+					<SCM-FilterID id="9"> 
+						<SCM-Request status="9011" command="206"/> <!--FB_UA_DRIVING_MODE -->
+					</SCM-FilterID>
+				</SCM-Passive>
+			</SCM-ActivityLevel>
+		</SCM-Step>
+
+		
+		
+	</SCM-Maneuver>
+</SCM-Structure-List>
+

@@ -1,0 +1,34 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "2")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/aadc/AADC/src/aadcBase")
+set(AM_CMAKE_BINARY_DIR "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/aadc/AADC/src/aadcBase/jury/JuryApplication")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication/jury_application_autogen")
+set(AM_INCLUDE_DIR "include")
+# Files
+set(AM_SOURCES "/home/aadc/AADC/src/aadcBase/jury/JuryApplication/JuryApp.cpp;/home/aadc/AADC/src/aadcBase/jury/JuryApplication/main.cpp")
+set(AM_HEADERS "/home/aadc/AADC/src/aadcBase/jury/JuryApplication/JuryApp.h")
+set(AM_SETTINGS_FILE "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication/CMakeFiles/jury_application_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/opt/qt/5.9.0/5.9/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication/jury_application_autogen/mocs_compilation.cpp")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_XML_LIB")
+set(AM_MOC_INCLUDES "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication;/home/aadc/AADC/src/aadcBase/jury/JuryApplication;/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication/jury_application_autogen/include;/home/aadc/AADC/src/aadcBase/../../include;/home/aadc/AADC/src/aadcBase/../../_install/linux64/include;/opt/qt/5.9.0/5.9/gcc_64/include;/opt/qt/5.9.0/5.9/gcc_64/include/QtWidgets;/opt/qt/5.9.0/5.9/gcc_64/include/QtGui;/opt/qt/5.9.0/5.9/gcc_64/include/QtCore;/opt/qt/5.9.0/5.9/gcc_64/./mkspecs/linux-g++;/opt/qt/5.9.0/5.9/gcc_64/include/QtNetwork;/opt/qt/5.9.0/5.9/gcc_64/include/QtXml;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/g++;-dM;-E;-c;/usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/aadc/AADC/src/build-aadcBase-Desktop_Qt_5_9_0_GCC_64bit-Default/jury/JuryApplication/jury_application_autogen/mocs_compilation.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!--
+* Follow Path Points for FollowPath filter
+******************************************
+* Path parameters:
+*   name: Path name, not relevant
+*   id: Path ID selected with Action command
+*   reset_pose: Reset car pose on startup
+*   rescue_point: True: last Path Point is rescue point, not used in normal case
+*   steering: True -> default, False -> special mode
+*      - no steering angle is sent, steering angle from LineSpecifier
+*      - x-Value is overall distance, y-value and Yaw not relevant
+******************************************
+* Point parameters:
+*   xValue: goal point x-value
+*   yValue: goal point y-value
+*   yawValue: goal point yaw angle (counterclockwise positive)
+*   speedValue: car speed in m/s
+*      - Speed is reduced when near next point and direction change in next point (reversal of sign)
+*      - Speed is reduced when near next point and stop in next point (speed 0.0)
+*      - -> To stop car at the end of a path, add same point with speed 0.0 at the end
+*   US_Sensor: US select (1-10) (alternative way to set next path point) (1: FrontLeft clockwise, 10: Side Left)
+*   minimalDistance: if US measurement falls below this distance and rho < -> point reached (parking)
+-->
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Path name="TURN_LEFT" id="2020" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.15</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0.4</yValue>
+			<yawValue>1.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="TURN_RIGHT" id="2030" reset_pose="true" rescue_point="false" steering="true">	
+		<!--<point>
+			<xValue>0.1</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>-->
+		<point>
+			<xValue>0.55</xValue>
+			<yValue>-0.3</yValue>
+			<yawValue>-1.2</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="TURN_LEFT_OLD" id="2025" reset_pose="true" rescue_point="true" steering="true">
+		<point>
+			<xValue>0.4</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+<!--
+		<point>
+			<xValue>1.20</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.2</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>-->
+		<point>
+			<xValue>1.30</xValue>
+			<yValue>1.10</yValue>
+			<yawValue>1.2</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.30</xValue>
+			<yValue>1.2</yValue>
+			<yawValue>1.4</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="TURN_RIGHT_OLD" id="2035" reset_pose="true" rescue_point="true" steering="true">	
+		<!--<point>
+			<xValue>0.1</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>-->
+		<point>
+			<xValue>0.88</xValue>
+			<yValue>-0.95</yValue>
+			<yawValue>-1.35</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>0.90</xValue>
+			<yValue>-1.05</yValue>
+			<yawValue>-1.35</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="TRANS_PARKING" id="2040" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.68</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.7</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>0.25</xValue>
+			<yValue>-0.43</yValue>
+			<yawValue>1.57</yawValue>
+			<speedValue>-0.7</speedValue>
+		</point>
+		<point>
+			<xValue>0.14</xValue>
+			<yValue>-0.91</yValue>
+			<yawValue>1.57</yawValue>
+			<speedValue>-0.6</speedValue>
+		</point>	
+		<point>
+			<xValue>0.14</xValue>
+			<yValue>-0.91</yValue>
+			<yawValue>1.57</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="PULL_OUT_TRANS_RIGHT" id="2050" reset_pose="true" rescue_point="true" steering="true">
+		<point>
+			<xValue>0.05</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>		
+		<point>
+			<xValue>0.85</xValue>
+			<yValue>-1.30</yValue>
+			<yawValue>-1.57</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>0.85</xValue>
+			<yValue>-1.6</yValue>
+			<yawValue>-1.57</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="PULL_OUT_TRANS_LEFT" id="2060" reset_pose="true" rescue_point="true" steering="true">
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.2</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.57</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.17</xValue>
+			<yValue>1.3</yValue>
+			<yawValue>1.57</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="PARKING_PARALLEL" id="2070" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>-1.2</xValue>
+			<yValue>-0.52</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>-0.8</speedValue>
+			<USSensor>8</USSensor>
+			<minimalDistance>0.2</minimalDistance>
+		</point>
+		<point>
+			<xValue>-0.96</xValue>
+			<yValue>-0.56</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>1.5</speedValue>
+			<USSensor>3</USSensor>
+			<minimalDistance>0.2</minimalDistance>
+		</point>	
+		<point>
+			<xValue>-0.96</xValue>
+			<yValue>-0.56</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+			<USSensor>3</USSensor>
+			<minimalDistance>0.2</minimalDistance>
+		</point>
+	</Path>
+	<Path name="PULL_OUT_PARALLEL_RIGHT" id="2080" reset_pose="true" rescue_point="true" steering="true">
+		<point>
+			<xValue>-0.2</xValue>
+			<yValue>-0.07</yValue>
+			<yawValue>0.3</yawValue>
+			<speedValue>-1.0</speedValue>
+			<USSensor>8</USSensor>
+			<minimalDistance>0.1</minimalDistance>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0.47</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.1</xValue>
+			<yValue>0.45</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.3</xValue>
+			<yValue>0.45</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="PULL_OUT_PARALLEL_RIGHT_NORESET" id="2085" reset_pose="false" rescue_point="true" steering="true">
+		<point>
+			<xValue>-1.2</xValue>
+			<yValue>-0.6</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>-1.0</speedValue>
+			<USSensor>8</USSensor>
+			<minimalDistance>0.1</minimalDistance>
+		</point>
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+	<Path name="STRAIGHT" id="2090" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.8</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>1.5</speedValue>
+		</point>	
+	</Path>
+	<Path name="STRAIGHT_PARKING_LONG_FORW" id="2100" reset_pose="true" rescue_point="false" steering="false">
+		<point>
+			<xValue>1.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="STRAIGHT_PARKING_LONG_BACK" id="2110" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>-0.7</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>-0.7</speedValue>
+		</point>
+		<point>
+			<xValue>-0.7</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="STRAIGHT_PARKING_TRANS" id="2120" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.22</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>1.0</speedValue>
+		</point>
+		<point>
+			<xValue>0.22</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="STRAIGHT_PARKING_TRANS_BACK" id="2130" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>-0.9</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>-0.7</speedValue>
+		</point>
+		<point>
+			<xValue>-0.9</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="GO_BACKWARDS_BEFORE_OVERTAKING" id="2160" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>-0.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>-0.8</speedValue>
+		</point>
+		<point>
+			<xValue>-0.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.0</speedValue>
+		</point>
+	</Path>
+	<Path name="CHANGE_TO_ONCOMING_LANE" id="2170" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.7</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.7</speedValue>
+		</point>
+		<point>
+			<xValue>1.1</xValue>
+			<yValue>0.35</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.7</speedValue>
+		</point>
+	</Path>
+	<Path name="CHANGE_TO_ORIGINAL_LANE" id="2180" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.7</xValue>
+			<yValue>-0.25</yValue>
+			<yawValue>-0.5</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+		<point>
+			<xValue>1.1</xValue>
+			<yValue>-0.3</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+		</point>
+	</Path>
+</calibration>

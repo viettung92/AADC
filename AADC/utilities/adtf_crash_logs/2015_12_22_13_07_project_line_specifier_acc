@@ -1,0 +1,271 @@
+ine_specifier.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "LineSpecifier": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.lineSpecifier". ( 136 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Signal Value Switch": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.signal_value_switch". ( 137 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_templateFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_templateFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Template Project Filter": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.example.template_filter". ( 138 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicACC.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicACC.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic ACC": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_acc". ( 139 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergencyActiveBreak.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergencyActiveBreak.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Emergency Stop Active": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_emergency_stop_active". ( 140 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergency.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergency.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Emergency Stop": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_emergency_stop". ( 141 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Mean Filter": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_filter". ( 142 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicStruct_Split.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicStruct_Split.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Struct Split": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_struct_split". ( 143 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_srv.cpp(624): warning 0x00000000: The following errors have been detected while loading Media Descriptions files:
+/home/aadc/AADC/src/aadcUser/src/LineSpecifier/LineSpecifierAdapter.cpp(77): error 0x00000000: /home/aadc/AADC/src/aadcUser/src/LineSpecifier/LineSpecifier.cpp:32: error: (0) LineSpecifier: /home/master/AADC/src/aadcUser/src/LineSpecifier/image_templates/tem_straight_line_right.bmp could not be loaded
+
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(1084): warning 0x00000000: No valid local address is defined in the global property 'ADTF System URL'. No Local System is used then. No action required if you want that.
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(2595): warning 0x00000000: There are filters with the same priority! These will be loaded according to their order in the system.xml!
+Warning: USB events thread - failed to set priority. This might cause loss of data...
+Registration not supported by this device!
+Object::connect: No such slot DisplayWidget::sendValueFalse()
+Object::connect: No such slot DisplayWidget::sendValueTrue()
+Object::connect: No such slot DisplayWidget::sendValueFalse()
+Object::connect: No such slot DisplayWidget::sendValueTrue()
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'AADC_Xtion_Camera/Video_RGB/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'AADC_Xtion_Camera/Depth_Image/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'Video_Display/video_output/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'LineFilter/Video_Output/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'LineSpecifier/RGB_DebugVideo/'. This pin will not be available in SignalView!
+QFileSystemWatcher::removePath: path is empty
+QLayout: Attempting to add QLayout "" to cUserDefinedRecordDialog "", which already has a layout
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoActuators.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoCommunication.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoSensors.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_boolValueGenerator.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibration.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_cameraCalibration.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_carControl.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_controllerPID.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterIMU.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterWheels.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_driverModule.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_laneTracking.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerDetection.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerEvaluator.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_sensorAnalyzer.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_signalValueGenerator.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_stateController.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringCalibration.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringController.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_visualization.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_watchdogTrigger.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_wheelSpeedController.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./line_filter.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_templateFilter.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicACC.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergencyActiveBreak.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergency.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicFilter.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(3473): info 0x00000000: Found relevant file for URL="$(HOME)/AADC/bin/Linux/gcc/$(BUILD_TYPE_2)/*.plb" -> "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicStruct_Split.plb"!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoActuators.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoActuators.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Actuators": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.arduinoActuators". ( 111 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoCommunication.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoCommunication.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Arduino Communication": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.arduinoCommunication". ( 112 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoSensors.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_arduinoSensors.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Arduino Sensors": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.arduinoSensors". ( 113 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_boolValueGenerator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_boolValueGenerator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Bool Value Generator": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_boolValueGenerator". ( 114 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Calibration": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_calibration". ( 115 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Calibration XML": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_calibrationXML". ( 116 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_cameraCalibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_cameraCalibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Camera Calibration Filter Plugin": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_cameraCalibration". ( 117 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_carControl.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_carControl.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Car Control": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_carControl". ( 118 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_controllerPID.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_controllerPID.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC PID Controller": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.controller". ( 119 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterIMU.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterIMU.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Converter IMU": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_converterIMU". ( 120 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterWheels.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_converterWheels.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Converter Wheels": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_converterWheels". ( 121 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_driverModule.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_driverModule.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Driver Module": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.driverModule". ( 122 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_laneTracking.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_laneTracking.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC LaneTracking": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_laneTracking". ( 123 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerDetection.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerDetection.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Marker Detection Filter Plugin": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_markerDetection". ( 124 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerEvaluator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_markerEvaluator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Road Sign Evaluator": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_markerEvaluator". ( 125 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_sensorAnalyzer.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_sensorAnalyzer.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Sensor Analyzer": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_sensorAnalyzer". ( 126 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_signalValueGenerator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_signalValueGenerator.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Signal Value Generator": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_signalValueGenerator". ( 127 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_stateController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_stateController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC State Controller": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_stateController". ( 128 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringCalibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringCalibration.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Steering Calibration": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_steeringCalibration". ( 129 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_steeringController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Steering Controller": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_steeringController". ( 130 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_visualization.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_visualization.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Visualization": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_visualization". ( 131 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_watchdogTrigger.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_watchdogTrigger.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC WatchDog TRIGGER": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.watchdogTrigger". ( 132 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_wheelSpeedController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_wheelSpeedController.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "AADC Wheel Speed Controller": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_wheelSpeedController". ( 133 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Xtion Capture Device": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.aadc_xtionCamera". ( 134 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./line_filter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./line_filter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "LineFilter": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.lineFilter". ( 135 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "LineSpecifier": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.aadc.lineSpecifier". ( 136 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Signal Value Switch": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.signal_value_switch". ( 137 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_templateFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_templateFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Template Project Filter": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.example.template_filter". ( 138 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicACC.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicACC.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic ACC": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_acc". ( 139 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergencyActiveBreak.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergencyActiveBreak.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Emergency Stop Active": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_emergency_stop_active". ( 140 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergency.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicEmergency.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Emergency Stop": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_emergency_stop". ( 141 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicFilter.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Mean Filter": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_filter". ( 142 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1285): info 0x00000000: Try to load "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicStruct_Split.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1409): info 0x00000000: Loaded plugin: "/home/aadc/AADC/bin/Linux/gcc/./user_UltrasonicStruct_Split.plb"
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/private/runtime_ex.cpp(1245): info 0x00000000:     Plugin "Ultrasonic Struct Split": ADTF Version v2.13.1 ( adtfutil-1.16.1  ucom-1.9.9 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/ucom/runtime.cpp(1583): info 0x00000000:     Registered class "adtf.user.ultrasonic_struct_split". ( 143 )
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_srv.cpp(624): warning 0x00000000: The following errors have been detected while loading Media Descriptions files:
+QFileSystemWatcher: failed to add paths: /home/aadc/AADC/config/CarProjects/Bobbycar_LineSpecifier_ACC/config/system.xml
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(1084): warning 0x00000000: No valid local address is defined in the global property 'ADTF System URL'. No Local System is used then. No action required if you want that.
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/session/session_srv.cpp(2595): warning 0x00000000: There are filters with the same priority! These will be loaded according to their order in the system.xml!
+Warning: USB events thread - failed to set priority. This might cause loss of data...
+Registration not supported by this device!
+Object::connect: No such slot DisplayWidget::sendValueFalse()
+Object::connect: No such slot DisplayWidget::sendValueTrue()
+Object::connect: No such slot DisplayWidget::sendValueFalse()
+Object::connect: No such slot DisplayWidget::sendValueTrue()
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'AADC_Xtion_Camera/Video_RGB/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'AADC_Xtion_Camera/Depth_Image/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'Video_Display/video_output/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'LineFilter/Video_Output/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/services/media_description/media_description_signal_provider.cpp(158): warning 0x00000000: Media Description Service: No Media Description found for struct type '' on pin 'LineSpecifier/RGB_DebugVideo/'. This pin will not be available in SignalView!
+/mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/streaming/mediadescription.cpp(67): warning 0x00000000: One Sample is already locked! Forgotten Unlock call on MediaDescription can cause crashes!
+*** Error in `./adtf_devenv': free(): invalid pointer: 0x00007fa4a404c018 ***
+
+Caught signal 6: Aborted
+Please send the following information to 
+Conduct your shells documentation on how to enable complete core dumps in order to provide additional debug information.
+
+Version:
+  adtf 2.13.1 Build 2973 RELEASE
+Backtrace:
+0x00007fa53a411340 in /lib/x86_64-linux-gnu/libpthread.so.0: __restore_rt at ??:0
+0x00007fa539446cc9 in /lib/x86_64-linux-gnu/libc.so.6: __GI_raise at /build/buildd/eglibc-2.19/signal/../nptl/sysdeps/unix/sysv/linux/raise.c:56
+0x00007fa53944a0d8 in /lib/x86_64-linux-gnu/libc.so.6: __GI_abort at /build/buildd/eglibc-2.19/stdlib/abort.c:91
+0x00007fa539483394 in /lib/x86_64-linux-gnu/libc.so.6: __fsetlocking at /build/buildd/eglibc-2.19/libio/../sysdeps/posix/libc_fatal.c:175
+0x00007fa53948f66e in /lib/x86_64-linux-gnu/libc.so.6: malloc_printerr at /build/buildd/eglibc-2.19/malloc/malloc.c:4996
+0x00007fa506e6a5b4 in /home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb: adtf_util::cMemoryPtr::Attach(void*, unsigned long) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/extern/a_utils/include/utils/core/../../../src/utils/core/memoryptr.h:119
+0x00007fa506e23a1f in /home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb: adtf::cMediaTypeDescription::cMediaTypeDescriptionPrivate::LockSample(adtf::IMediaSample*, adtf::IMediaCoderExt**, bool, ucom::IException**) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/streaming/mediadescription.cpp:88
+0x00007fa506df7d2b in /home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb: cScopedMediaDescriptionReadLock at /opt/adtf/2.13.1/include/sdk/././scopedmediadescriptionlocks.h:93
+0x00007fa506e08665 in /home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb: adtf::cPin::cPinPrivate::FireEvent(adtf::IPin*, int, int, int, adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:637
+0x00007fa506e08739 in /home/aadc/AADC/bin/Linux/gcc/./user_SignalValueSwitch.plb: adtf::cPin::cPinPrivate::Receive(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:449
+0x00007fa5168659b7 in /home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb: adtf::cPin::cPinPrivate::Transmit(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:402
+0x00007fa51685435a in /home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb: ucom::cObjectPtr<adtf::IMediaSerializer>::Unref() at /opt/adtf/2.13.1/include/ucom/./object_ptr.h:164
+0x00007fa516865755 in /home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb: adtf::cPin::cPinPrivate::FireEvent(adtf::IPin*, int, int, int, adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:637
+0x00007fa516865829 in /home/aadc/AADC/bin/Linux/gcc/./aadc_calibrationXml.plb: adtf::cPin::cPinPrivate::Receive(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:449
+0x00007fa5071385f7 in /home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb: adtf::cPin::cPinPrivate::Transmit(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:402
+0x00007fa50711a281 in /home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb: ucom::cObjectPtr<adtf::IMediaCoderExt>::operator adtf::IMediaCoderExt*() const at /opt/adtf/2.13.1/include/ucom/./object_ptr.h:245
+0x00007fa50711b233 in /home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb: ucom::cObjectPtr<adtf::IMediaSample>::Unref() at /opt/adtf/2.13.1/include/ucom/./object_ptr.h:164
+0x00007fa507138395 in /home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb: adtf::cPin::cPinPrivate::FireEvent(adtf::IPin*, int, int, int, adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:637
+0x00007fa507138469 in /home/aadc/AADC/bin/Linux/gcc/./line_specifier.plb: adtf::cPin::cPinPrivate::Receive(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:449
+0x00007fa507905947 in /home/aadc/AADC/bin/Linux/gcc/./line_filter.plb: adtf::cPin::cPinPrivate::Transmit(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:402
+0x00007fa5078f3474 in /home/aadc/AADC/bin/Linux/gcc/./line_filter.plb: ucom::cObjectPtr<adtf::IMediaSample>::Unref() at /opt/adtf/2.13.1/include/ucom/./object_ptr.h:164
+0x00007fa5078f3846 in /home/aadc/AADC/bin/Linux/gcc/./line_filter.plb: LineFilterAdapter::OnPinEvent(adtf::IPin*, int, int, int, adtf::IMediaSample*) at /home/aadc/AADC/src/aadcUser/src/LineFilter/LineFilterAdapter.cpp:197
+0x00007fa5079056e5 in /home/aadc/AADC/bin/Linux/gcc/./line_filter.plb: adtf::cPin::cPinPrivate::FireEvent(adtf::IPin*, int, int, int, adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:637
+0x00007fa5079057b9 in /home/aadc/AADC/bin/Linux/gcc/./line_filter.plb: adtf::cPin::cPinPrivate::Receive(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:449
+0x00007fa507e22837 in /home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb: adtf::cPin::cPinPrivate::Transmit(adtf::IMediaSample*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/pin.cpp:402
+0x00007fa507e0d1e9 in /home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb: ucom::cObjectPtr<adtf::IMediaSample>::Unref() at /opt/adtf/2.13.1/include/ucom/./object_ptr.h:164
+0x00007fa507e0d389 in /home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb: cXtionCamera::ThreadFunc(adtf::cKernelThread*, void*, unsigned long) at /home/aadc/AADC/src/aadcDemo/src/xtion/AADC_XtionCamera/cXtionCamera.cpp:158
+0x00007fa507e1ee55 in /home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb: adtf::cKernelThread::cKernelThreadPrivate::ThreadLoop() at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/kernelthread.cpp:1037
+0x00007fa507e1d794 in /home/aadc/AADC/bin/Linux/gcc/./aadc_xtionCamera.plb: cAUTILSDPtr<adtf::cKernelThread, adtf::cKernelThread::cKernelThreadPrivate>::operator->() const at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/src/sdk/classes/kernelthread.cpp:1634
+0x00007fa52fe25010 in /opt/adtf/2.13.1/bin/adtf_kernel.srv: adtf_util::cThread::cThreadPrivate::fnThreadEntry(void*) at /mnt/data/jenkins/workspace/ADTF_builder/PLATFORM/linux64/source/extern/a_utils/src/utils/sys/thread.cpp:1167
+Aborted (core dumped)
+

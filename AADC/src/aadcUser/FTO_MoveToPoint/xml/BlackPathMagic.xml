@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!--
+* Follow Path Points for FollowPath filter
+******************************************
+* Path parameters:
+*   name: Path name, not relevant
+*   id: Path ID selected with Action command
+*   reset_pose: Reset car pose on startup
+*   rescue_point: True: last Path Point is rescue point, not used in normal case
+*   steering: True -> default, False -> special mode
+*      - no steering angle is sent, steering angle from LineSpecifier
+*      - x-Value is overall distance, y-value and Yaw not relevant
+******************************************
+
+	AC_FP_CHANGE_TO_ONCOMING_LANE = 2170,
+	AC_FP_OVERTAKE_CONSTRUCTION_SITE = 2175,
+	AC_FP_CHANGE_TO_ORIGINAL_LANE = 2180,
+* Point parameters:
+*   xValue: goal point x-value
+*   yValue: goal point y-value
+*   yawValue: goal point yaw angle (counterclockwise positive)
+*   speedValue: car speed in m/s
+*      - Speed is reduced when near next point and direction change in next point (reversal of sign)
+*      - Speed is reduced when near next point and stopAfter in next point (speed 0.0)
+*      - -> To stopAfter car at the end of a path, add same point with speed 0.0 at the end
+*   US_Sensor: US select (1-10) (alternative way to set next path point) (1: FrontLeft clockwise, 10: Side Left)
+*   minimalDistance: if US measurement falls below this distance and rho < -> point reached (parking)
+-->
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<Path name="TURN_LEFT" id="2020" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.8</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+		<point>
+			<xValue>1.0</xValue>
+			<yValue>1.0</yValue>
+			<yawValue>1.6</yawValue>
+			<speedValue>0.8</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.5</cutOffDist>
+		</point>
+	</Path>
+	
+	
+    <Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK" id="2096" reset_pose="true" rescue_point="false" steering="true"> <!-- vorher 2020 -->
+		<point>
+			<xValue>2.2</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.3</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0.7</yValue>
+			<yawValue>0.78</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.55</cutOffDist>
+		</point>
+		<point>
+			<xValue>-1.0</xValue>
+			<yValue>-0.15</yValue>
+			<yawValue>-2.4</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.7525</cutOffDist>
+		</point>
+		<point>
+			<xValue>-2.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>-0.45</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>2.2</cutOffDist>
+		</point>
+	</Path>	
+
+	<Path name="TURN_RIGHT" id="2030" reset_pose="true" rescue_point="false" steering="true">
+      <point>
+           <xValue>0.4</xValue>
+           <yValue>-0.05</yValue>
+           <yawValue>-0.3</yawValue>
+           <speedValue>0.6</speedValue>
+           <stopAfter>0</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+      </point>
+      <point>
+           <xValue>0.2</xValue>
+           <yValue>-0.6</yValue>
+           <yawValue>-1.5</yawValue>
+           <speedValue>0.6</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.3</cutOffDist>
+   </point>
+   </Path>
+	
+    <Path name="rightoutpark" id="2666" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>1.2</xValue>
+			<yValue>-0.35</yValue>
+			<yawValue>-0.78</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.15</cutOffDist>
+		</point>
+		<point>
+			<xValue>-0.8</xValue>
+			<yValue>0.8</yValue>
+			<yawValue>-1.25</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.75</cutOffDist>
+		</point>
+	</Path>
+	   <Path name="TEST2" id="2666" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.7</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0.7</yValue>
+			<yawValue>0.78</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.55</cutOffDist>
+		</point>
+		<point>
+			<xValue>-1.0</xValue>
+			<yValue>-0.15</yValue>
+			<yawValue>-2.4</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.77</cutOffDist>
+		</point>
+		<point>
+			<xValue>-3.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>-0.8</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>2.7</cutOffDist>
+		</point>
+	</Path>
+	<Path name="CHANGE_TO_ONCOMING_LANE" id="2170" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.8</xValue>
+			<yValue>0.3</yValue>
+			<yawValue>0.2</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+    </point>
+	</Path>
+	<Path name="AC_FP_CHANGE_TO_ORIGINAL_LANE" id="2180" reset_pose="true" rescue_point="false" steering="true">
+	<point>
+			<xValue>0.8</xValue>
+			<yValue>-0.3</yValue>
+			<yawValue>-0.2</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+    </point>
+	</Path>
+	<!--<Path name="CONSTRUCTION_SITE" id="2175" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>-0.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+        </point>
+	<point>
+			<xValue>1.2</xValue>
+			<yValue>0.52</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+    </point>
+	<point>
+			<xValue>1.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+    </point>
+	<point>
+			<xValue>1.2</xValue>
+			<yValue>-0.52</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+    </point>
+	</Path>
+	<Path name="OUT" id="2667" reset_pose="true" rescue_point="false" steering="true">	
+		<point>
+			<xValue>1.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>0</stopAfter>
+                        <cutOffDist>0.0</cutOffDist>
+		</point>
+	</Path>
+	<Path name="TURN_LEFT" id="2020" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.65</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.05</yawValue>
+			<speedValue>0.8</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+      <point>
+           <xValue>0.3</xValue>
+           <yValue>0.4</yValue>
+           <yawValue>0.78</yawValue>
+           <speedValue>1.0</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+   </point>
+	</Path>
+    <Path name="OUT_RIGHT" id="2999" reset_pose="true" rescue_point="false" steering="true">
+   <point>
+           <xValue>0.3</xValue>
+           <yValue>-0.1</yValue>
+           <yawValue>-0.1</yawValue>
+           <speedValue>0.4</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+   </point>
+   </Path>
+	<Path name="TURN_RIGHT" id="2030" reset_pose="true" rescue_point="false" steering="true">
+      <point>
+           <xValue>0.4</xValue>
+           <yValue>-0.05</yValue>
+           <yawValue>-0.3</yawValue>
+           <speedValue>0.4</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+      </point>
+      <point>
+           <xValue>0.2</xValue>
+           <yValue>-0.6</yValue>
+           <yawValue>-1.5</yawValue>
+           <speedValue>0.4</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.3</cutOffDist>
+   </point>
+   </Path>
+<Path name="AC_FP_PARKING_POS_1" id="2022" reset_pose="true" rescue_point="false" steering="true">
+        <point>
+                <xValue>0.4</xValue>
+                <yValue>0.0</yValue>
+                <yawValue>-0.03</yawValue>
+                <speedValue>0.6</speedValue>
+                <stopAfter>0</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+        <point>
+                <xValue>0.3</xValue>
+                <yValue>0.4</yValue>
+                <yawValue>0.76</yawValue>
+                <speedValue>0.6</speedValue>
+                <stopAfter>1</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+        <point>
+                <xValue>-0.15</xValue>
+                <yValue>-0.2</yValue>
+                <yawValue>-2.386</yawValue>
+                <speedValue>0.6</speedValue>
+                <stopAfter>1</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+        <point>
+                <xValue>-0.3</xValue>
+                <yValue>-0.1</yValue>
+                <yawValue>-2.7</yawValue>
+                <speedValue>0.4</speedValue>
+                <stopAfter>1</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+        <point>
+                <xValue>-0.4</xValue>
+                <yValue>0.0</yValue>
+                <yawValue>-0.13</yawValue>
+                <speedValue>0.4</speedValue>
+                <stopAfter>1</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+</Path>-->
+<Path name="BACK" id="2160" reset_pose="true" rescue_point="false" steering="true">
+        <point>
+                <xValue>-1.0</xValue>
+                <yValue>0.0</yValue>
+                <yawValue>0.0</yawValue>
+                <speedValue>0.4</speedValue>
+                <stopAfter>0</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+</Path>
+<Path name="STRAIGHT" id="2090" reset_pose="true" rescue_point="false" steering="true">
+        <point>
+                <xValue>1.0</xValue>
+                <yValue>0.0</yValue>
+                <yawValue>-0.03</yawValue>
+                <speedValue>0.6</speedValue>
+                <stopAfter>0</stopAfter>
+                <cutOffDist>0.0</cutOffDist>
+        </point>
+</Path>
+    <Path name="AC_FP_PARKING_OUT_TRANS_LEFT" id="2060" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.3</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+		<point>
+			<xValue>1.0</xValue>
+			<yValue>1.0</yValue>
+			<yawValue>1.6</yawValue>
+			<speedValue>0.8</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.5</cutOffDist>
+		</point>
+	</Path>	
+    <Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK" id="2020" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.7</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0.7</yValue>
+			<yawValue>0.78</yawValue>
+			<speedValue>0.5</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.55</cutOffDist>
+		</point>
+		<point>
+			<xValue>-1.0</xValue>
+			<yValue>-0.15</yValue>
+			<yawValue>-2.4</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.7525</cutOffDist>
+		</point>
+		<point>
+			<xValue>-2.5</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>-0.35</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>2.2</cutOffDist>
+		</point>
+	</Path>	
+</calibration>

@@ -1,0 +1,77 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tUInt32">
+        <Value> 370 </Value> <!-- m_propROIPoint1X -->
+        <Value> 540 </Value> <!-- m_propROIPoint1Y -->
+        <Value> 760 </Value> <!-- m_propROIPoint2X -->
+        <Value> 540 </Value> <!-- m_propROIPoint2Y -->
+        <Value> 850 </Value> <!-- m_propROIPoint3X -->
+        <Value> 600 </Value> <!-- m_propROIPoint3Y -->
+        <Value> 150 </Value> <!-- m_propROIPoint4X -->
+        <Value> 600 </Value> <!-- m_propROIPoint4Y -->
+        <Value> 640 </Value> <!-- m_propTransformedImageWidth -->
+        <Value> 480 </Value> <!-- m_propTransformedImageHeight -->
+        <Value>   5 </Value> <!-- m_propGaussianKernelSize -->
+        <Value> 150 </Value> <!-- m_propCannyHighThreshold -->
+        <Value>   3 </Value> <!-- m_propCannyKernelSize -->
+        <Value>   5 </Value> <!-- m_propDilationSize -->
+        <Value>   3 </Value> <!-- m_propDilationPoint -->
+        <Value>  50 </Value> <!-- m_propHoughThreshold -->
+        <Value>  50 </Value> <!-- m_propHoughMinLineLength -->
+        <Value>  10 </Value> <!-- m_propHoughMaxLineGap -->
+        <Value> 180 </Value> <!-- m_propNoCannyThreshold -->
+        <Value>   3 </Value> <!-- m_propFramesPerAction -->
+        
+    </Property>
+    <Property type="tInt32">
+        <Value>  200 </Value> <!-- m_propLaneAnglePointLeftX -->
+        <Value>  150 </Value> <!-- m_propLaneAnglePointLeftY -->
+        <Value>  445 </Value> <!-- m_propLaneAnglePointRightX -->
+        <Value>  150 </Value> <!-- m_propLaneAnglePointRightY -->
+        <Value>  350 </Value> <!-- m_propLaneMiddlePointY -->
+        <Value>  430 </Value> <!-- m_propLaneMiddlePointILCY -->
+        <Value>  430 </Value> <!-- m_propLaneMiddlePointIRCY -->
+        <Value> -300 </Value> <!-- m_propLaneDistanceRight -->
+        <Value>  -90 </Value> <!-- m_propLaneDistanceRightILC -->
+        <Value>   70 </Value> <!-- m_propLaneDistanceLeftIRC -->
+        <Value>  350 </Value> <!-- m_propLaneDistanceMiddle -->
+        <Value>  -35 </Value> <!-- m_propLaneDistanceLimitRight -->
+        <Value>   10 </Value> <!-- m_propLaneDistanceLimitLeft -->
+        <Value>  -80 </Value> <!-- m_propLaneDistanceRightFar -->
+        <Value>   40 </Value> <!-- m_propLaneDistanceLeftFar -->
+        <Value>   91 </Value> <!-- m_propSteeringWeakRightLimit -->
+        <Value>  103 </Value> <!-- m_propSteeringHeavyRightLimit -->
+        <Value>   86 </Value> <!-- m_propSteeringWeakLeftLimit -->
+        <Value>   65 </Value> <!-- m_propSteeringHeavyLeftLimit -->
+        <Value>  430 </Value> <!-- m_propCarPositionInImageX -->
+        <Value>  470 </Value> <!-- m_propCarPositionInImageY -->
+    </Property>
+    <Property type="tFloat32">
+        <Value>    0 </Value> <!-- m_propSteeringOffset -->
+        <Value>   25 </Value> <!-- m_propSteeringWeakRight -->
+        <Value>   64 </Value> <!-- m_propSteeringHeavyRight -->
+        <Value>   25 </Value> <!-- m_propSteeringWeakLeft -->
+        <Value>   64 </Value> <!-- m_propSteeringHeavyLeft -->
+        <Value>  -12 </Value> <!-- m_propSteeringLaneOffsetRight -->
+        <Value>   19 </Value> <!-- m_propSteeringLaneOffsetLeft -->
+        <Value>  -17 </Value> <!-- m_propSteeringLaneOffsetRightFar -->
+        <Value>   25 </Value> <!-- m_propSteeringLaneOffsetLeftFar -->
+
+        <Value>   13 </Value> <!-- m_propSpeedStraight -->
+
+        <Value>   13 </Value> <!-- m_propSpeedWeakCurve 14-->
+        <Value>   13 </Value> <!-- m_propSpeedHeavyCurve 14-->
+        <Value> -500 </Value> <!-- m_F32InCarViewXmin -->
+        <Value>    500 </Value> <!-- m_F32InCarViewXmax -->
+        <Value>    0 </Value> <!-- m_F32InCarViewYmin -->
+        <Value> 1000 </Value> <!-- m_F32InCarViewYmax -->
+    </Property>
+    <Property type="tBool">
+        <Value> 1 </Value><!-- m_propEnableGaussianBlur -->
+        <Value> 1 </Value><!-- m_propEnableCannyEdge -->
+        <Value> 1 </Value><!-- m_propEnableDilation -->
+        <Value> 1 </Value><!-- m_propEnableHough -->
+        <Value> 0 </Value><!-- m_propEnableDebugging -->
+        <Value> 1 </Value><!-- m_propEnableDebuggingVideo -->
+    </Property>
+</calibration>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<AADC-Maneuver-List description="sample">
+	<AADC-Sector id="0">
+
+
+	
+	<AADC-Maneuver id="0" action="pull_out_left" />
+	
+	<AADC-Maneuver id="1" action="straight" />
+	<AADC-Maneuver id="2" action="straight" />
+	
+	
+	
+	<AADC-Maneuver id="3" action="left" />
+	<AADC-Maneuver id="4" action="right" />
+	
+	<AADC-Maneuver id="5" action="straight" />
+	<AADC-Maneuver id="6" action="cross_parking" extra="1" />
+
+	
+	
+	<!--
+	
+	
+	
+	<AADC-Maneuver id="9" action="straight" />
+	<AADC-Maneuver id="10" action="straight" />
+	<AADC-Maneuver id="11" action="straight" />
+	
+	
+	
+	<AADC-Maneuver id="12" action="right" />
+	<AADC-Maneuver id="13" action="straight" />
+	<AADC-Maneuver id="14" action="cross_parking" extra="2" />
+	
+	
+	
+	<AADC-Maneuver id="15" action="pull_out_left" />
+	
+	<AADC-Maneuver id="16" action="left" />
+	<AADC-Maneuver id="17" action="right" />
+	<AADC-Maneuver id="18" action="straight" />
+	<AADC-Maneuver id="19" action="cross_parking" extra="2" />
+	
+	
+	
+	
+	<AADC-Maneuver id="20" action="pull_out_left" />
+	
+	<AADC-Maneuver id="21" action="left" />
+	<AADC-Maneuver id="22" action="right" />
+	<AADC-Maneuver id="23" action="straight" />
+	<AADC-Maneuver id="24" action="cross_parking" extra="2" />
+	
+	
+	
+	
+	<AADC-Maneuver id="25" action="pull_out_left" />
+	
+	<AADC-Maneuver id="26" action="left" />
+	<AADC-Maneuver id="27" action="right" />
+	<AADC-Maneuver id="28" action="straight" />
+	<AADC-Maneuver id="29" action="cross_parking" extra="2" />
+	
+	
+	
+	
+	
+	-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</AADC-Sector>
+	 
+
+</AADC-Maneuver-List>

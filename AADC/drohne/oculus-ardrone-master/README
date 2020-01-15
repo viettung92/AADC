@@ -1,0 +1,20 @@
+git submodule update --init
+make
+
+python server2.py (have a video in place!)
+OR python server.py (have a ar drone connected)
+
+./client2 [--no-oculus]
+
+
+
+
+Design is as follows:
+
+	server.py connects to your Parrot AR.Drone 2.0, and lets you control
+	it with your gamepad.
+	client2 connects to that server.py and does the graphic stuff.
+
+	This has the advantage that your client can crash and you don't lose
+	control of the copter
+

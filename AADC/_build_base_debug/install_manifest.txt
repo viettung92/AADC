@@ -1,0 +1,8 @@
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/arduino_us_sensors.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/arduino_egomotion_sensor.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/arduino_battery_sensor.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/arduino_actuator.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/marker_positioning.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/map_visualization.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/jury_communication_tcp.adtfplugin
+/home/aadc/AADC/src/aadcBase/../../_install/linux64/bin/debug/application/jury_application

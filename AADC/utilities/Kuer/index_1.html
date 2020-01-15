@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"/>
+	
+		<script type="text/javascript" src="jquery.min.jss"> </script>
+		
+		<script>
+		
+			$(document).ready(function() {
+
+				var counter = 0;
+				var line_counter = 0;
+
+				function bottom() {
+					document.getElementById( 'bottom' ).scrollIntoView();
+				};
+
+				function request() {
+			
+					var chat = [];
+					var reload = 0;
+			
+					$.getJSON('Car_LIKE.json', function(data) {
+
+						line_counter = 2;
+
+						$.each(data.meta, function(k, l) {
+							if(l.counter > counter) {
+								reload = 1;
+								counter = l.counter;
+							} else {
+								reload = 1;
+							}
+						});
+
+						if(reload == 1) {
+
+							$("#chat tbody").empty();
+							$.each(data.chat, function(i, f) {
+						
+								if ( f.name == 'Car_LIKE') {
+									var tblRow = "<tr><td></td><td class='time' colspan='2'>Gesendet: Heute um " + f.time + "</td><td colspan='4'></td></tr>" +
+									"<tr>" +
+									"<td class='image' width='8%'><image src='Auto_frei.png' width='135px' >" + "</td>" +
+									"<td class='message_left' width='38%' colspan='4'>" + f.message + "</td> " + 
+									"<td></td>" +
+									"<td></td>" +
+									"</tr>"+
+									"<tr><td class='space' colspan='7'> </td></tr>";
+								} else {
+									var tblRow = "<tr><td colspan='4'></td><td class='time' colspan='2'>Empfangen: Heute um " + f.time + "</td><td></td></tr>" +
+									"<tr>" +
+									"<td></td><td></td>" + 
+									"<td class='message_right' width='38%' colspan='4'>" + f.message + "</td>" +
+									"<td class='image' width='8%'><image src='Auto_frei_ge.png' width='135px' >" + "</td>" +
+									"</tr>"+
+									"<tr><td class='space' colspan='7'></td></tr>";
+								}
+
+						
+								$(tblRow).appendTo("#chat tbody");
+								bottom();
+								<!--$("#chat tbody").html(tblRow);-->
+							});
+						}
+					});
+
+					if(line_counter == 0) {
+						$("<tr><td colspan='7'>Warte auf Kommunikationsbeginn...</td></tr>").appendTo("#chat tbody");
+					}
+				};
+				setInterval(request, 1000);
+			});
+		
+		
+		</script>
+		
+		<style type="text/css">
+			td{
+				font-family: Arial;
+				font-size: 20pt;
+				padding: 0px;
+			}
+			td.time {
+				font-family: Arial;
+	        	padding-left: 5px;
+	        	padding-bottom:0px;
+	        	font-size:15px;
+	        	color: #7D7D7D;
+	    	}
+	    	td.image {
+	        	padding: 0px;
+	        	padding-top: 5px;
+	    	}
+	    	td.message_left {
+			font-family: Arial;
+	        	padding: 5px;
+	        	padding-left: 15px;
+	        	background-color: #ACCC99;
+	        	font-size:25px;
+	        	border-radius: 10px;
+	    	}
+	        td.message_right {
+			font-family: Arial;
+	        	padding: 5px;
+	        	padding-left: 15px;
+	        	background-color: #CCCC99;
+	        	font-size:25px;
+	        	border-radius: 10px;
+	    	}
+	        td.space {
+			padding:5px;
+	    	}
+		</style>
+
+	</head>
+	
+	<body background="background_fautonohm.png">
+	
+	<div class="test" id="divcontainer">
+		<table id="chat" border="0" width="100%" cellpadding="10">
+			<thead>
+
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+	<div id="bottom"> </div>
+	
+	</body>
+</html>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="aadc_user"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\EmergencyBreak\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\opencv\;CMake Files\..\..\..\..\..\opt\opencv\3.4.1\;CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\;CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\OpenCV\;CMake Files\..\..\..\..\..\opt\ADTF\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\;CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\;CMake Files\OpenCVTemplate\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_template">
+				<Option output="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/opencv_template.adtfplugin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DLINUX64"/>
+					<Add option="-DEASY_PROFILER_STATIC=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MAJOR=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MINOR=3"/>
+					<Add option="-DEASY_PROFILER_VERSION_PATCH=0"/>
+					<Add option="-DEASY_DEFAULT_PORT=28077"/>
+					<Add option="-DBUILD_WITH_EASY_PROFILER=1"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../include"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../_install/linux64/include"/>
+					<Add directory="/opt/opencv/3.4.1/include"/>
+					<Add directory="/opt/opencv/3.4.1/include/opencv"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtffiltersdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/a_utils/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfucom3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfbase/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfstreaming3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfsystemsdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfmediadescription/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfddl/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfremotesdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfrpc/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/easy_profiler/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 opencv_template"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_template/fast">
+				<Option output="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/opencv_template.adtfplugin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DLINUX64"/>
+					<Add option="-DEASY_PROFILER_STATIC=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MAJOR=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MINOR=3"/>
+					<Add option="-DEASY_PROFILER_VERSION_PATCH=0"/>
+					<Add option="-DEASY_DEFAULT_PORT=28077"/>
+					<Add option="-DBUILD_WITH_EASY_PROFILER=1"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../include"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../_install/linux64/include"/>
+					<Add directory="/opt/opencv/3.4.1/include"/>
+					<Add directory="/opt/opencv/3.4.1/include/opencv"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtffiltersdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/a_utils/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfucom3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfbase/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfstreaming3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfsystemsdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfmediadescription/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfddl/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfremotesdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfrpc/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/easy_profiler/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 opencv_template/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_template_pdgen">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 opencv_template_pdgen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/OpenCVTemplate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EmergencyBreak">
+				<Option output="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/EmergencyBreak.adtfplugin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DLINUX64"/>
+					<Add option="-DEASY_PROFILER_STATIC=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MAJOR=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MINOR=3"/>
+					<Add option="-DEASY_PROFILER_VERSION_PATCH=0"/>
+					<Add option="-DEASY_DEFAULT_PORT=28077"/>
+					<Add option="-DBUILD_WITH_EASY_PROFILER=1"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../include"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../_install/linux64/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtffiltersdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/a_utils/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfucom3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfbase/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfstreaming3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfsystemsdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfmediadescription/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfddl/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfremotesdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfrpc/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/easy_profiler/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 EmergencyBreak"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EmergencyBreak/fast">
+				<Option output="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/EmergencyBreak.adtfplugin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DLINUX64"/>
+					<Add option="-DEASY_PROFILER_STATIC=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MAJOR=1"/>
+					<Add option="-DEASY_PROFILER_VERSION_MINOR=3"/>
+					<Add option="-DEASY_PROFILER_VERSION_PATCH=0"/>
+					<Add option="-DEASY_DEFAULT_PORT=28077"/>
+					<Add option="-DBUILD_WITH_EASY_PROFILER=1"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../include"/>
+					<Add directory="/home/aadc/AADC/src/aadcUser/../../_install/linux64/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtffiltersdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/a_utils/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfucom3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfbase/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfstreaming3/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfsystemsdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfmediadescription/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfddl/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfremotesdk/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/adtfrpc/include"/>
+					<Add directory="/opt/ADTF/3.3.1/pkg/easy_profiler/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 EmergencyBreak/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EmergencyBreak_pdgen">
+				<Option working_dir="/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 EmergencyBreak_pdgen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aadc/AADC/src/build-aadcUser-Desktop_Qt_5_9_0_GCC_64bit-Debug/EmergencyBreak/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/EmergencyBreak/EmergencyBreak.cpp">
+			<Option target="EmergencyBreak"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/EmergencyBreak/EmergencyBreak.h">
+			<Option target="EmergencyBreak"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/EmergencyBreak/stdafx.h">
+			<Option target="EmergencyBreak"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/OpenCVTemplate/OpenCVTemplate.cpp">
+			<Option target="opencv_template"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/OpenCVTemplate/OpenCVTemplate.h">
+			<Option target="opencv_template"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/OpenCVTemplate/stdafx.h">
+			<Option target="opencv_template"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/EmergencyBreak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EmergencyBreak\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../AADCConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../AADCConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../AADC_PRIVATE.cmake">
+			<Option virtualFolder="CMake Files\..\..\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/opencv/3.4.1/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/opencv/3.4.1/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/opencv/3.4.1/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/opencv/3.4.1/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\opencv\3.4.1\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/ADTFConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/ADTFConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/ADTFMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtffiltersdk/adtffiltersdk-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtffiltersdk/adtffiltersdk-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtffiltersdk/adtffiltersdk-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtffiltersdk/adtffiltersdk-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtffiltersdk/adtffiltersdk-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtffiltersdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/a_utils-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/a_utils-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/a_utils-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/a_utils-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/a_utils-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/a_utils/test_functions.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\a_utils\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfucom3/adtfucom3-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfucom3/adtfucom3-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfucom3/adtfucom3-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfucom3/adtfucom3-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfucom3/adtfucom3-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfucom3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfbase/adtfbase-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfbase/adtfbase-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfbase/adtfbase-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfbase/adtfbase-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfbase/adtfbase-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfbase\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfstreaming3/adtfstreaming3-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfstreaming3/adtfstreaming3-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfstreaming3/adtfstreaming3-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfstreaming3/adtfstreaming3-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfstreaming3/adtfstreaming3-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfstreaming3\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfmediadescription/adtfmediadescription-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfmediadescription/adtfmediadescription-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfmediadescription/adtfmediadescription-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfmediadescription/adtfmediadescription-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfmediadescription/adtfmediadescription-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfmediadescription\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfddl/adtfddl-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfddl/adtfddl-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfddl/adtfddl-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfddl/adtfddl-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfddl/adtfddl-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfddl\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfsystemsdk/adtfsystemsdk-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfsystemsdk/adtfsystemsdk-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfsystemsdk/adtfsystemsdk-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfsystemsdk/adtfsystemsdk-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfsystemsdk/adtfsystemsdk-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfsystemsdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfremotesdk/adtfremotesdk-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfremotesdk/adtfremotesdk-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfremotesdk/adtfremotesdk-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfremotesdk/adtfremotesdk-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfremotesdk/adtfremotesdk-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfremotesdk\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/adtfrpc-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/adtfrpc-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/adtfrpc-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/adtfrpc-targets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/adtfrpc-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/adtfrpc/stub_generation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\adtfrpc\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/easy_profiler/easy_profilerConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/easy_profiler/easy_profilerConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/easy_profiler/easy_profilerTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/easy_profiler/easy_profilerTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/../../../../../opt/ADTF/3.3.1/pkg/easy_profiler/easy_profilerTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ADTF\3.3.1\pkg\easy_profiler\"/>
+		</Unit>
+		<Unit filename="/home/aadc/AADC/src/aadcUser/OpenCVTemplate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenCVTemplate\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

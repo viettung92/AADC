@@ -1,0 +1,101 @@
+
+colored debug functions:
+
+
+
+
+FILE:
+
+/opt/ADTF/3.3.1/pkg/a_utils/include/a_utils/std/log.h
+
+ADD
+
+#include <stdio.h>
+#include <string.h>
+
+ADD
+
+#define LOG_SUCCESS(...) LOG_ADD_ENTRY(A_UTILS_NS::log::tLogLevel::Success, __VA_ARGS__)
+
+REPLACE
+
+enum tLogLevel
+{
+    None = 0,
+    Error = 10,
+    Warning = 20,
+    Info = 30,
+    Dump = 40,
+    Success = 50,
+    Debug = Dump,
+    All = 0xFF
+};
+
+Folgende Funktion erweitern (bzw einfach ersetzen):
+
+inline tVoid add_entry(tUInt8 nLogLevel,
+                       const tChar* strMessage = nullptr,
+                       const tChar* strSource = nullptr)
+{
+        if(nLogLevel == Success)
+        {
+                const char* GREEN ="\033[0;32m";
+                const char* LIGHT_GREY ="\033[0;37m";
+                char msg[1 + 2 * strlen(GREEN) + strlen(strMessage)];
+                strcpy(msg, GREEN);
+                strcpy(&(msg[strlen(GREEN)]), strMessage);
+                strcpy(&(msg[strlen(GREEN) + strlen(strMessage)]), LIGHT_GREY);
+                    add_entry({cDateTime::GetCurrentDateTime().ToTimeStamp(), A_UTILS_NS::log::tLogLevel::Info, msg, strSource});
+
+        }
+        else if(nLogLevel == Warning)
+        {
+                const char* RED ="\033[0;31m";
+                const char* LIGHT_GREY ="\033[0;37m";
+                char msg[1 + 2 * strlen(RED) + strlen(strMessage)];
+                strcpy(msg, RED);
+                strcpy(&(msg[strlen(RED)]), strMessage);
+                strcpy(&(msg[strlen(RED) + strlen(strMessage)]), LIGHT_GREY);
+                    add_entry({cDateTime::GetCurrentDateTime().ToTimeStamp(), nLogLevel, msg, strSource});
+
+        } else
+{
+    add_entry({cDateTime::GetCurrentDateTime().ToTimeStamp(), nLogLevel, strMessage, strSource});
+        }
+}
+
+
+needed to change log to std::log in following file
+/opt/opencv/3.4.1/include/opencv2/flann/dist.h
+
+it caused a ambiguos reference error 
+
+
+
+added new cool function to change CMakeList-Files (yeah, it as mv, but slightly more comfortable:D):
+
+function load_cml(){
+
+   if [[ $# -ne 1 ]]; then
+        echo "no valid name to swap to chosen; param num $#"
+   else
+        echo "Parameter #1 is $1"
+        filepath="/home/audi_cup/Dokumente/aadc2018/src/aadcUser/"
+        fileext="CMakeLists.txt"
+        filename="$filepath"
+        filename+="$1"
+        filename+="_$fileext"
+        usedfile="$filepath""$fileext"
+
+        if [ -e "$filename" ]; then
+            echo "Load file $filename to $usedfile"
+            cp $filename $usedfile
+
+        else
+            echo "File $filename not found!"
+        fi
+
+   fi
+}
+~  
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<AADC-Maneuver-List description="sample">
+	<AADC-Sector id="0">
+	 <!-->
+	<!-->
+	<AADC-Maneuver id="0" action="pull_out_right" />
+	
+	
+		<!-->
+	
+		<!-->
+	
+		 
+
+			
+	
+	</AADC-Sector>
+	 
+
+</AADC-Maneuver-List>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<calibrationOpticACC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<supportingPoints>		
+		<point>
+			<xValue>0</xValue>
+			<yValue>0</yValue>
+		</point>
+		<point>
+			<xValue>0.1</xValue>
+			<yValue>0</yValue>
+		</point>		
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0</yValue>
+		</point>						
+		<point>
+			<xValue>0.3</xValue>
+			<yValue>0.5</yValue>
+		</point>		
+		<point>
+			<xValue>0.4</xValue>
+			<yValue>1.0</yValue>
+		</point>		
+		<point>
+			<xValue>0.5</xValue>
+			<yValue>1.5</yValue>
+		</point>
+	</supportingPoints>
+</calibrationOpticACC>

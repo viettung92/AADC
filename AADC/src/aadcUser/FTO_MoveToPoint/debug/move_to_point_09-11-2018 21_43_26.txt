@@ -1,0 +1,368 @@
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+2232453:  send to PID: 0 --- > 0
+2671292:  send to PID: 0 --- > 0
+2742455:  send to PID: 0 --- > 0
+2851883:  send to PID: 0 --- > 0
+2891276:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+2893304:  send to PID: 0 --- > 0
+2904505:  send to PID: 0 --- > 0
+3078625:  send to PID: 0 --- > 0
+3181373:  send to PID: 0 --- > 0
+3227386:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3278256:  send to PID: 0 --- > 0
+3357070:  send to PID: 0 --- > 0
+3408962:  send to PID: 0 --- > 0
+3449211:  send to PID: 0 --- > 0
+3450859:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3452623:  send to PID: 0 --- > 0
+3454563:  send to PID: 0 --- > 0
+3471491:  send to PID: 0 --- > 0
+3472660:  send to PID: 0 --- > 0
+3474408:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3476193:  send to PID: 0 --- > 0
+3486493:  send to PID: 0 --- > 0
+3487601:  send to PID: 0 --- > 0
+3489375:  send to PID: 0 --- > 0
+3500232:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3500965:  send to PID: 0 --- > 0
+3501905:  send to PID: 0 --- > 0
+3511959:  send to PID: 0 --- > 0
+3513094:  send to PID: 0 --- > 0
+3513979:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3514953:  send to PID: 0 --- > 0
+3525063:  send to PID: 0 --- > 0
+3526089:  send to PID: 0 --- > 0
+3526826:  send to PID: 0 --- > 0
+3537168:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3538634:  send to PID: 0 --- > 0
+3540937:  send to PID: 0 --- > 0
+3549793:  send to PID: 0 --- > 0
+3550497:  send to PID: 0 --- > 0
+3572970:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+3595030:  send to PID: 0 --- > 0
+4119107:  send to PID: 0 --- > 0
+4208685:  send to PID: 0 --- > 0
+4286523:  send to PID: 0 --- > 0
+4331562:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+4374452:  send to PID: 0 --- > 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0
+f32PosX: 0  f32PosY: 0  f32Yaw(in Deg): 0

@@ -1,1 +1,2 @@
-AADC\config\LiveVisualization\files\dnn\bvlc_googlenet.caffemodel
+AADC/config/LiveVisualization/files/dnn/bvlc_googlenet.caffemodel
+AADC/src/aadcUser/EmergencyBreak/debug/lidar.dat

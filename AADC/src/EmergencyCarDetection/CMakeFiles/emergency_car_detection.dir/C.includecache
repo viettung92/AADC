@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aadc/AADC/src/aadcUser/EmergencyCarDetection/kiss_fft130/_kiss_fft_guts.h
+kiss_fft.h
+/home/aadc/AADC/src/aadcUser/EmergencyCarDetection/kiss_fft130/kiss_fft.h
+limits.h
+-
+alloca.h
+-
+
+/home/aadc/AADC/src/aadcUser/EmergencyCarDetection/kiss_fft130/kiss_fft.c
+_kiss_fft_guts.h
+/home/aadc/AADC/src/aadcUser/EmergencyCarDetection/kiss_fft130/_kiss_fft_guts.h
+
+/home/aadc/AADC/src/aadcUser/EmergencyCarDetection/kiss_fft130/kiss_fft.h
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+string.h
+-
+xmmintrin.h
+-
+sys/types.h
+-
+

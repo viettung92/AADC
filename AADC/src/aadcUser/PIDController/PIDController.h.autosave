@@ -1,0 +1,166 @@
+﻿/*********************************************************************
+Copyright (c) 2018
+Audi Autonomous Driving Cup. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3.  All advertising materials mentioning features or use of this software must display the following acknowledgement: ?This product includes software developed by the Audi AG and its contributors for Audi Autonomous Driving Cup.?
+4.  Neither the name of Audi nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY AUDI AG AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL AUDI AG OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**********************************************************************
+* This filter works as a PID controller.
+
+* $Adapted by:: Xiangfei#  $Date:: 2018-08-01 12:44:00#
+**********************************************************************/
+
+#pragma once
+
+#define CID_PID_CONTROLLER_FILTER "pid_controller.filter.user.aadc.cid"
+
+#define WSC_PROP_PT1_TIMECONSTANT "PT1::TimeConstant"
+#define WSC_PROP_PT1_GAIN "PT1::Gain"
+#define WSC_PROP_PT1_OUTPUT_FACTOR "PT1::OutputFactor"
+#define WSC_PROP_PT1_CORRECTION_FACTOR "PT1::Correction Factor"
+
+#define WSC_PROP_PID_KP "PID::Kp_value"
+#define WSC_PROP_PID_KI "PID::Ki_value"
+#define WSC_PROP_PID_KD "PID::Kd_value"
+#define WSC_PROP_PID_WINDUP "PID::Anti Windup Method"
+#define WSC_PROP_PID_SETZERO "PID::Setpoint Zero - Output Zero"
+#define WSC_PROP_PID_USEDIRINPUT "PID::dir from set speed"
+#define WSC_PROP_PID_SAMPLE_TIME "PID::Sample_Interval_[msec]"
+
+#define WSC_PROP_PID_MAXOUTPUT "PID::Maxiumum output"
+#define WSC_PROP_PID_MINOUTPUT "PID::Minimum output"
+#define WSC_PROP_DEBUG_MODE "Debug Mode"
+#define WSC_PROP_CONTORLLER_TYPE "Controller Typ"
+
+
+// namespace
+using namespace adtf_util;
+using namespace ddl;
+using namespace adtf::ucom;
+using namespace adtf::streaming;
+using namespace adtf::mediadescription;
+using namespace adtf::filter;
+using namespace std;
+
+#include "ADTF3_helper.h"
+#include "stdafx.h"
+#include <boost/thread.hpp>
+
+// PIDController
+class PIDController : public cTriggerFunction
+{
+private:
+
+    TSignalValue signal_value;
+
+    /*-------------- PINS --------------*/
+    // create pins for input and output
+    // coding convention:	m_Reader******	for input  signals
+    //			m_Writer******	for output signals
+
+    // input pins
+    cPinReader m_ReaderMeasuredSpeed;
+    cPinReader m_ReaderSetPoint;
+
+    // output pins
+    cPinWriter m_WriterManipulatedSpeed;
+
+    /*------------ PROPERTIES ----------*/
+    // set property variables
+    // coding convention:	m_prop******
+    // proportional factor for PID Controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDKP;
+    // integral factor for PID Controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDKI;
+    // differential factor for PID Controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDKD;
+
+    // the sampletime for the pid controller
+    // sample time for PT1 Controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDSampleTime;
+    // the maximum output value for the controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDMaxOutput;
+    // the minimum output value for the controller
+    adtf::base::property_variable<tFloat32>     m_propF32PIDMinOutput;
+    adtf::base::property_variable<tUInt32>         m_propF32PIDWindup;
+
+    // True: When Setpoint is zero, Output is set to zeros
+    adtf::base::property_variable<tBool>        m_propBPIDSetZero;
+    adtf::base::property_variable<tBool>        m_propBPIDUseDirInput;
+    adtf::base::property_variable<tBool>        m_propBDebugMode ;
+
+    adtf::base::property_variable<tFloat32>     m_propF32PT1OutputFactor;
+    adtf::base::property_variable<tFloat32>     m_propF32PT1TimeConst;
+    adtf::base::property_variable<tFloat32>     m_propF32PT1CorrectionFactor;
+    adtf::base::property_variable<tFloat32>     m_propF32PT1Gain;
+    //defines whether PID or PT1 is used
+    adtf::base::property_variable<tUInt32>        m_propF32ControllerType;
+
+    /*------------ VARIABLES -----------*/
+    // coding convention:	m_******
+    object_ptr<adtf::services::IReferenceClock> m_pClock; // clock for timestamps
+
+    tFloat32 m_f32CarStoppedThreshold;                    // speed in m/s that is seen as 'car stopped'
+    std::mutex m_mutexCommandActivatedFlag;               // mutex for read and writes in m_propCommandActivated
+
+    TSignalValue::Data m_dataManipulatedSpeedOut;
+
+    /*! holds the last measured error */
+    tFloat64 m_f64LastMeasuredError = 0;
+    /*! holds t nhe last setpoint */
+    tFloat64 m_f64SetPoint = 0; //TODO: needs getter and setter
+    /*! holds the last output */
+    tFloat64 m_f64LastOutput; //TODO: needs getter and setter
+    /*! holds the last sample time */
+    tTimeStamp m_lastSampleTime = 0;
+    /*! holds the accumulatedVariable for the controller */
+    tFloat64 m_f64accumulatedVariable;
+
+
+    // True: Use car speed direction info based on set speed input, False: use measured input for direction info
+    tBool	m_bUseSetSpeedDirInfo;
+
+    // the set point is multiplied with this factor, otherwise the set point is not reached by the controller.
+    tFloat64 m_f64PT1CorrectionFactor;
+
+    // holds the last speed value
+    tFloat64 m_f64LastSpeedValue;
+
+
+    // defines car direction based on set speed
+    tBool m_BDirectionForwards;
+
+// critical sections
+        boost::mutex cs_setSpeed, cs_measuredSpeed, cs_fatmutex;
+
+
+
+public:
+    /*------------ FUNCTIONS -----------*/
+    // constructor
+    PIDController();
+
+    // destructor
+    ~PIDController() = default;
+
+    // Configure
+    virtual tResult Configure() override;
+
+    // Process
+    virtual tResult Process(tTimeStamp tmTimeOfTrigger) override;
+
+
+    tFloat32 ProcessWheelSpeedInput(TSignalValue::Data);
+
+    tFloat64 getControllerValue(tFloat64);
+
+    tResult ProcessMeasuredSpeed(tTimeStamp);
+    tResult ProcessSetSpeed();
+
+}; // PIDController

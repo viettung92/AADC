@@ -1,0 +1,8 @@
+add_subdirectory(CarController)
+add_subdirectory(SensorVisualization)
+add_subdirectory(SignalValueGenerator)
+add_subdirectory(AudioVisualization)
+add_subdirectory(TemplateFilter)
+add_subdirectory(Ella_Filter)
+add_subdirectory(Test_IN)
+add_subdirectory(Test_OUT)

@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!--
+* Follow Path Points for FollowPath filter
+******************************************
+* Path parameters:
+*   name: Path name, not relevant
+*   id: Path ID selected with Action command
+*   reset_pose: Reset car pose on startup
+*   rescue_point: True: last Path Point is rescue point, not used in normal case
+*   steering: True -> default, False -> special mode
+*      - no steering angle is sent, steering angle from LineSpecifier
+*      - x-Value is overall distance, y-value and Yaw not relevant
+******************************************
+* Point parameters:
+*   xValue: goal point x-value
+*   yValue: goal point y-value
+*   yawValue: goal point yaw angle (counterclockwise positive)
+*   speedValue: car speed in m/s
+*      - Speed is reduced when near next point and direction change in next point (reversal of sign)
+*      - Speed is reduced when near next point and stop in next point (speed 0.0)
+*      - -> To stop car at the end of a path, add same point with speed 0.0 at the end
+*   US_Sensor: US select (1-10) (alternative way to set next path point) (1: FrontLeft clockwise, 10: Side Left)
+*   minimalDistance: if US measurement falls below this distance and rho < -> point reached (parking)
+-->
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Path name="AC_FP_CHANGE_TO_ONCOMING_LANE" id="2170" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.8</xValue>
+			<yValue>0.27</yValue>
+			<yawValue>0.2</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+	</Path>
+	<Path name="AC_FP_CHANGE_TO_ORIGINAL_LANE" id="2180" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.8</xValue>
+			<yValue>-0.32</yValue>
+			<yawValue>-0.2</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+	</Path>
+    <Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK_8" id="2138" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.6</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.08</xValue>
+			<yValue>0.36</yValue>
+			<yawValue>0.78</yawValue>
+			<speedValue>0.6</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.1</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>-0.915</xValue>
+			<yValue>-0.605</yValue>
+			<yawValue>0.78</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.1</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>-0.12</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.3</speedValue>
+			<stopAfter>1</stopAfter>
+            <cutOffDist>0.1</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    </Path>
+    <Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK_1" id="2130" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.7</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.8</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+		
+		<point>
+			
+			<xValue>-0.9</xValue>
+			<yValue>-0.705</yValue>
+			<yawValue>0.9</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			
+			<xValue>-0</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+    </Path>
+	<Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK_2" id="2132" reset_pose="true" rescue_point="false" steering="true">
+
+		<point>
+			<xValue>0.83</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.8</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+		
+		<point>
+			
+			<xValue>-0.9</xValue>
+			<yValue>-0.705</yValue>
+			<yawValue>0.9</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.15</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			
+			<xValue>-0</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+	</Path>	
+	<Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK_3" id="2134" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.78</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.8</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+		
+		<point>
+			
+			<xValue>-0.9</xValue>
+			<yValue>-0.705</yValue>
+			<yawValue>0.9</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.15</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			
+			<xValue>-0</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+	</Path>	
+	<Path name="AC_FP_STRAIGHT_PARKING_TRANS_BACK_4" id="2136" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.65</xValue>
+			<yValue>0.25</yValue>
+			<yawValue>0.8</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+		
+		<point>
+			
+			<xValue>-0.9</xValue>
+			<yValue>-0.705</yValue>
+			<yawValue>0.9</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.15</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			
+			<xValue>-0</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+	</Path>	
+    
+    
+    <Path name="AC_FP_PARKING_OUT_TRANS_LEFT" id="2060" reset_pose="true" rescue_point="false" steering="true">
+<point>
+			<xValue>0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.33</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.4</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+	</Path>
+    
+    
+    
+    <Path name="AC_FP_PARKING_OUT_TRANS_RIGHT" id="2050" reset_pose="true" rescue_point="false" steering="true">
+               
+      
+         <point>
+      <xValue>0.22</xValue>
+      <yValue>-0</yValue>
+      <yawValue>-0</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0.0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+	</Path>	
+		<Path name="TURN_LEFT" id="2020" reset_pose="true" rescue_point="false" steering="true">
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.53</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+
+	</Path>
+	
+	
+	<Path name="TURN_RIGHT" id="2030" reset_pose="true" rescue_point="false" steering="true">
+    
+    
+      
+         <point>
+      <xValue>0.32</xValue>
+      <yValue>-0</yValue>
+      <yawValue>-0</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0.0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+   </Path>
+   
+   <Path name="TURN_LEFT_AFTER_LEFT_TURN" id="2400" reset_pose="true" rescue_point="false" steering="true">
+	   
+		
+    
+		<point>
+			<xValue>0.07</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.58</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+	</Path>
+   
+    <Path name="TURN_RIGHT_AFTER_LEFT_TURN" id="2401" reset_pose="true" rescue_point="false" steering="true">
+	   
+	
+         <point>
+      <xValue>0.33</xValue>
+      <yValue>-0</yValue>
+      <yawValue>-0</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0.0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+     <point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+			
+	</Path>
+	
+	  <Path name="GO_STRAIGHT_AFTER_LEFT_TURN" id="2402" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<!-- straight -->
+		<point>
+			<xValue>0.45</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>0</steeringAlpha>
+		</point>
+		
+		
+	</Path>
+	
+	
+	<Path name="TURN_LEFT_AFTER_RIGHT_TURN" id="2403" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<!-- left -->
+    
+    
+    
+		<point>
+			<xValue>0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.33</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+	</Path>
+   
+   
+   
+   <Path name="TURN_RIGHT_AFTER_RIGHT_TURN" id="2404" reset_pose="true" rescue_point="false" steering="true">
+	   <point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+	 	
+		
+	</Path>
+   
+      <Path name="GO_STRAIGHT_AFTER_RIGHT_TURN" id="2405" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.875</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    
+		
+		
+	</Path>
+   
+   
+   <Path name="AC_FP_TURN_LEFT_AFTER_OUTTER_CURVE_DIRECTLY" id="2410" reset_pose="true" rescue_point="false" steering="true">
+	 
+		<!-- 
+		<point>
+			<xValue>0.9</xValue>
+			<yValue>1.65</yValue>
+			<yawValue>1.68</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0.2</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+		-->
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.1</xValue>
+			<yValue>0.8</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		
+	</Path>
+	
+	  <Path name="AC_FP_TURN_RIGHT_AFTER_OUTTER_CURVE_DIRECTLY" id="2411" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    
+	<point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+	</Path>
+	
+	
+	
+	
+	  <Path name="AC_FP_GO_STRAIGHT_AFTER_OUTTER_CURVE_DIRECTLY" id="2412" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    
+	<point>
+      <xValue>0.4</xValue>
+      <yValue>0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+	</Path>
+	
+	
+	
+	
+
+   
+   <Path name="AC_FP_TURN_LEFT_AFTER_INNER_CURVE_AFTER_ONE_MAT" id="2413" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>-0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+		<point>
+			<xValue>1.68</xValue>
+			<yValue>1.1</yValue>
+			<yawValue>1.5</yawValue>
+			<speedValue>0.25</speedValue>
+            <stopAfter>0</stopAfter>
+            <cutOffDist>0</cutOffDist>
+            <steeringAlpha>1.0</steeringAlpha>
+		</point>
+
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+	</Path>
+	
+		<Path name="AC_FP_TURN_RIGHT_AFTER_INNER_CURVE_AFTER_ONE_MAT" id="2414" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>-0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    
+    
+		<point>
+			<xValue>0.45</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    	
+		<point>
+      <xValue>0.8</xValue>
+      <yValue>-0.8</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+		
+	</Path>
+		
+		
+		
+		
+		<Path name="AC_FP_TURN_RIGHT_AFTER_INNER_CURVE_AFTER_ONE_MAT" id="2415" reset_pose="true" rescue_point="false" steering="true">
+	   
+		<point>
+			<xValue>0.2</xValue>
+			<yValue>-0.2</yValue>
+			<yawValue>0.5</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+		<point>
+			<xValue>0.0</xValue>
+			<yValue>0.0</yValue>
+			<yawValue>0.0</yawValue>
+			<speedValue>0.4</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>1</steeringAlpha>
+		</point>
+    
+    
+		<point>
+			<xValue>0.8</xValue>
+			<yValue>-0</yValue>
+			<yawValue>0</yawValue>
+			<speedValue>0.25</speedValue>
+			<stopAfter>0</stopAfter>
+            <cutOffDist>0.0</cutOffDist>
+            <steeringAlpha>0.5</steeringAlpha>
+		</point>
+		
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+		
+	</Path>
+	
+	  <Path name="AC_FP_TURN_RIGHT_INTO_CURVE" id="2420" reset_pose="true" rescue_point="false" steering="true">
+	   
+    <point>
+      <xValue>0.85</xValue>
+      <yValue>-0.85</yValue>
+      <yawValue>-1.07</yawValue>
+      <speedValue>0.25</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+    
+    <point>
+      <xValue>0</xValue>
+      <yValue>-0</yValue>
+      <yawValue>0</yawValue>
+      <speedValue>0</speedValue>
+      <stopAfter>0</stopAfter>
+      <cutOffDist>0</cutOffDist>
+      <steeringAlpha>1</steeringAlpha>
+    </point>
+		
+		
+	</Path>
+	
+
+
+   
+   <Path name="GO_BACK" id="2160" reset_pose="true" rescue_point="false" steering="true">
+   <point>
+           <xValue>-0.7</xValue>
+           <yValue>0.0</yValue>
+           <yawValue>0.02</yawValue>
+           <speedValue>0.3</speedValue>
+           <stopAfter>1</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+           <steeringAlpha>1</steeringAlpha>
+   </point>
+   </Path>
+   <Path name="GO_STRAIGHT" id="2090" reset_pose="true" rescue_point="false" steering="true">
+   <point>
+           <xValue>1.5</xValue>
+           <yValue>0.0</yValue>
+           <yawValue>-0.0</yawValue>
+           <speedValue>0.25</speedValue>
+           <stopAfter>0</stopAfter>
+           <cutOffDist>0.3</cutOffDist>
+           <steeringAlpha>0.7</steeringAlpha>
+   </point>
+   </Path>
+   <Path name="GO_STRAIGHT_ZEBRA" id="2092" reset_pose="true" rescue_point="false" steering="true">
+   <point>
+           <xValue>0.6</xValue>
+           <yValue>0.0</yValue>
+           <yawValue>-0.01</yawValue>
+           <speedValue>0.25</speedValue>
+           <stopAfter>0</stopAfter>
+           <cutOffDist>0.0</cutOffDist>
+           <steeringAlpha>1</steeringAlpha>
+   </point>
+   </Path>
+
+</calibration>

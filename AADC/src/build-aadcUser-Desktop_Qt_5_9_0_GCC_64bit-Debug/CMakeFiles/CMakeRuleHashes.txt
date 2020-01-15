@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+4a49a3eef519e80b287272ae953b6373 EmergencyBreak/CMakeFiles/EmergencyBreak_pdgen
+993084ab230b57ac07cf70efca38e817 EmergencyBreak/EmergencyBreak.plugindescription
+273344824efba3dc9e7ecfb68835ec8c OpenCVTemplate/CMakeFiles/opencv_template_pdgen
+9b315cd946a4b8e00b17069386ae0ce1 OpenCVTemplate/opencv_template.plugindescription

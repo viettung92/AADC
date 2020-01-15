@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<plugindescription xmlns="adtf/xsd/plugindescription">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <name/>
+  <cache_info>
+    <plugin_name>UltrasonicACC Plugin</plugin_name>
+    <plugin_checksum/>
+  </cache_info>
+  <debug>false</debug>
+  <versions>
+    <version>
+      <name>adtf</name>
+      <major>3</major>
+      <minor>3</minor>
+      <patch>3</patch>
+      <description>TODO!</description>
+    </version>
+    <version>
+      <name>adtf::ucom</name>
+      <major>3</major>
+      <minor>1</minor>
+      <patch>0</patch>
+      <description>TODO!</description>
+    </version>
+  </versions>
+  <service_descriptions/>
+  <filter_descriptions>
+    <filter_description>
+      <name>ultrasonic_acc.filter.user.aadc.cid</name>
+      <label>UltrasonicACC</label>
+      <versions>
+        <version>
+          <name>adtf::ucom</name>
+          <major>3</major>
+          <minor>1</minor>
+          <patch>0</patch>
+          <description>TODO!</description>
+        </version>
+      </versions>
+      <category>1</category>
+      <description>TODO!</description>
+      <property_set_description>
+        <property_descriptions>
+          <property_description>
+            <name>UltrasonicACC Constructor/Boundery/End of for loop to check roi</name>
+            <type>tUInt32</type>
+            <value>20</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Boundery/Free ROI Boundary</name>
+            <type>tUInt32</type>
+            <value>3</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Boundery/Occupied ROI Boundary</name>
+            <type>tUInt32</type>
+            <value>3</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Boundery/Temporary Occupied ROI Boundary</name>
+            <type>tUInt32</type>
+            <value>3</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Car/Offset cam to lidar in y</name>
+            <type>tFloat32</type>
+            <value>150.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Car/Scale Pixel to mm</name>
+            <type>tFloat32</type>
+            <value>3.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Const/Car width mm</name>
+            <type>tFloat32</type>
+            <value>360.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Const/Distance between front axis and front bumper-end in mm</name>
+            <type>tFloat32</type>
+            <value>120.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Const/Distance of a circular segment</name>
+            <type>tFloat32</type>
+            <value>1300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Const/Doll width</name>
+            <type>tFloat32</type>
+            <value>100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Const/Wheelbase of the car</name>
+            <type>tFloat32</type>
+            <value>370.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Deactivates ultrasonic acc by setting all ultrasonic values to max</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Curve enable</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Doll</name>
+            <type>tBool</type>
+            <value>true</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Info Overtaking ROI</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Info for the first start</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Info for the roi checker</name>
+            <type>tBool</type>
+            <value>true</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ LaserOutput</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ Ramp</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/ for driving straight</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/Action command enable enable</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/Debug Output to Console</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/Extended Debug Output to Console</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/Print initial tables to Console</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/True: driving; false ROI</name>
+            <type>tBool</type>
+            <value>true</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Debug/XML Border Warnings to Console</name>
+            <type>tBool</type>
+            <value>false</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Distance/ After left</name>
+            <type>tFloat32</type>
+            <value>350.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Distance/ After right</name>
+            <type>tFloat32</type>
+            <value>-100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Distance/ Normal</name>
+            <type>tFloat32</type>
+            <value>220.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/Frames</name>
+            <type>tUInt32</type>
+            <value>4</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point1/X</name>
+            <type>tUInt32</type>
+            <value>440</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point1/Y</name>
+            <type>tUInt32</type>
+            <value>500</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point2/X</name>
+            <type>tUInt32</type>
+            <value>780</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point2/Y</name>
+            <type>tUInt32</type>
+            <value>500</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point3/X</name>
+            <type>tUInt32</type>
+            <value>1280</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point3/Y</name>
+            <type>tUInt32</type>
+            <value>600</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point4/X</name>
+            <type>tUInt32</type>
+            <value>0</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/ROI/Point4/Y</name>
+            <type>tUInt32</type>
+            <value>600</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/TopDownHeight</name>
+            <type>tUInt32</type>
+            <value>640</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ImageProcessing/TopDownWidth</name>
+            <type>tUInt32</type>
+            <value>640</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Interpolation/Bend/Configuration File For Bend Mode ACC</name>
+            <type>cFilename</type>
+            <value>/home/aadc/AADC/utilities/UltrasonicACC/UltrasonicACC_MtP.xml</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Interpolation/Driving/Configuration File For Driving Mode ACC</name>
+            <type>cFilename</type>
+            <value>/home/aadc/AADC/utilities/UltrasonicACC/UltrasonicACC_Driving.xml</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Interpolation/MtP/Configuration File For MtP Mode ACC</name>
+            <type>cFilename</type>
+            <value>/home/aadc/AADC/utilities/UltrasonicACC/UltrasonicACC_Bend.xml</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Movement-related parameters/Angle close to the car</name>
+            <type>tFloat32</type>
+            <value>40.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Movement-related parameters/Counter/moving again threshold</name>
+            <type>tInt32</type>
+            <value>1</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Movement-related parameters/Counter/no movement threshold</name>
+            <type>tInt32</type>
+            <value>2</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Movement-related parameters/Lower Bound/speed seen as 'no movement'</name>
+            <type>tFloat32</type>
+            <value>6.500000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Movement-related parameters/Steering * Scale_Steering = Angle of the wheel (trajectory)</name>
+            <type>tFloat32</type>
+            <value>1.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Object Detection/Threshold for which max radius difference two values are considered as part of one object</name>
+            <type>tFloat32</type>
+            <value>15.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Object Detection/Threshold max angle difference two values are considered as succeed</name>
+            <type>tFloat32</type>
+            <value>3.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Object Detection/thtreshold for the used lidar data</name>
+            <type>tFloat32</type>
+            <value>2000.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Offset/ Parking Y</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Offset/ between the pos of the cam in 2017 and the lidar</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Offset/Steering</name>
+            <type>tFloat32</type>
+            <value>4.500000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Parkour/Distance from the stop to stopline [mm]</name>
+            <type>tFloat32</type>
+            <value>20.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Crosswalk/ x_max</name>
+            <type>tFloat32</type>
+            <value>200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Crosswalk/ x_min</name>
+            <type>tFloat32</type>
+            <value>-700.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Crosswalk/ y_max</name>
+            <type>tFloat32</type>
+            <value>1000.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Crosswalk/ y_min</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Doll/ Xmax</name>
+            <type>tFloat32</type>
+            <value>-150.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Doll/ Xmin</name>
+            <type>tFloat32</type>
+            <value>-500.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Doll/ Ymax</name>
+            <type>tFloat32</type>
+            <value>800.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Doll/ Ymin</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic left/ x_max</name>
+            <type>tFloat32</type>
+            <value>-700.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic left/ x_min</name>
+            <type>tFloat32</type>
+            <value>-1100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic left/ y_max</name>
+            <type>tFloat32</type>
+            <value>900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic left/ y_min</name>
+            <type>tFloat32</type>
+            <value>550.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic right/ x_max</name>
+            <type>tFloat32</type>
+            <value>600.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic right/ x_min</name>
+            <type>tFloat32</type>
+            <value>200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic right/ y_max</name>
+            <type>tFloat32</type>
+            <value>950.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Crosstraffic right/ y_min</name>
+            <type>tFloat32</type>
+            <value>600.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Oncoming/ x_max</name>
+            <type>tFloat32</type>
+            <value>-300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Oncoming/ x_min</name>
+            <type>tFloat32</type>
+            <value>-600.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Oncoming/ y_max</name>
+            <type>tFloat32</type>
+            <value>1900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Intersection/Oncoming/ y_min</name>
+            <type>tFloat32</type>
+            <value>900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Merge/ Target Lane Xmax</name>
+            <type>tFloat32</type>
+            <value>-250.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Merge/ Target Lane Xmin</name>
+            <type>tFloat32</type>
+            <value>-550.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Merge/ Target Lane Ymax</name>
+            <type>tFloat32</type>
+            <value>600.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Merge/ Target Lane Ymin</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/ Only Right hand side/ x_max</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/ Only Right hand side/ x_min</name>
+            <type>tFloat32</type>
+            <value>-500.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/ Only Right hand side/ y_max</name>
+            <type>tFloat32</type>
+            <value>1000.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/ Only Right hand side/ y_min</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight/ x_max</name>
+            <type>tFloat32</type>
+            <value>150.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight/ x_min</name>
+            <type>tFloat32</type>
+            <value>-150.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight/ y_max</name>
+            <type>tFloat32</type>
+            <value>950.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight/ y_min</name>
+            <type>tFloat32</type>
+            <value>50.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight_Lefthalf/ x_max</name>
+            <type>tFloat32</type>
+            <value>-100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight_Lefthalf/ x_min</name>
+            <type>tFloat32</type>
+            <value>-300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight_Lefthalf/ y_max</name>
+            <type>tFloat32</type>
+            <value>950.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Obstaclestraight_Lefthalf/ y_min</name>
+            <type>tFloat32</type>
+            <value>50.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Oncoming/ x_max</name>
+            <type>tFloat32</type>
+            <value>-250.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Oncoming/ x_min</name>
+            <type>tFloat32</type>
+            <value>-550.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Oncoming/ y_max</name>
+            <type>tFloat32</type>
+            <value>1200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Oncoming/ y_min</name>
+            <type>tFloat32</type>
+            <value>300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Originallane/ x_max</name>
+            <type>tFloat32</type>
+            <value>570.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Originallane/ x_min</name>
+            <type>tFloat32</type>
+            <value>270.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Originallane/ y_max</name>
+            <type>tFloat32</type>
+            <value>1200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Overtake/Originallane/ y_min</name>
+            <type>tFloat32</type>
+            <value>300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/Cross_oncomingLane/ x_max</name>
+            <type>tFloat32</type>
+            <value>-100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/Cross_oncomingLane/ x_min</name>
+            <type>tFloat32</type>
+            <value>-450.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/Cross_oncomingLane/ y_max</name>
+            <type>tFloat32</type>
+            <value>800.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/Cross_oncomingLane/ y_min</name>
+            <type>tFloat32</type>
+            <value>100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming1/ x_max</name>
+            <type>tFloat32</type>
+            <value>700.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming1/ x_min</name>
+            <type>tFloat32</type>
+            <value>-700.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming1/ y_max</name>
+            <type>tFloat32</type>
+            <value>900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming1/ y_min</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming2/ x_max</name>
+            <type>tFloat32</type>
+            <value>1.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming2/ x_min</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming2/ y_max</name>
+            <type>tFloat32</type>
+            <value>1.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/ROI/Parking/PullOutCross_Oncoming2/ y_min</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Sensors/Front Sensors Check Limit</name>
+            <type>tFloat32</type>
+            <value>0.400000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Sensors/Front US scaling factor for sensor-weighting</name>
+            <type>tFloat32</type>
+            <value>8.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Sensors/Rear US scaling factor for sensor-weighting</name>
+            <type>tFloat32</type>
+            <value>8.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Below considered as a straight</name>
+            <type>tFloat32</type>
+            <value>5.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Doll /Another object</name>
+            <type>tFloat32</type>
+            <value>50.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Diff y still ramp</name>
+            <type>tFloat32</type>
+            <value>300.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Driving X</name>
+            <type>tFloat32</type>
+            <value>750.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Driving Y</name>
+            <type>tFloat32</type>
+            <value>600.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Max length of the ramp</name>
+            <type>tFloat32</type>
+            <value>1500.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Min length of the ramp</name>
+            <type>tFloat32</type>
+            <value>900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Num of samples of lane detetction</name>
+            <type>tUInt32</type>
+            <value>5</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / NumberNo Guardrail for off ramp</name>
+            <type>tUInt32</type>
+            <value>10</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Xmax of the ramp</name>
+            <type>tFloat32</type>
+            <value>400.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp / Xmin of the ramp</name>
+            <type>tFloat32</type>
+            <value>-800.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp /Differenz Y Not On Line</name>
+            <type>tFloat32</type>
+            <value>15.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Ramp /Min Number of points</name>
+            <type>tUInt32</type>
+            <value>7</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ Visual Range in a bend (used)</name>
+            <type>tFloat32</type>
+            <value>400.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ for slope too high [mm]</name>
+            <type>tFloat32</type>
+            <value>0.010000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/ reduced visual range one side [mm]</name>
+            <type>tFloat32</type>
+            <value>10.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/High [y-axis] of a box in the bend [mm]</name>
+            <type>tFloat32</type>
+            <value>100.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>UltrasonicACC Constructor/Threshold/for relevant obstacles in a bend [mm]</name>
+            <type>tFloat32</type>
+            <value>1200.000000</value>
+            <list/>
+          </property_description>
+        </property_descriptions>
+        <ref_property_descriptions/>
+      </property_set_description>
+      <pin_set_description>
+        <pin_descriptions>
+          <pin_description>
+            <name>ultrasonicInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>actionInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>targetSpeedInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>steeringAngleInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>laserscannerIn</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>laneDetectionLine</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>inputVideo</name>
+            <streamtype_description>
+              <metatype_name>adtf/image</metatype_name>
+              <property_descriptions>
+                <property_description>
+                  <name>data_endianess</name>
+                  <type>tUInt32</type>
+                  <value>1</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>format_name</name>
+                  <type>cString</type>
+                  <value>R(8)G(8)B(8)</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>max_byte_size</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_height</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_width</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+              </property_descriptions>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>targetSpeedOutput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>feedbackOutput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>laserOut</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>GuardrailPosition</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>outputVideo</name>
+            <streamtype_description>
+              <metatype_name>adtf/image</metatype_name>
+              <property_descriptions>
+                <property_description>
+                  <name>data_endianess</name>
+                  <type>tUInt32</type>
+                  <value>1</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>format_name</name>
+                  <type>cString</type>
+                  <value/>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>max_byte_size</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_height</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_width</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+              </property_descriptions>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>outputVideoImageRoi</name>
+            <streamtype_description>
+              <metatype_name>adtf/image</metatype_name>
+              <property_descriptions>
+                <property_description>
+                  <name>data_endianess</name>
+                  <type>tUInt32</type>
+                  <value>1</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>format_name</name>
+                  <type>cString</type>
+                  <value/>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>max_byte_size</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_height</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+                <property_description>
+                  <name>pixel_width</name>
+                  <type>tUInt32</type>
+                  <value>0</value>
+                  <list/>
+                </property_description>
+              </property_descriptions>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+        </pin_descriptions>
+        <binding_object_descriptions/>
+        <runner_descriptions>
+          <runner_description>
+            <name>UltrasonicACC Constructor</name>
+            <activation_type>0</activation_type>
+            <description>TODO!</description>
+          </runner_description>
+        </runner_descriptions>
+        <dynamic_input_pins>false</dynamic_input_pins>
+        <dynamic_output_pins>false</dynamic_output_pins>
+      </pin_set_description>
+      <editor_descriptions/>
+      <provided_interfaces/>
+      <required_interfaces/>
+      <required_optional_interfaces/>
+    </filter_description>
+  </filter_descriptions>
+  <activerunner_descriptions/>
+  <samplestream_descriptions/>
+  <bindingproxy_descriptions/>
+  <streaming_sink_descriptions/>
+  <streaming_source_descriptions/>
+  <platform_dependencies/>
+</plugindescription>

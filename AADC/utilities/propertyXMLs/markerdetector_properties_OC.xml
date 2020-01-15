@@ -1,0 +1,18 @@
+
+
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tFloat32">
+        <Value> 0.116  </Value> <!-- m_f32MarkerSize -->
+        <Value> 0.05 </Value> <!-- m_propF32CalibZOffset -->
+        <Value> 0.469 </Value> <!-- m_propF32CalibZSlope -->
+        <Value> 1.0 </Value> <!-- m_propF32MaxDist, left turn 1m, right turn 1.3m -->
+    </Property>
+    <Property type="tInt32">
+        <Value> 500 </Value><!-- m_propI32ROIOffsetX -->
+        <Value> 250 </Value><!-- m_propI32ROIOffsetY -->
+        <Value> 700 </Value><!-- m_propI32ROIWidth, 660 -->
+        <Value> 700 </Value><!-- m_propI32ROIWidthCurve -->
+        <Value> 960 </Value><!-- m_propI32ROIHeight -->
+        <Value> 0 </Value><!-- m_propI32DropFrame -->
+    </Property>
+</calibration>

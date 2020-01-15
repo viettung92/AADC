@@ -1,0 +1,26 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tFloat32">
+        <Value> 0.05  </Value> <!-- m_propF32XOffset -->
+        <Value> 1   </Value> <!-- m_propF32DistStartSignDetection -->
+        <Value> 0.2 </Value> <!-- m_propF32DistCameraLS -->
+        <Value> -0.1 </Value> <!-- m_propF32AdjustmentFactor -->
+        <Value> 0.5  </Value> <!-- m_propF32DistStartLS, 0.42 -->
+        <Value> 1.0   </Value> <!-- m_propF32DistFaktor -->
+        <Value> 0.0   </Value> <!-- m_propF32MinAngle -->
+        <Value> 90.0  </Value> <!-- m_propF32MaxAngle -->
+        <Value> 0.1 </Value> <!-- m_propF32RadiusRange -->
+        <Value> 500 </Value> <!-- m_propF32XMax -->
+        <Value> 200 </Value> <!-- m_propF32XMin -->
+		<Value> -200 </Value> <!-- m_propF32YMax -->
+        <Value> -900</Value> <!-- m_propF32YMin -->
+		<Value> -100   </Value> <!-- m_propF32XMinArea -->
+        <Value> 200 </Value> <!-- m_propF32XMaxArea -->
+		<Value> 150  </Value> <!-- m_propF32WidthSign -->
+        <Value> 80 </Value> <!-- m_propF32ThresholdXNoSign -->
+    </Property>
+    <Property type="tInt32">
+        <Value> 2 </Value><!-- m_propISampleCount -->
+         
+    </Property>
+</calibration>
+

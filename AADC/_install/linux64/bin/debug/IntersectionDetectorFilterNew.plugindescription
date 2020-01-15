@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<plugindescription xmlns="adtf/xsd/plugindescription">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <name/>
+  <cache_info>
+    <plugin_name>IntersectionDetectorFilterNew Plugin</plugin_name>
+    <plugin_checksum/>
+  </cache_info>
+  <debug>true</debug>
+  <versions>
+    <version>
+      <name>adtf</name>
+      <major>3</major>
+      <minor>3</minor>
+      <patch>3</patch>
+      <description>TODO!</description>
+    </version>
+    <version>
+      <name>adtf::ucom</name>
+      <major>3</major>
+      <minor>1</minor>
+      <patch>0</patch>
+      <description>TODO!</description>
+    </version>
+  </versions>
+  <service_descriptions/>
+  <filter_descriptions>
+    <filter_description>
+      <name>intersection_detector_new_filter.filter.user.aadc.cid</name>
+      <label>IntersectionDetectorFilterNew</label>
+      <versions>
+        <version>
+          <name>adtf::ucom</name>
+          <major>3</major>
+          <minor>1</minor>
+          <patch>0</patch>
+          <description>TODO!</description>
+        </version>
+      </versions>
+      <category>1</category>
+      <description>TODO!</description>
+      <property_set_description>
+        <property_descriptions>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/DistCameraToLS</name>
+            <type>tFloat32</type>
+            <value>0.200000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/DistFactor</name>
+            <type>tFloat32</type>
+            <value>1.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/DistStartLaserScanner</name>
+            <type>tFloat32</type>
+            <value>0.300000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/DistStartSignDetection</name>
+            <type>tFloat32</type>
+            <value>0.900000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/MaxLaserScannerAngle</name>
+            <type>tFloat32</type>
+            <value>90.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/MinLaserScannerAngle</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/RangeForPoseDetection</name>
+            <type>tFloat32</type>
+            <value>0.100000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/SampleCountLS</name>
+            <type>tInt32</type>
+            <value>2</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/StopLineToMarkerX</name>
+            <type>tFloat32</type>
+            <value>0.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/Threshold x: difference not detected as sign</name>
+            <type>tFloat32</type>
+            <value>80.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/Width of the sign</name>
+            <type>tFloat32</type>
+            <value>150.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/XMAX</name>
+            <type>tFloat32</type>
+            <value>500.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/XMIN</name>
+            <type>tFloat32</type>
+            <value>200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/YMAX</name>
+            <type>tFloat32</type>
+            <value>-200.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/YMIN</name>
+            <type>tFloat32</type>
+            <value>-900.000000</value>
+            <list/>
+          </property_description>
+          <property_description>
+            <name>IntersectionDetectorFilterNew Constructor/param for adjustment</name>
+            <type>tFloat32</type>
+            <value>-0.100000</value>
+            <list/>
+          </property_description>
+        </property_descriptions>
+        <ref_property_descriptions/>
+      </property_set_description>
+      <pin_set_description>
+        <pin_descriptions>
+          <pin_description>
+            <name>RoadSignExtInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>actionInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>laserScannerInput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>1</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>feedbackOutput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+          <pin_description>
+            <name>localGoalOutput</name>
+            <streamtype_description>
+              <metatype_name/>
+              <property_descriptions/>
+            </streamtype_description>
+            <direction>2</direction>
+            <description>TODO!</description>
+          </pin_description>
+        </pin_descriptions>
+        <binding_object_descriptions/>
+        <runner_descriptions>
+          <runner_description>
+            <name>IntersectionDetectorFilterNew Constructor</name>
+            <activation_type>0</activation_type>
+            <description>TODO!</description>
+          </runner_description>
+        </runner_descriptions>
+        <dynamic_input_pins>false</dynamic_input_pins>
+        <dynamic_output_pins>false</dynamic_output_pins>
+      </pin_set_description>
+      <editor_descriptions/>
+      <provided_interfaces/>
+      <required_interfaces/>
+      <required_optional_interfaces/>
+    </filter_description>
+  </filter_descriptions>
+  <activerunner_descriptions/>
+  <samplestream_descriptions/>
+  <bindingproxy_descriptions/>
+  <streaming_sink_descriptions/>
+  <streaming_source_descriptions/>
+  <platform_dependencies/>
+</plugindescription>

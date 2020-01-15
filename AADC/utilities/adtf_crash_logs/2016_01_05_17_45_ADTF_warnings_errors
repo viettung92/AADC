@@ -1,0 +1,10 @@
+Bei Ausfuehren des Projekts "Bobbycar_LineSpecifier_ACC" aufgetretene Fehler.
+Trotz Ueberarbeitung einiger Filter..
+
+warning | 00:08:05:894 | One Sample is already locked! Forgotten Unlock call on MediaDescription can cause crashes! | mediadescription.cpp(67) | 3103/0 | unknown | OK | No error | SignalValueSwitch_plugin
+
+error | 00:12:54:703 | There are still 2 blocks allocated in block allocator with block size 16, waiting for the memory to be released. | memorymanager_srv.cpp(375) | 3103/0 | unknown | OK | No error | cMemoryManager_plugin
+
+error | 00:12:36:687 | SamplePool 'adtf.core.media_sample' still has 2 referenced mediasamples! | sample_pool.cpp(369) | 3103/0 | unknown | OK | No error | cSamplePool_plugin
+
+error | 00:13:21:227 | There are still 2 blocks allocated in block allocator with block size 16, freeing non the less. | memorymanager_srv.cpp(371) | 3103/0 | unknown | OK | No error | cMemoryManager_plugin

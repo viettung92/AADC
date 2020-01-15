@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarControllerUi</class>
+ <widget class="QWidget" name="CarControllerUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lights</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="6" column="1">
+        <widget class="QPushButton" name="pushButton_turnright">
+         <property name="text">
+          <string>Toggle TurnRight</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_lights">
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Lights</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_head">
+         <property name="text">
+          <string>Toggle Head</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="pushButton_brake">
+         <property name="text">
+          <string>Toggle Brake</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QPushButton" name="pushButton_turnleft">
+         <property name="text">
+          <string>Toggle TurnLeft</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QPushButton" name="pushButton_reverse">
+         <property name="text">
+          <string>Toggle Reverse</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QPushButton" name="pushButton_hazard">
+         <property name="text">
+          <string>Toggle Hazard</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_lights</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Slider</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSlider" name="verticalSlider_throttle">
+         <property name="minimum">
+          <number>-100</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="QSlider" name="horizontalSlider_steering">
+         <property name="minimum">
+          <number>-100</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+         <property name="tracking">
+          <bool>true</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QRadioButton" name="radioButton_enable_resetting_slider">
+         <property name="text">
+          <string>enable resetting slider</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="1" column="1">
+           <widget class="QLCDNumber" name="lcdNumber_steering"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_throttle">
+            <property name="font">
+             <font>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <italic>true</italic>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Throttle</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLCDNumber" name="lcdNumber_throttle"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_steering">
+            <property name="font">
+             <font>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <italic>true</italic>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Steering</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Actions</string>
+      </attribute>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>540</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>540</width>
+         <height>500</height>
+        </size>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Lights</string>
+        </attribute>
+        <widget class="QWidget" name="horizontalLayoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>498</width>
+           <height>151</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action9">
+              <property name="text">
+               <string>HAZARD_LIGHT_OFF</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action8">
+              <property name="text">
+               <string>HAZARD_LIGHT_ON</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action5">
+              <property name="text">
+               <string>TURN_LEFT</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action4">
+              <property name="text">
+               <string>RERVERSE_LIGHT_OFF</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action3">
+              <property name="text">
+               <string>RERVERSE_LIGHT_ON</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action7">
+              <property name="text">
+               <string>TURN_DISABLE</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action2">
+              <property name="text">
+               <string>HEAD_LIGHT_OFF</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action1">
+              <property name="text">
+               <string>HEAD_LIGHT_ON</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_lc_action6">
+              <property name="text">
+               <string>TURN_RIGHT</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_lf_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_5">
+        <attribute name="title">
+         <string>FollowPath</string>
+        </attribute>
+        <widget class="QWidget" name="horizontalLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>210</y>
+           <width>533</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="spacing">
+           <number>25</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QPushButton" name="pushButton_arb_action1">
+                <property name="text">
+                 <string>submit</string>
+                </property>
+                <attribute name="buttonGroup">
+                 <string notr="true">buttonGroup_arb_actions</string>
+                </attribute>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <widget class="QComboBox" name="comboBox_gotoCom">
+                <item>
+                 <property name="text">
+                  <string>AC_FP_GOTO_XY</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>AC_FP_GOTO_XY_NOSTOP</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>PosX:  </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_posX"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>PosY:  </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_posY"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="text">
+                 <string>Cut</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_cutOff"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>Yaw:  </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_yaw"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>Speed:  </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_speed"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>198</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action1">
+              <property name="text">
+               <string>SET_FOLLOW_FILE</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action9">
+              <property name="text">
+               <string>RELOAD_XML_FILES</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action4">
+              <property name="text">
+               <string>CHANGE_TO_ORIG_LANE</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action5">
+              <property name="text">
+               <string>LEFT_TURN</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action6">
+              <property name="text">
+               <string>STOP</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action8">
+              <property name="text">
+               <string>RIGHT_TURN</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action3">
+              <property name="text">
+               <string>GO_STRAIGHT</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action7">
+              <property name="text">
+               <string>GO_BACK</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_fp_action2">
+              <property name="text">
+               <string>PARKING_TRANS</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_mtp_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_6">
+        <attribute name="title">
+         <string>ActionStop</string>
+        </attribute>
+        <widget class="QWidget" name="verticalLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>0</y>
+           <width>160</width>
+           <height>151</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="pushButton_sa_1">
+            <property name="text">
+             <string>AC_SA_STOP_CAR</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_as_actions</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_sa_2">
+            <property name="text">
+             <string>AC_SA_TEST</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_as_actions</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_10">
+        <attribute name="title">
+         <string>LaneDetection</string>
+        </attribute>
+        <widget class="QWidget" name="verticalLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>191</width>
+           <height>371</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="text">
+             <string>DRIVE</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_ld_actions</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="text">
+             <string>DRIVE_SLOW</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_ld_actions</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_16">
+            <property name="text">
+             <string>STOP</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_ld_actions</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_8">
+        <attribute name="title">
+         <string>US ACC</string>
+        </attribute>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>553</width>
+           <height>401</height>
+          </rect>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>551</width>
+            <height>399</height>
+           </rect>
+          </property>
+          <widget class="QWidget" name="verticalLayoutWidget_6">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>6</y>
+             <width>282</width>
+             <height>391</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action1">
+              <property name="text">
+               <string>DRIVING_MODE</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action2">
+              <property name="text">
+               <string>INTERSECTION_CHECK_ALL</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action3">
+              <property name="text">
+               <string>INTERS_CHCK_CRSS_TRAF_R</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action4">
+              <property name="text">
+               <string>PARKING_MODE</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action5">
+              <property name="text">
+               <string>PRKNG_CRSS_PLLT_CHCK_CRSS_TRAF</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action6">
+              <property name="text">
+               <string>INTERS_CHCK_ONC_TRAFFIC</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="buttonGroup_usacc_action7">
+              <property name="text">
+               <string>PRKNG_CRSS_CHCK_ONC_TRAFFIC</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="gridLayoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>10</y>
+             <width>251</width>
+             <height>391</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="9" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action8">
+              <property name="text">
+               <string>OVERT_CHCK_OVERT_ORIG_L</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item row="11" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action10">
+              <property name="text">
+               <string>OVERT_CHECK_OWN_L_STR_LH</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item row="12" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action11">
+              <property name="text">
+               <string>CHCK_NO_MOVEMENT</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action9">
+              <property name="text">
+               <string>OVERT_CHCK_ONC_TRAF</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item row="13" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action12">
+              <property name="text">
+               <string>AC_UA_CHECK_MOVING_AGAIN</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+            <item row="14" column="0">
+             <widget class="QPushButton" name="buttonGroup_usacc_action13">
+              <property name="text">
+               <string>OVERT_CHCK_OWN_LANE_STR</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_usacc_actions</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>-2</x>
+         <y>0</y>
+         <width>541</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>540</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>10</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_arb_action2">
+            <property name="text">
+             <string>submit</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroup_arb_actions</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Type command:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_arbCom"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_lights"/>
+  <buttongroup name="buttonGroup_ld_actions"/>
+  <buttongroup name="buttonGroup_lf_actions"/>
+  <buttongroup name="buttonGroup_usacc_actions"/>
+  <buttongroup name="buttonGroup_mtp_actions"/>
+  <buttongroup name="buttonGroup_as_actions"/>
+  <buttongroup name="buttonGroup_arb_actions"/>
+ </buttongroups>
+</ui>

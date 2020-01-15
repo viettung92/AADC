@@ -1,0 +1,109 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tInt32">
+        <Value> 2  </Value> <!-- m_propI32CounterThresholdNoMove -->
+        <Value> 1   </Value> <!-- m_propI32CounterThresholdMoveAgain -->
+    </Property>
+    <Property type="tFloat32">
+        <Value> 0.25  </Value> <!-- m_propF32LowerBoundSpeed 6.5-->
+        <Value> 4.5   </Value> <!-- m_propF32SensorOffsetSteering -->
+        <Value> 0.4 </Value> <!-- m_propF32SensorFrontCheckLimit-->
+        <Value> 3.0 </Value> <!-- m_propF32ObjectThresholdAngle -->
+        <Value> 15.0   </Value> <!-- m_propF32ObjectThresholdRadius -->
+        <Value> 2000.0  </Value> <!-- m_propF32ObjectThresholdDetection -->
+        <Value> 40.0   </Value> <!-- m_propF32CloseObjectThresholdAngle -->
+        <Value> 370   </Value> <!-- m_propF32wheelbase -->
+        <Value> 400.0  </Value> <!-- m_propF32ThresholdVisualRangeBend -->
+        <Value> 15.0   </Value> <!-- m_propF32ThresholdReducedVisualRangeOneSide -->
+        <Value> 250.0 </Value> <!-- m_propF32OffsetParkingY -->
+        <Value> 20.0   </Value> <!-- m_propF32DistanceToStopLine -->
+        <Value> 3.0   </Value> <!-- m_propF32PixToMM -->
+        <Value> 150.0 </Value> <!-- m_propF32CamOffsety -->
+        <Value> -900.0   </Value> <!-- m_propF32XminOfRamp -800-->
+        <Value> 500.0   </Value> <!-- m_propF32XmaxOfRamp 400-->
+        <Value> -600.0 </Value> <!-- m_propF32IntersectionOncomingXmin -->
+        <Value> 900.0   </Value> <!-- m_propF32IntersectionOncomingYmin -->
+        <Value> -300.0   </Value> <!-- m_propF32IntersectionOncomingXmax -->
+        <Value> 1900.0 </Value> <!-- m_propF32IntersectionOncomingYmax -->
+        <Value> 200.0   </Value> <!-- m_propF32IntersectionCrosstrafficRightXmin -->
+        <Value> 600.0   </Value> <!-- m_propF32IntersectionCrosstrafficRightYmin -->
+        <Value> 600.0 </Value> <!-- m_propF32IntersectionCrosstrafficRightXmax -->
+        <Value> 950.0   </Value> <!-- m_propF32IntersectionCrosstrafficRightYmax -->
+        <Value> -1100.0   </Value> <!-- m_propF32IntersectionCrosstrafficLeftXmin -->
+        <Value> 550.0 </Value> <!-- m_propF32IntersectionCrosstrafficLeftYmin -->
+        <Value> -700.0   </Value> <!-- m_propF32IntersectionCrosstrafficLeftXmax -->
+        <Value> 900.0   </Value> <!-- m_propF32IntersectionCrosstrafficLeftYmax -->
+        <Value> -550.0 </Value> <!-- m_propF32OvertakeOncomingXmin -->
+        <Value> 300.0   </Value> <!-- m_propF32OvertakeOncomingYmin -->
+        <Value> -250.0   </Value> <!-- m_propF32OvertakeOncomingXmax -->
+        <Value> 1200.0 </Value> <!-- m_propF32OvertakeOncomingYmax -->
+        <Value> 270.0   </Value> <!-- m_propF32OvertakeOriginallaneXmin -->
+        <Value> 300.0   </Value> <!-- m_propF32OvertakeOriginallaneYmin -->
+        <Value> 570.0 </Value> <!-- m_propF32OvertakeOriginallaneXmax -->
+        <Value> 1200.0   </Value> <!-- m_propF32OvertakeOriginallaneYmax -->
+        <Value> -150.0   </Value> <!-- m_propF32OvertakeObstacleStraightXmin -->
+        <Value> 50.0 </Value> <!-- m_propF32OvertakeObstacleStraightYmin -->
+        <Value> 150.0   </Value> <!-- m_propF32OvertakeObstacleStraightXmax -->
+        <Value> 950.0   </Value> <!-- m_propF32OvertakeObstacleStraightYmax -->
+        <Value> -300.0 </Value> <!-- m_propF32OvertakeObstacleStraightLeftHalfXmin -->
+        <Value> 50.0   </Value> <!-- m_propF32OvertakeObstacleStraightLeftHalfYmin -->
+        <Value> -100.0   </Value> <!-- m_propF32OvertakeObstacleStraightLeftHalfXmax -->
+        <Value> 950.0 </Value> <!-- m_propF32OvertakeObstacleStraightLeftHalfYmax -->
+        <Value> -450.0   </Value> <!-- m_propF32ParkingCrossOncomingLaneXmin -->
+        <Value> 100.0   </Value> <!-- m_propF32ParkingCrossOncomingLaneYmin -->
+        <Value> -100.0 </Value> <!-- m_propF32ParkingCrossOncomingLaneXmax -->
+        <Value> 800.0   </Value> <!-- m_propF32ParkingCrossOncomingLaneYmax -->
+        <Value> -1000.0 </Value> <!-- m_propF32ParkingPullOutCrossOncoming1Xmin -->
+        <Value> 1000.0   </Value> <!-- m_propF32ParkingPullOutCrossOncoming1Xmax -->
+        <Value> 0.0 </Value> <!-- m_propF32ParkingPullOutCrossOncoming1Ymin -->
+        <Value> 750.0   </Value> <!-- m_propF32ParkingPullOutCrossOncoming1Ymax -->
+        <Value> -700.0 </Value> <!-- m_propF32CheckCrosswalkXmin -->
+        <Value> 300.0   </Value> <!-- m_propF32CheckCrosswalkXmax -->
+        <Value> 200.0 </Value> <!-- m_propF32CheckCrosswalkYmin -->
+        <Value> 1000.0   </Value> <!-- m_propF32CheckCrosswalkYmax -->
+        <Value> -500.0 </Value> <!-- m_propF32OvertakeObstacleOnlyRightHandSideXmin -->
+        <Value> 0.0   </Value> <!-- m_propF32OvertakeObstacleOnlyRightHandSideYmin -->
+        <Value> 0.0 </Value> <!-- m_propF32OvertakeObstacleOnlyRightHandSideXmax -->
+        <Value> 1000.0   </Value> <!-- m_propF32OvertakeObstacleOnlyRightHandSideYmax -->
+        <Value> 14.1 </Value> <!-- m_propF32ThresholdSlopeForRamp -->
+        <Value> 15.0   </Value> <!-- m_propF32ThresholdDifferenzYNotOnLine -->
+        <Value> 875.0 </Value> <!-- m_propF32MinLengthOfTheRamp -->
+        <Value> 1200.0 </Value> <!-- m_propF32MaxLengthOfTheRamp -->
+        <Value> 300.0 </Value> <!-- m_propF32YDiffRamp -->
+        <Value> 150.0 </Value> <!-- m_propF32XDiffMax -->
+        <Value> -550.0 </Value> <!-- m_propF32MergeCheckTargetLaneXmin -->
+        <Value> 0.0f </Value> <!-- m_propF32MergeCheckTargetLaneYmin -->
+        <Value> -250.0 </Value> <!-- m_propF32MergeCheckTargetLaneXmax -->
+        <Value> 600.0 </Value> <!-- m_propF32MergeCheckTargetLaneYmax -->
+        
+    </Property>
+    <Property type="tBool">
+        <Value> 0 </Value><!-- m_propBLaserOutputDrive -->
+        <Value> 0 </Value><!-- m_propBDebugFirstStart -->
+        <Value> 0 </Value><!-- m_propBDebugROI -->
+        <Value> 0 </Value><!-- m_propBDebugCurve -->
+        <Value> 0 </Value><!-- m_propBDebugActionCommand -->
+        <Value> 0 </Value><!-- m_propBDebugOvertakingROI -->
+        <Value> 0 </Value><!-- m_propBDebugStraight -->
+        <Value> 1 </Value><!-- m_propBDebugRamp -->
+    </Property>
+    <Property type="tUInt32">
+        <Value> 3 </Value><!-- m_propUI32FreeROIBoundary -->
+        <Value> 3 </Value><!-- m_propUI32OccupiedROIBoundary -->
+        <Value> 1 </Value><!-- m_propUI32TemporaryOccupiedROIBoundary -->
+        <Value> 20 </Value><!-- m_propUI32EndOfForLoopToCheckROI -->
+        <Value> 4 </Value><!-- m_propUI32Frames -->
+        <Value> 440 </Value><!-- m_propROIPoint1X -->
+        <Value> 500 </Value><!-- m_propROIPoint1Y -->
+        <Value> 780 </Value><!-- m_propROIPoint2X -->
+        <Value> 500 </Value><!-- m_propROIPoint2Y -->
+        <Value> 1280 </Value><!-- m_propROIPoint3X -->
+        <Value> 600 </Value><!-- m_propROIPoint3Y -->
+        <Value> 0 </Value><!-- m_propROIPoint4X -->
+        <Value> 600 </Value><!-- m_propROIPoint4Y -->
+        <Value> 640 </Value><!-- m_propTransformedImageWidth -->
+        <Value> 640 </Value><!-- m_propTransformedImageHeight -->
+        <Value> 7   </Value> <!-- m_propui32MinNumOfPointsRamp -->
+        <Value> 5   </Value> <!-- m_propui32NumberLaneDetectionInputForRamp -->
+    </Property>
+</calibration>
+

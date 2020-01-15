@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Command name="STRAIGHT" id="2090" num="1"></Command>
+	<Command name="RIGHT" id="2030" num="1"></Command>
+	<Command name="STRAIGHT" id="2090" num="1"></Command>
+	<Command name="RIGHT" id="2030" num="1"></Command>
+	<Command name="STRAIGHT" id="2090" num="1"></Command>
+	<Command name="STOP" id="2140" num="1"></Command>
+		
+</calibration>

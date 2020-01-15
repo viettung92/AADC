@@ -1,0 +1,27 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tFloat64">
+        <Value> 20  </Value> <!-- m_f64PIDKp -->
+        <Value> 10   </Value> <!-- m_f64PIDKi -->
+        <Value> 1 </Value> <!-- m_f64PIDKd -->
+        <Value> 0.025 </Value> <!-- m_f64PIDSampleTime -->
+        <Value> 1   </Value> <!-- m_f64PIDMinimumOutput -->
+        <Value> 30   </Value> <!-- m_f64PIDMaximumOutput -->
+        <Value> 1   </Value> <!-- m_f64PT1OutputFactor -->
+        <Value> 1.5   </Value> <!-- m_f64PT1TimeConstant -->
+        <Value> 1.15   </Value> <!-- m_f64PT1CorrectionFactor -->
+        <Value> 6 </Value> <!-- m_f64PT1Gain -->
+    </Property>
+
+    <Property type="tInt32">
+        <Value> 3  </Value> <!-- m_i32ControllerMode -->
+        <Value> 3   </Value> <!-- m_i32AntiWindupMethod -->
+      
+    </Property>
+
+
+    <Property type="tBool">
+        <Value> 0 </Value><!-- m_bShowDebug -->
+        
+    </Property>
+</calibration>
+

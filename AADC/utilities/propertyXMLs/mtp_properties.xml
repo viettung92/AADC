@@ -1,0 +1,19 @@
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Property type="tFloat32">
+        <Value> 105  </Value> <!-- mtp_steeringAngle -->
+        <Value> 1   </Value> <!-- mtp_movementSpeed -->
+        <Value> 0.5 </Value> <!-- max_speed 1-->
+        <Value> 0.3 </Value> <!-- min_speed 0.6-->
+        <Value> 8   </Value> <!-- kalpha -->
+        <Value> 7   </Value> <!-- kbeta_t -->
+        <Value> 0   </Value> <!-- offset_steering -->
+        <Value> 1   </Value> <!-- krho_forw -->
+        <Value> 1   </Value> <!-- krho_back -->
+        <Value> 0   </Value> <!-- reduction_offset -->
+        <Value> 0.1 </Value> <!-- goalDistanceShutOff -->
+    </Property>
+    <Property type="tBool">
+        <Value> 0 </Value><!-- mtp_use_absolute_pos -->
+        <Value> 0 </Value><!-- mtp_stop_after_command -->
+    </Property>
+</calibration>

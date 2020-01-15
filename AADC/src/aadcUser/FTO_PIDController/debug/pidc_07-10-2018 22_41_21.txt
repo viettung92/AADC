@@ -1,0 +1,2836 @@
+max interval: 75.0003  of hungryTerm  0.98
+neg vals prop: 5 - -13 = 8
+pos vals prop: 16 - 7 = 9
+transmit speed (in mps): 0   absolut: 0
+2494622: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  -0.00041363  * 0.5 =  -0.000206815
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2678002: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2712273: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2737639: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2760727: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2785686: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2786234: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2786548: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2786882: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+2796631: 
+Set: 0 Real:0.00041363 Err:  -0.00041363  Speed: 0
+P:  -0.00041363  * 0.5 =  -0.000206815
+Acc: 0 / 0 * 3  = -1.65451e-05
+P:  0  * 0.5 =  0
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.00041363  Err: -0.00041363Speed: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+transmit speed (in mps): 0   absolut: 0
+15601336: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.87221
+P:  1.8  * 0.5 =  0.9
+Acc: 1.8 / 0.0239999 * 3  = 0.0719997
+P:  1.80041  * 0.5 =  0.900207
+transmit speed (in mps): 1.87221   absolut: 12.6239
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.87221
+15640256: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.04256
+P:  1.8  * 0.5 =  0.9
+Acc: 3.564 / 0.0475198 * 3  = 0.142559
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.04256   absolut: 8.6633
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.04256
+15670391: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.11171
+P:  1.8  * 0.5 =  0.9
+Acc: 5.29272 / 0.0705693 * 3  = 0.211708
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.11171   absolut: 8.96395
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.11171
+15670905: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.17947
+P:  1.8  * 0.5 =  0.9
+Acc: 6.98687 / 0.0931579 * 3  = 0.279474
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.17947   absolut: 9.20508
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.17947
+15723899: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.24588
+P:  1.8  * 0.5 =  0.9
+Acc: 8.64713 / 0.115295 * 3  = 0.345884
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.24588   absolut: 9.43408
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.24588
+15737174: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.31097
+P:  1.8  * 0.5 =  0.9
+Acc: 10.2742 / 0.136989 * 3  = 0.410966
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.31097   absolut: 9.6585
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.31097
+15756360: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.37475
+P:  1.8  * 0.5 =  0.9
+Acc: 11.8687 / 0.158249 * 3  = 0.474746
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.37475   absolut: 9.87844
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.37475
+15778299: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.43725
+P:  1.8  * 0.5 =  0.9
+Acc: 13.4313 / 0.179084 * 3  = 0.537251
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.43725   absolut: 11.0595
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.43725
+15808757: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.49851
+P:  1.8  * 0.5 =  0.9
+Acc: 14.9627 / 0.199502 * 3  = 0.598506
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.49851   absolut: 11.2707
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.49851
+15845840: 
+Set: 1.8 Real:0 Err:  1.8  Speed: 1.55854
+P:  1.8  * 0.5 =  0.9
+Acc: 16.4634 / 0.219512 * 3  = 0.658535
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.55854   absolut: 11.4777
+Set:  1.8  Real: 0  Err: 1.8Speed: 1.55854
+15878483: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.60538
+P:  1.78848  * 0.5 =  0.894238
+Acc: 17.9227 / 0.238968 * 3  = 0.716904
+P:  -0.0115232  * 0.5 =  -0.00576162
+transmit speed (in mps): 1.60538   absolut: 11.6392
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.60538
+15897135: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.66834
+P:  1.78848  * 0.5 =  0.894238
+Acc: 19.3527 / 0.258035 * 3  = 0.774104
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.66834   absolut: 11.8564
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.66834
+15907255: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.7244
+P:  1.78848  * 0.5 =  0.894238
+Acc: 20.7541 / 0.27672 * 3  = 0.830161
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.7244   absolut: 12.0554
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.7244
+15959062: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.77934
+P:  1.78848  * 0.5 =  0.894238
+Acc: 22.1275 / 0.295032 * 3  = 0.885097
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.77934   absolut: 12.2667
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.77934
+15978312: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.83317
+P:  1.78848  * 0.5 =  0.894238
+Acc: 23.4734 / 0.312978 * 3  = 0.938933
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.83317   absolut: 12.4737
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.83317
+15997102: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.88593
+P:  1.78848  * 0.5 =  0.894238
+Acc: 24.7924 / 0.330565 * 3  = 0.991694
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.88593   absolut: 12.6767
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.88593
+15997875: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.93764
+P:  1.78848  * 0.5 =  0.894238
+Acc: 26.0851 / 0.3478 * 3  = 1.0434
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.93764   absolut: 12.8755
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.93764
+16023398: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 1.98831
+P:  1.78848  * 0.5 =  0.894238
+Acc: 27.3518 / 0.36469 * 3  = 1.09407
+P:  0  * 0.5 =  0
+transmit speed (in mps): 1.98831   absolut: 13.0763
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 1.98831
+16079300: 
+Set: 1.8 Real:0.0115232 Err:  1.78848  Speed: 2.03797
+P:  1.78848  * 0.5 =  0.894238
+Acc: 28.5933 / 0.381242 * 3  = 1.14373
+P:  0  * 0.5 =  0
+transmit speed (in mps): 2.03797   absolut: 13.2832
+Set:  1.8  Real: 0.0115232  Err: 1.78848Speed: 2.03797
+16102277: 
+Set: 1.8 Real:0.0223457 Err:  1.77765  Speed: 2.07537
+P:  1.77765  * 0.5 =  0.888827
+Acc: 29.7991 / 0.397319 * 3  = 1.19196
+P:  -0.0108225  * 0.5 =  -0.00541126
+transmit speed (in mps): 2.07537   absolut: 13.4391
+Set:  1.8  Real: 0.0223457  Err: 1.77765Speed: 2.07537
+16117400: 
+Set: 1.8 Real:0.0108225 Err:  1.78918  Speed: 2.14004
+P:  1.78918  * 0.5 =  0.894589
+Acc: 30.9923 / 0.413229 * 3  = 1.23969
+P:  0.0115232  * 0.5 =  0.00576162
+transmit speed (in mps): 2.14004   absolut: 13.7085
+Set:  1.8  Real: 0.0108225  Err: 1.78918Speed: 2.14004
+16147372: 
+Set: 1.8 Real:0.0218661 Err:  1.77813  Speed: 2.16956
+P:  1.77813  * 0.5 =  0.889067
+Acc: 32.1506 / 0.428672 * 3  = 1.28602
+P:  -0.0110436  * 0.5 =  -0.00552178
+transmit speed (in mps): 2.16956   absolut: 13.8315
+Set:  1.8  Real: 0.0218661  Err: 1.77813Speed: 2.16956
+16169640: 
+Set: 1.8 Real:0.0218661 Err:  1.77813  Speed: 2.22049
+P:  1.77813  * 0.5 =  0.889067
+Acc: 33.2857 / 0.443807 * 3  = 1.33142
+P:  0  * 0.5 =  0
+transmit speed (in mps): 2.22049   absolut: 14.0403
+Set:  1.8  Real: 0.0218661  Err: 1.77813Speed: 2.22049
+16200579: 
+Set: 1.8 Real:0.0329165 Err:  1.76708  Speed: 2.25349
+P:  1.76708  * 0.5 =  0.883542
+Acc: 34.3871 / 0.458492 * 3  = 1.37548
+P:  -0.0110504  * 0.5 =  -0.00552522
+transmit speed (in mps): 2.25349   absolut: 14.1673
+Set:  1.8  Real: 0.0329165  Err: 1.76708Speed: 2.25349
+16211622: 
+Set: 1.8 Real:0.0439773 Err:  1.75602  Speed: 2.29069
+P:  1.75602  * 0.5 =  0.878011
+Acc: 35.4553 / 0.472736 * 3  = 1.41821
+P:  -0.0110608  * 0.5 =  -0.0055304
+transmit speed (in mps): 2.29069   absolut: 14.3103
+Set:  1.8  Real: 0.0439773  Err: 1.75602Speed: 2.29069
+16239380: 
+Set: 1.8 Real:0.0439773 Err:  1.75602  Speed: 2.3381
+P:  1.75602  * 0.5 =  0.878011
+Acc: 36.5022 / 0.486695 * 3  = 1.46008
+P:  0  * 0.5 =  0
+transmit speed (in mps): 2.3381   absolut: 14.4927
+Set:  1.8  Real: 0.0439773  Err: 1.75602Speed: 2.3381
+16261078: 
+Set: 1.8 Real:0.0550329 Err:  1.74497  Speed: 2.36764
+P:  1.74497  * 0.5 =  0.872484
+Acc: 37.5172 / 0.500227 * 3  = 1.50068
+P:  -0.0110556  * 0.5 =  -0.00552781
+transmit speed (in mps): 2.36764   absolut: 14.6063
+Set:  1.8  Real: 0.0550329  Err: 1.74497Speed: 2.36764
+16288974: 
+Set: 1.8 Real:0.0550329 Err:  1.74497  Speed: 2.41295
+P:  1.74497  * 0.5 =  0.872484
+Acc: 38.5118 / 0.513489 * 3  = 1.54047
+P:  0  * 0.5 =  0
+transmit speed (in mps): 2.41295   absolut: 14.7806
+Set:  1.8  Real: 0.0550329  Err: 1.74497Speed: 2.41295
+16322398: 
+Set: 1.8 Real:0.0776077 Err:  1.72239  Speed: 2.42846
+P:  1.72239  * 0.5 =  0.861196
+Acc: 39.464 / 0.526184 * 3  = 1.57855
+P:  -0.0225748  * 0.5 =  -0.0112874
+transmit speed (in mps): 2.42846   absolut: 14.8402
+Set:  1.8  Real: 0.0776077  Err: 1.72239Speed: 2.42846
+16352906: 
+Set: 1.8 Real:0.0778443 Err:  1.72216  Speed: 2.47683
+P:  1.72216  * 0.5 =  0.861078
+Acc: 40.3968 / 0.538622 * 3  = 1.61587
+P:  -0.000236556  * 0.5 =  -0.000118278
+transmit speed (in mps): 2.47683   absolut: 15.0297
+Set:  1.8  Real: 0.0778443  Err: 1.72216Speed: 2.47683
+16429848: 
+Set: 1.8 Real:0.0893825 Err:  1.71062  Speed: 2.50151
+P:  1.71062  * 0.5 =  0.855309
+Acc: 41.2995 / 0.550658 * 3  = 1.65197
+P:  -0.0115383  * 0.5 =  -0.00576913
+transmit speed (in mps): 2.50151   absolut: 15.137
+Set:  1.8  Real: 0.0893825  Err: 1.71062Speed: 2.50151
+16431792: 
+Set: 1.8 Real:0.078339 Err:  1.72166  Speed: 2.55415
+P:  1.72166  * 0.5 =  0.860831
+Acc: 42.1952 / 0.5626 * 3  = 1.6878
+P:  0.0110435  * 0.5 =  0.00552177
+transmit speed (in mps): 2.55415   absolut: 15.3659
+Set:  1.8  Real: 0.078339  Err: 1.72166Speed: 2.55415
+16444977: 
+Set: 1.8 Real:0.100925 Err:  1.69908  Speed: 2.56025
+P:  1.69908  * 0.5 =  0.849538
+Acc: 43.0504 / 0.574003 * 3  = 1.72201
+P:  -0.0225856  * 0.5 =  -0.0112928
+transmit speed (in mps): 2.56025   absolut: 15.3924
+Set:  1.8  Real: 0.100925  Err: 1.69908Speed: 2.56025
+16505817: 
+Set: 1.8 Real:0.112448 Err:  1.68755  Speed: 2.59308
+P:  1.68755  * 0.5 =  0.843776
+Acc: 43.8769 / 0.585023 * 3  = 1.75507
+P:  -0.0115229  * 0.5 =  -0.00576147
+transmit speed (in mps): 2.59308   absolut: 15.5351
+Set:  1.8  Real: 0.112448  Err: 1.68755Speed: 2.59308
+16509386: 
+Set: 1.8 Real:0.112906 Err:  1.68709  Speed: 2.63077
+P:  1.68709  * 0.5 =  0.843547
+Acc: 44.6865 / 0.595817 * 3  = 1.78745
+P:  -0.000458695  * 0.5 =  -0.000229347
+transmit speed (in mps): 2.63077   absolut: 15.699
+Set:  1.8  Real: 0.112906  Err: 1.68709Speed: 2.63077
+16509970: 
+Set: 1.8 Real:0.124422 Err:  1.67558  Speed: 2.65076
+P:  1.67558  * 0.5 =  0.837789
+Acc: 45.4683 / 0.606242 * 3  = 1.81873
+P:  -0.0115157  * 0.5 =  -0.00575787
+transmit speed (in mps): 2.65076   absolut: 15.7859
+Set:  1.8  Real: 0.124422  Err: 1.67558Speed: 2.65076
+16534199: 
+Set: 1.8 Real:0.144392 Err:  1.65561  Speed: 2.66639
+P:  1.65561  * 0.5 =  0.827804
+Acc: 46.2146 / 0.616192 * 3  = 1.84857
+P:  -0.0199702  * 0.5 =  -0.0099851
+transmit speed (in mps): 2.66639   absolut: 15.8539
+Set:  1.8  Real: 0.144392  Err: 1.65561Speed: 2.66639
+16540857: 
+Set: 1.8 Real:0.166019 Err:  1.63398  Speed: 2.68314
+P:  1.63398  * 0.5 =  0.81699
+Acc: 46.9242 / 0.625654 * 3  = 1.87696
+P:  -0.0216271  * 0.5 =  -0.0108135
+transmit speed (in mps): 2.68314   absolut: 15.9267
+Set:  1.8  Real: 0.166019  Err: 1.63398Speed: 2.68314
+16558572: 
+Set: 1.8 Real:0.166026 Err:  1.63397  Speed: 2.72177
+P:  1.63397  * 0.5 =  0.816987
+Acc: 47.6197 / 0.634927 * 3  = 1.90478
+P:  -6.97374e-06  * 0.5 =  -3.48687e-06
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.72177   now: 16
+Set:  1.8  Real: 0.166026  Err: 1.63397Speed: 2.72177
+16598653: 
+Set: 1.8 Real:0.188563 Err:  1.61144  Speed: 2.72559
+P:  1.61144  * 0.5 =  0.805719
+Acc: 48.2788 / 0.643715 * 3  = 1.93114
+P:  -0.0225363  * 0.5 =  -0.0112682
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.72559   now: 16
+Set:  1.8  Real: 0.188563  Err: 1.61144Speed: 2.72559
+16612508: 
+Set: 1.8 Real:0.188094 Err:  1.61191  Speed: 2.76318
+P:  1.61191  * 0.5 =  0.805953
+Acc: 48.9251 / 0.652332 * 3  = 1.957
+P:  0.00046882  * 0.5 =  0.00023441
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.76318   now: 16
+Set:  1.8  Real: 0.188094  Err: 1.61191Speed: 2.76318
+16635127: 
+Set: 1.8 Real:0.221305 Err:  1.57869  Speed: 2.75375
+P:  1.57869  * 0.5 =  0.789347
+Acc: 49.5253 / 0.660335 * 3  = 1.981
+P:  -0.0332118  * 0.5 =  -0.0166059
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.75375   now: 16
+Set:  1.8  Real: 0.221305  Err: 1.57869Speed: 2.75375
+16684417: 
+Set: 1.8 Real:0.232812 Err:  1.56719  Speed: 2.78191
+P:  1.56719  * 0.5 =  0.783594
+Acc: 50.102 / 0.668024 * 3  = 2.00407
+P:  -0.0115067  * 0.5 =  -0.00575333
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.78191   now: 16
+Set:  1.8  Real: 0.232812  Err: 1.56719Speed: 2.78191
+16685185: 
+Set: 1.8 Real:0.232795 Err:  1.56721  Speed: 2.81029
+P:  1.56721  * 0.5 =  0.783603
+Acc: 50.6672 / 0.675559 * 3  = 2.02668
+P:  1.75238e-05  * 0.5 =  8.76188e-06
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.81029   now: 16
+Set:  1.8  Real: 0.232795  Err: 1.56721Speed: 2.81029
+16728050: 
+Set: 1.8 Real:0.266383 Err:  1.53362  Speed: 2.7975
+P:  1.53362  * 0.5 =  0.766808
+Acc: 51.1874 / 0.682496 * 3  = 2.04749
+P:  -0.0335885  * 0.5 =  -0.0167942
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.7975   now: 16
+Set:  1.8  Real: 0.266383  Err: 1.53362Speed: 2.7975
+16739322: 
+Set: 1.8 Real:0.277383 Err:  1.52262  Speed: 2.82325
+P:  1.52262  * 0.5 =  0.761308
+Acc: 51.6863 / 0.689148 * 3  = 2.06744
+P:  -0.0110002  * 0.5 =  -0.00550009
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.82325   now: 16
+Set:  1.8  Real: 0.277383  Err: 1.52262Speed: 2.82325
+16799275: 
+Set: 1.8 Real:0.291835 Err:  1.50817  Speed: 2.83328
+P:  1.50817  * 0.5 =  0.754083
+Acc: 52.1607 / 0.695474 * 3  = 2.08642
+P:  -0.0144512  * 0.5 =  -0.00722562
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.83328   now: 16
+Set:  1.8  Real: 0.291835  Err: 1.50817Speed: 2.83328
+16800007: 
+Set: 1.8 Real:0.293432 Err:  1.50657  Speed: 2.85744
+P:  1.50657  * 0.5 =  0.753284
+Acc: 52.6241 / 0.701652 * 3  = 2.10496
+P:  -0.00159732  * 0.5 =  -0.000798658
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.85744   now: 16
+Set:  1.8  Real: 0.293432  Err: 1.50657Speed: 2.85744
+16857193: 
+Set: 1.8 Real:0.315918 Err:  1.48408  Speed: 2.85302
+P:  1.48408  * 0.5 =  0.742041
+Acc: 53.0557 / 0.707406 * 3  = 2.12222
+P:  -0.0224865  * 0.5 =  -0.0112433
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.85302   now: 16
+Set:  1.8  Real: 0.315918  Err: 1.48408Speed: 2.85302
+16857682: 
+Set: 1.8 Real:0.327403 Err:  1.4726  Speed: 2.86924
+P:  1.4726  * 0.5 =  0.736299
+Acc: 53.4672 / 0.712893 * 3  = 2.13868
+P:  -0.0114842  * 0.5 =  -0.00574209
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.86924   now: 16
+Set:  1.8  Real: 0.327403  Err: 1.4726Speed: 2.86924
+16868493: 
+Set: 1.8 Real:0.361461 Err:  1.43854  Speed: 2.85569
+P:  1.43854  * 0.5 =  0.71927
+Acc: 53.8364 / 0.717816 * 3  = 2.15345
+P:  -0.0340583  * 0.5 =  -0.0170292
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.85569   now: 16
+Set:  1.8  Real: 0.361461  Err: 1.43854Speed: 2.85569
+16919440: 
+Set: 1.8 Real:0.373362 Err:  1.42664  Speed: 2.87481
+P:  1.42664  * 0.5 =  0.713319
+Acc: 54.1863 / 0.722481 * 3  = 2.16744
+P:  -0.0119011  * 0.5 =  -0.00595053
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.87481   now: 16
+Set:  1.8  Real: 0.373362  Err: 1.42664Speed: 2.87481
+16931763: 
+Set: 1.8 Real:0.3733 Err:  1.4267  Speed: 2.89454
+P:  1.4267  * 0.5 =  0.71335
+Acc: 54.5293 / 0.727054 * 3  = 2.18116
+P:  6.18398e-05  * 0.5 =  3.09199e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.89454   now: 16
+Set:  1.8  Real: 0.3733  Err: 1.4267Speed: 2.89454
+17018979: 
+Set: 1.8 Real:0.392012 Err:  1.40799  Speed: 2.8885
+P:  1.40799  * 0.5 =  0.703994
+Acc: 54.8467 / 0.731286 * 3  = 2.19386
+P:  -0.0187117  * 0.5 =  -0.00935586
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.8885   now: 16
+Set:  1.8  Real: 0.392012  Err: 1.40799Speed: 2.8885
+17019961: 
+Set: 1.8 Real:0.39813 Err:  1.40187  Speed: 2.90393
+P:  1.40187  * 0.5 =  0.700935
+Acc: 55.1516 / 0.735352 * 3  = 2.20606
+P:  -0.00611833  * 0.5 =  -0.00305916
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.90393   now: 16
+Set:  1.8  Real: 0.39813  Err: 1.40187Speed: 2.90393
+17020679: 
+Set: 1.8 Real:0.420794 Err:  1.37921  Speed: 2.89537
+P:  1.37921  * 0.5 =  0.689603
+Acc: 55.4278 / 0.739034 * 3  = 2.2171
+P:  -0.0226637  * 0.5 =  -0.0113318
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.89537   now: 16
+Set:  1.8  Real: 0.420794  Err: 1.37921Speed: 2.89537
+17021745: 
+Set: 1.8 Real:0.420867 Err:  1.37913  Speed: 2.91746
+P:  1.37913  * 0.5 =  0.689567
+Acc: 55.6984 / 0.742642 * 3  = 2.22793
+P:  -7.30157e-05  * 0.5 =  -3.65078e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.91746   now: 16
+Set:  1.8  Real: 0.420867  Err: 1.37913Speed: 2.91746
+17114034: 
+Set: 3.58 Real:0.444133 Err:  3.13587  Speed: 4.7551
+P:  3.13587  * 0.5 =  1.56793
+Acc: 57.7203 / 0.7696 * 3  = 2.3088
+P:  1.75673  * 0.5 =  0.878367
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.7551   now: 16
+Set:  3.58  Real: 0.444133  Err: 3.13587Speed: 4.7551
+17114987: 
+Set: 3.58 Real:0.444179 Err:  3.13582  Speed: 3.95594
+P:  3.13582  * 0.5 =  1.56791
+Acc: 59.7017 / 0.796019 * 3  = 2.38806
+P:  -4.68194e-05  * 0.5 =  -2.34097e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.95594   now: 16
+Set:  3.58  Real: 0.444179  Err: 3.13582Speed: 3.95594
+17115422: 
+Set: 3.58 Real:0.444185 Err:  3.13581  Speed: 4.03363
+P:  3.13581  * 0.5 =  1.56791
+Acc: 61.6435 / 0.82191 * 3  = 2.46573
+P:  -5.96046e-06  * 0.5 =  -2.98023e-06
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.03363   now: 16
+Set:  3.58  Real: 0.444185  Err: 3.13581Speed: 4.03363
+17125619: 
+Set: 3.58 Real:0.444147 Err:  3.13585  Speed: 4.10979
+P:  3.13585  * 0.5 =  1.56793
+Acc: 63.5464 / 0.847283 * 3  = 2.54185
+P:  3.8743e-05  * 0.5 =  1.93715e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.10979   now: 16
+Set:  3.58  Real: 0.444147  Err: 3.13585Speed: 4.10979
+17176618: 
+Set: 3.58 Real:0.455542 Err:  3.12446  Speed: 4.17252
+P:  3.12446  * 0.5 =  1.56223
+Acc: 65.4 / 0.871996 * 3  = 2.61599
+P:  -0.0113958  * 0.5 =  -0.00569789
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.17252   now: 16
+Set:  3.58  Real: 0.455542  Err: 3.12446Speed: 4.17252
+17177032: 
+Set: 3.58 Real:0.478919 Err:  3.10108  Speed: 4.22656
+P:  3.10108  * 0.5 =  1.55054
+Acc: 67.1931 / 0.895904 * 3  = 2.68771
+P:  -0.0233765  * 0.5 =  -0.0116882
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.22656   now: 16
+Set:  3.58  Real: 0.478919  Err: 3.10108Speed: 4.22656
+17265997: 
+Set: 3.58 Real:0.483105 Err:  3.09689  Speed: 4.30419
+P:  3.09689  * 0.5 =  1.54845
+Acc: 68.9461 / 0.919278 * 3  = 2.75783
+P:  -0.00418651  * 0.5 =  -0.00209326
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.30419   now: 16
+Set:  3.58  Real: 0.483105  Err: 3.09689Speed: 4.30419
+17271229: 
+Set: 3.58 Real:0.488634 Err:  3.09137  Speed: 4.36925
+P:  3.09137  * 0.5 =  1.54568
+Acc: 70.6585 / 0.94211 * 3  = 2.82633
+P:  -0.00552896  * 0.5 =  -0.00276448
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.36925   now: 16
+Set:  3.58  Real: 0.488634  Err: 3.09137Speed: 4.36925
+17273607: 
+Set: 3.58 Real:0.488538 Err:  3.09146  Speed: 4.43924
+P:  3.09146  * 0.5 =  1.54573
+Acc: 72.3368 / 0.964487 * 3  = 2.89346
+P:  9.66489e-05  * 0.5 =  4.83245e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.43924   now: 16
+Set:  3.58  Real: 0.488538  Err: 3.09146Speed: 4.43924
+17275107: 
+Set: 3.58 Real:0.487566 Err:  3.09243  Speed: 4.50599
+P:  3.09243  * 0.5 =  1.54622
+Acc: 73.9825 / 0.98643 * 3  = 2.95929
+P:  0.000971794  * 0.5 =  0.000485897
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.50599   now: 16
+Set:  3.58  Real: 0.487566  Err: 3.09243Speed: 4.50599
+17364055: 
+Set: 3.58 Real:0.504017 Err:  3.07598  Speed: 4.55291
+P:  3.07598  * 0.5 =  1.53799
+Acc: 75.5789 / 1.00771 * 3  = 3.02314
+P:  -0.016451  * 0.5 =  -0.0082255
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.55291   now: 16
+Set:  3.58  Real: 0.504017  Err: 3.07598Speed: 4.55291
+17371793: 
+Set: 3.58 Real:0.510187 Err:  3.06981  Speed: 4.61729
+P:  3.06981  * 0.5 =  1.53491
+Acc: 77.1371 / 1.02849 * 3  = 3.08547
+P:  -0.00616956  * 0.5 =  -0.00308478
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.61729   now: 16
+Set:  3.58  Real: 0.510187  Err: 3.06981Speed: 4.61729
+17449818: 
+Set: 3.58 Real:0.521252 Err:  3.05875  Speed: 4.66995
+P:  3.05875  * 0.5 =  1.52937
+Acc: 78.6531 / 1.0487 * 3  = 3.14611
+P:  -0.0110657  * 0.5 =  -0.00553286
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.66995   now: 16
+Set:  3.58  Real: 0.521252  Err: 3.05875Speed: 4.66995
+17453929: 
+Set: 3.58 Real:0.532669 Err:  3.04733  Speed: 4.72304
+P:  3.04733  * 0.5 =  1.52367
+Acc: 80.1274 / 1.06836 * 3  = 3.20508
+P:  -0.0114167  * 0.5 =  -0.00570834
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.72304   now: 16
+Set:  3.58  Real: 0.532669  Err: 3.04733Speed: 4.72304
+17455847: 
+Set: 3.58 Real:0.521654 Err:  3.05835  Speed: 4.798
+P:  3.05835  * 0.5 =  1.52917
+Acc: 81.5832 / 1.08777 * 3  = 3.26331
+P:  0.0110154  * 0.5 =  0.00550771
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.798   now: 16
+Set:  3.58  Real: 0.521654  Err: 3.05835Speed: 4.798
+17530006: 
+Set: 3.58 Real:0.510695 Err:  3.0693  Speed: 4.86095
+P:  3.0693  * 0.5 =  1.53465
+Acc: 83.0208 / 1.10694 * 3  = 3.32082
+P:  0.0109583  * 0.5 =  0.00547913
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.86095   now: 16
+Set:  3.58  Real: 0.510695  Err: 3.0693Speed: 4.86095
+17530737: 
+Set: 3.58 Real:0.521867 Err:  3.05813  Speed: 4.90021
+P:  3.05813  * 0.5 =  1.52907
+Acc: 84.4185 / 1.12558 * 3  = 3.37673
+P:  -0.0111712  * 0.5 =  -0.00558561
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.90021   now: 16
+Set:  3.58  Real: 0.521867  Err: 3.05813Speed: 4.90021
+17545142: 
+Set: 3.58 Real:0.521333 Err:  3.05867  Speed: 4.96114
+P:  3.05867  * 0.5 =  1.52933
+Acc: 85.7888 / 1.14385 * 3  = 3.43154
+P:  0.000533938  * 0.5 =  0.000266969
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.96114   now: 16
+Set:  3.58  Real: 0.521333  Err: 3.05867Speed: 4.96114
+17560182: 
+Set: 3.58 Real:0.521425 Err:  3.05858  Speed: 5.01449
+P:  3.05858  * 0.5 =  1.52929
+Acc: 87.1316 / 1.16175 * 3  = 3.48525
+P:  -9.20296e-05  * 0.5 =  -4.60148e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.01449   now: 16
+Set:  3.58  Real: 0.521425  Err: 3.05858Speed: 5.01449
+17580613: 
+Set: 3.56999 Real:0.533026 Err:  3.03696  Speed: 5.0447
+P:  3.03696  * 0.5 =  1.51848
+Acc: 88.426 / 1.17901 * 3  = 3.53702
+P:  -0.0216143  * 0.5 =  -0.0108072
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.0447   now: 16
+Set:  3.56999  Real: 0.533026  Err: 3.03696Speed: 5.0447
+17626822: 
+Set: 3.5506 Real:0.526679 Err:  3.02392  Speed: 5.09268
+P:  3.02392  * 0.5 =  1.51196
+Acc: 89.6814 / 1.19575 * 3  = 3.58724
+P:  -0.0130388  * 0.5 =  -0.00651938
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.09268   now: 16
+Set:  3.5506  Real: 0.526679  Err: 3.02392Speed: 5.09268
+17632545: 
+Set: 3.52622 Real:0.520514 Err:  3.00571  Speed: 5.12947
+P:  3.00571  * 0.5 =  1.50285
+Acc: 90.8935 / 1.21191 * 3  = 3.63572
+P:  -0.018214  * 0.5 =  -0.00910702
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.12947   now: 16
+Set:  3.52622  Real: 0.520514  Err: 3.00571Speed: 5.12947
+17633060: 
+Set: 3.50169 Real:0.521891 Err:  2.9798  Speed: 5.15914
+P:  2.9798  * 0.5 =  1.4899
+Acc: 92.0554 / 1.2274 * 3  = 3.6822
+P:  -0.0259126  * 0.5 =  -0.0129563
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.15914   now: 16
+Set:  3.50169  Real: 0.521891  Err: 2.9798Speed: 5.15914
+17669240: 
+Set: 3.48188 Real:0.521966 Err:  2.95992  Speed: 5.19697
+P:  2.95992  * 0.5 =  1.47996
+Acc: 93.1742 / 1.24232 * 3  = 3.72695
+P:  -0.0198805  * 0.5 =  -0.00994024
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.19697   now: 16
+Set:  3.48188  Real: 0.521966  Err: 2.95992Speed: 5.19697
+17670146: 
+Set: 3.45693 Real:0.521098 Err:  2.93583  Speed: 5.22572
+P:  2.93583  * 0.5 =  1.46792
+Acc: 94.2465 / 1.25662 * 3  = 3.76985
+P:  -0.0240841  * 0.5 =  -0.012042
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.22572   now: 16
+Set:  3.45693  Real: 0.521098  Err: 2.93583Speed: 5.22572
+17695259: 
+Set: 3.43181 Real:0.527922 Err:  2.90389  Speed: 5.24658
+P:  2.90389  * 0.5 =  1.45194
+Acc: 95.2655 / 1.2702 * 3  = 3.81061
+P:  -0.0319445  * 0.5 =  -0.0159722
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.24658   now: 16
+Set:  3.43181  Real: 0.527922  Err: 2.90389Speed: 5.24658
+17700120: 
+Set: 3.41155 Real:0.523486 Err:  2.88806  Speed: 5.28603
+P:  2.88806  * 0.5 =  1.44403
+Acc: 96.2483 / 1.28331 * 3  = 3.84992
+P:  -0.015825  * 0.5 =  -0.00791252
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.28603   now: 16
+Set:  3.41155  Real: 0.523486  Err: 2.88806Speed: 5.28603
+17723376: 
+Set: 3.38603 Real:0.501803 Err:  2.88423  Speed: 5.32848
+P:  2.88423  * 0.5 =  1.44211
+Acc: 97.2075 / 1.2961 * 3  = 3.88829
+P:  -0.003833  * 0.5 =  -0.0019165
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.32848   now: 16
+Set:  3.38603  Real: 0.501803  Err: 2.88423Speed: 5.32848
+17755750: 
+Set: 3.36028 Real:0.513669 Err:  2.84661  Speed: 5.32888
+P:  2.84661  * 0.5 =  1.4233
+Acc: 98.11 / 1.30813 * 3  = 3.92438
+P:  -0.0376189  * 0.5 =  -0.0188094
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.32888   now: 16
+Set:  3.36028  Real: 0.513669  Err: 2.84661Speed: 5.32888
+17778275: 
+Set: 3.34491 Real:0.513814 Err:  2.8311  Speed: 5.36693
+P:  2.8311  * 0.5 =  1.41555
+Acc: 98.9789 / 1.31971 * 3  = 3.95914
+P:  -0.0155103  * 0.5 =  -0.00775516
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.36693   now: 16
+Set:  3.34491  Real: 0.513814  Err: 2.8311Speed: 5.36693
+17832784: 
+Set: 3.31909 Real:0.502315 Err:  2.81678  Speed: 5.39385
+P:  2.81678  * 0.5 =  1.40839
+Acc: 99.8161 / 1.33088 * 3  = 3.99263
+P:  -0.0143242  * 0.5 =  -0.00716209
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.39385   now: 16
+Set:  3.31909  Real: 0.502315  Err: 2.81678Speed: 5.39385
+17855478: 
+Set: 3.29311 Real:0.51409 Err:  2.77902  Speed: 5.39457
+P:  2.77902  * 0.5 =  1.38951
+Acc: 100.599 / 1.34131 * 3  = 4.02394
+P:  -0.0377534  * 0.5 =  -0.0188767
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.39457   now: 16
+Set:  3.29311  Real: 0.51409  Err: 2.77902Speed: 5.39457
+17876186: 
+Set: 3.27215 Real:0.5137 Err:  2.75845  Speed: 5.42273
+P:  2.75845  * 0.5 =  1.37922
+Acc: 101.345 / 1.35126 * 3  = 4.05379
+P:  -0.020573  * 0.5 =  -0.0102865
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.42273   now: 16
+Set:  3.27215  Real: 0.5137  Err: 2.75845Speed: 5.42273
+17899919: 
+Set: 3.24575 Real:0.490959 Err:  2.75479  Speed: 5.45848
+P:  2.75479  * 0.5 =  1.3774
+Acc: 102.073 / 1.36097 * 3  = 4.08291
+P:  -0.00365743  * 0.5 =  -0.00182872
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.45848   now: 16
+Set:  3.24575  Real: 0.490959  Err: 2.75479Speed: 5.45848
+17902978: 
+Set: 3.2192 Real:0.502624 Err:  2.71658  Speed: 5.4491
+P:  2.71658  * 0.5 =  1.35829
+Acc: 102.748 / 1.36997 * 3  = 4.10991
+P:  -0.0382108  * 0.5 =  -0.0191054
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.4491   now: 16
+Set:  3.2192  Real: 0.502624  Err: 2.71658Speed: 5.4491
+17930788: 
+Set: 3.20314 Real:0.50473 Err:  2.69841  Speed: 5.47578
+P:  2.69841  * 0.5 =  1.34921
+Acc: 103.392 / 1.37855 * 3  = 4.13565
+P:  -0.0181664  * 0.5 =  -0.00908318
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.47578   now: 16
+Set:  3.20314  Real: 0.50473  Err: 2.69841Speed: 5.47578
+17971567: 
+Set: 3.17619 Real:0.497142 Err:  2.67905  Speed: 5.48995
+P:  2.67905  * 0.5 =  1.33953
+Acc: 104.003 / 1.3867 * 3  = 4.1601
+P:  -0.0193628  * 0.5 =  -0.0096814
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.48995   now: 16
+Set:  3.17619  Real: 0.497142  Err: 2.67905Speed: 5.48995
+17993633: 
+Set: 3.14905 Real:0.508608 Err:  2.64044  Speed: 5.48343
+P:  2.64044  * 0.5 =  1.32022
+Acc: 104.563 / 1.39417 * 3  = 4.18252
+P:  -0.0386126  * 0.5 =  -0.0193063
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.48343   now: 16
+Set:  3.14905  Real: 0.508608  Err: 2.64044Speed: 5.48343
+18005283: 
+Set: 3.12718 Real:0.508665 Err:  2.61852  Speed: 5.5019
+P:  2.61852  * 0.5 =  1.30926
+Acc: 105.091 / 1.4012 * 3  = 4.20361
+P:  -0.0219238  * 0.5 =  -0.0109619
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.5019   now: 16
+Set:  3.12718  Real: 0.508665  Err: 2.61852Speed: 5.5019
+18041437: 
+Set: 3.10516 Real:0.509276 Err:  2.59588  Speed: 5.50999
+P:  2.59588  * 0.5 =  1.29794
+Acc: 105.585 / 1.40779 * 3  = 4.22337
+P:  -0.0226337  * 0.5 =  -0.0113168
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.50999   now: 16
+Set:  3.10516  Real: 0.509276  Err: 2.59588Speed: 5.50999
+18063000: 
+Set: 3.07747 Real:0.509352 Err:  2.56811  Speed: 5.5118
+P:  2.56811  * 0.5 =  1.28406
+Acc: 106.041 / 1.41388 * 3  = 4.24163
+P:  -0.0277687  * 0.5 =  -0.0138843
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.5118   now: 16
+Set:  3.07747  Real: 0.509352  Err: 2.56811Speed: 5.5118
+18092313: 
+Set: 3.04962 Real:0.48604 Err:  2.56358  Speed: 5.53886
+P:  2.56358  * 0.5 =  1.28179
+Acc: 106.484 / 1.41978 * 3  = 4.25934
+P:  -0.00453135  * 0.5 =  -0.00226568
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53886   now: 16
+Set:  3.04962  Real: 0.48604  Err: 2.56358Speed: 5.53886
+18114285: 
+Set: 3.02746 Real:0.485538 Err:  2.54192  Speed: 5.53596
+P:  2.54192  * 0.5 =  1.27096
+Acc: 106.896 / 1.42528 * 3  = 4.27583
+P:  -0.0216601  * 0.5 =  -0.01083
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53596   now: 16
+Set:  3.02746  Real: 0.485538  Err: 2.54192Speed: 5.53596
+18136038: 
+Set: 3.01075 Real:0.496876 Err:  2.51387  Speed: 5.53377
+P:  2.51387  * 0.5 =  1.25693
+Acc: 107.272 / 1.43029 * 3  = 4.29086
+P:  -0.0280517  * 0.5 =  -0.0140259
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53377   now: 16
+Set:  3.01075  Real: 0.496876  Err: 2.51387Speed: 5.53377
+18154722: 
+Set: 2.98274 Real:0.475145 Err:  2.50759  Speed: 5.55601
+P:  2.50759  * 0.5 =  1.2538
+Acc: 107.634 / 1.43512 * 3  = 4.30535
+P:  -0.00627866  * 0.5 =  -0.00313933
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.55601   now: 16
+Set:  2.98274  Real: 0.475145  Err: 2.50759Speed: 5.55601
+18184298: 
+Set: 2.96024 Real:0.476486 Err:  2.48376  Speed: 5.54855
+P:  2.48376  * 0.5 =  1.24188
+Acc: 107.965 / 1.43953 * 3  = 4.31859
+P:  -0.0238353  * 0.5 =  -0.0119177
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.54855   now: 16
+Set:  2.96024  Real: 0.476486  Err: 2.48376Speed: 5.54855
+18216626: 
+Set: 2.94329 Real:0.477005 Err:  2.46628  Speed: 5.55528
+P:  2.46628  * 0.5 =  1.23314
+Acc: 108.272 / 1.44362 * 3  = 4.33087
+P:  -0.0174713  * 0.5 =  -0.00873563
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.55528   now: 16
+Set:  2.94329  Real: 0.477005  Err: 2.46628Speed: 5.55528
+18239039: 
+Set: 2.91493 Real:0.476129 Err:  2.43881  Speed: 5.54747
+P:  2.43881  * 0.5 =  1.2194
+Acc: 108.546 / 1.44727 * 3  = 4.34181
+P:  -0.0274788  * 0.5 =  -0.0137394
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.54747   now: 16
+Set:  2.91493  Real: 0.476129  Err: 2.43881Speed: 5.54747
+18271890: 
+Set: 2.89216 Real:0.452695 Err:  2.43946  Speed: 5.57261
+P:  2.43946  * 0.5 =  1.21973
+Acc: 108.814 / 1.45085 * 3  = 4.35255
+P:  0.000657797  * 0.5 =  0.000328898
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.57261   now: 16
+Set:  2.89216  Real: 0.452695  Err: 2.43946Speed: 5.57261
+18300700: 
+Set: 2.86929 Real:0.441379 Err:  2.42791  Speed: 5.57079
+P:  2.42791  * 0.5 =  1.21395
+Acc: 109.066 / 1.4542 * 3  = 4.36261
+P:  -0.0115551  * 0.5 =  -0.00577755
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.57079   now: 16
+Set:  2.86929  Real: 0.441379  Err: 2.42791Speed: 5.57079
+18326684: 
+Set: 2.85205 Real:0.440395 Err:  2.41166  Speed: 5.56953
+P:  2.41166  * 0.5 =  1.20583
+Acc: 109.296 / 1.45728 * 3  = 4.37183
+P:  -0.0162515  * 0.5 =  -0.00812575
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.56953   now: 16
+Set:  2.85205  Real: 0.440395  Err: 2.41166Speed: 5.56953
+18347973: 
+Set: 2.82898 Real:0.450522 Err:  2.37846  Speed: 5.55216
+P:  2.37846  * 0.5 =  1.18923
+Acc: 109.489 / 1.45984 * 3  = 4.37953
+P:  -0.0331964  * 0.5 =  -0.0165982
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.55216   now: 16
+Set:  2.82898  Real: 0.450522  Err: 2.37846Speed: 5.55216
+18374722: 
+Set: 2.80582 Real:0.436206 Err:  2.36961  Speed: 5.56711
+P:  2.36961  * 0.5 =  1.18481
+Acc: 109.668 / 1.46224 * 3  = 4.38672
+P:  -0.00884554  * 0.5 =  -0.00442277
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.56711   now: 16
+Set:  2.80582  Real: 0.436206  Err: 2.36961Speed: 5.56711
+18395629: 
+Set: 2.78257 Real:0.442742 Err:  2.33983  Speed: 5.5476
+P:  2.33983  * 0.5 =  1.16991
+Acc: 109.815 / 1.46419 * 3  = 4.39258
+P:  -0.0297892  * 0.5 =  -0.0148946
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.5476   now: 16
+Set:  2.78257  Real: 0.442742  Err: 2.33983Speed: 5.5476
+18414041: 
+Set: 2.75924 Real:0.452747 Err:  2.3065  Speed: 5.53357
+P:  2.3065  * 0.5 =  1.15325
+Acc: 109.925 / 1.46566 * 3  = 4.39699
+P:  -0.0333284  * 0.5 =  -0.0166642
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53357   now: 16
+Set:  2.75924  Real: 0.452747  Err: 2.3065Speed: 5.53357
+18443866: 
+Set: 2.72998 Real:0.441108 Err:  2.28888  Speed: 5.53623
+P:  2.28888  * 0.5 =  1.14444
+Acc: 110.016 / 1.46687 * 3  = 4.4006
+P:  -0.0176209  * 0.5 =  -0.00881043
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53623   now: 16
+Set:  2.72998  Real: 0.441108  Err: 2.28888Speed: 5.53623
+18462323: 
+Set: 2.70652 Real:0.430074 Err:  2.27644  Speed: 5.53565
+P:  2.27644  * 0.5 =  1.13822
+Acc: 110.092 / 1.46788 * 3  = 4.40365
+P:  -0.0124342  * 0.5 =  -0.00621709
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.53565   now: 16
+Set:  2.70652  Real: 0.430074  Err: 2.27644Speed: 5.53565
+18487821: 
+Set: 2.68299 Real:0.430028 Err:  2.25296  Speed: 5.52043
+P:  2.25296  * 0.5 =  1.12648
+Acc: 110.143 / 1.46856 * 3  = 4.40569
+P:  -0.0234845  * 0.5 =  -0.0117422
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.52043   now: 16
+Set:  2.68299  Real: 0.430028  Err: 2.25296Speed: 5.52043
+18517652: 
+Set: 2.6654 Real:0.45253 Err:  2.21287  Speed: 5.49248
+P:  2.21287  * 0.5 =  1.10643
+Acc: 110.153 / 1.4687 * 3  = 4.4061
+P:  -0.0400912  * 0.5 =  -0.0200456
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.49248   now: 16
+Set:  2.6654  Real: 0.45253  Err: 2.21287Speed: 5.49248
+18536153: 
+Set: 2.64187 Real:0.441457 Err:  2.20041  Speed: 5.49997
+P:  2.20041  * 0.5 =  1.10021
+Acc: 110.15 / 1.46866 * 3  = 4.40599
+P:  -0.0124537  * 0.5 =  -0.00622684
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.49997   now: 16
+Set:  2.64187  Real: 0.441457  Err: 2.20041Speed: 5.49997
+18570190: 
+Set: 2.61242 Real:0.442363 Err:  2.17006  Speed: 5.47453
+P:  2.17006  * 0.5 =  1.08503
+Acc: 110.117 / 1.46822 * 3  = 4.40467
+P:  -0.0303521  * 0.5 =  -0.015176
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.47453   now: 16
+Set:  2.61242  Real: 0.442363  Err: 2.17006Speed: 5.47453
+18592327: 
+Set: 2.59472 Real:0.432162 Err:  2.16255  Speed: 5.4806
+P:  2.16255  * 0.5 =  1.08128
+Acc: 110.077 / 1.46769 * 3  = 4.40308
+P:  -0.00750589  * 0.5 =  -0.00375295
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.4806   now: 16
+Set:  2.59472  Real: 0.432162  Err: 2.16255Speed: 5.4806
+18608131: 
+Set: 2.57103 Real:0.435259 Err:  2.13577  Speed: 5.45495
+P:  2.13577  * 0.5 =  1.06789
+Acc: 110.012 / 1.46682 * 3  = 4.40045
+P:  -0.0267816  * 0.5 =  -0.0133908
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.45495   now: 16
+Set:  2.57103  Real: 0.435259  Err: 2.13577Speed: 5.45495
+18632553: 
+Set: 2.55322 Real:0.417543 Err:  2.13567  Speed: 5.46565
+P:  2.13567  * 0.5 =  1.06784
+Acc: 109.947 / 1.46596 * 3  = 4.39787
+P:  -0.000100851  * 0.5 =  -5.04255e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.46565   now: 16
+Set:  2.55322  Real: 0.417543  Err: 2.13567Speed: 5.46565
+18665118: 
+Set: 2.52939 Real:0.429576 Err:  2.09982  Speed: 5.42588
+P:  2.09982  * 0.5 =  1.04991
+Acc: 109.848 / 1.46463 * 3  = 4.3939
+P:  -0.0358542  * 0.5 =  -0.0179271
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.42588   now: 16
+Set:  2.52939  Real: 0.429576  Err: 2.09982Speed: 5.42588
+18686362: 
+Set: 2.51146 Real:0.429561 Err:  2.0819  Speed: 5.42129
+P:  2.0819  * 0.5 =  1.04095
+Acc: 109.733 / 1.4631 * 3  = 4.3893
+P:  -0.017919  * 0.5 =  -0.00895949
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.42129   now: 16
+Set:  2.51146  Real: 0.429561  Err: 2.0819Speed: 5.42129
+18726587: 
+Set: 2.48148 Real:0.429952 Err:  2.05153  Speed: 5.39416
+P:  2.05153  * 0.5 =  1.02577
+Acc: 109.59 / 1.46119 * 3  = 4.38357
+P:  -0.0303667  * 0.5 =  -0.0151833
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.39416   now: 16
+Set:  2.48148  Real: 0.429952  Err: 2.05153Speed: 5.39416
+18743078: 
+Set: 2.45743 Real:0.42991 Err:  2.02752  Speed: 5.37875
+P:  2.02752  * 0.5 =  1.01376
+Acc: 109.426 / 1.459 * 3  = 4.377
+P:  -0.0240162  * 0.5 =  -0.0120081
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.37875   now: 16
+Set:  2.45743  Real: 0.42991  Err: 2.02752Speed: 5.37875
+18776423: 
+Set: 2.43932 Real:0.407323 Err:  2.032  Speed: 5.38898
+P:  2.032  * 0.5 =  1.016
+Acc: 109.269 / 1.45691 * 3  = 4.37074
+P:  0.00448036  * 0.5 =  0.00224018
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.38898   now: 16
+Set:  2.43932  Real: 0.407323  Err: 2.032Speed: 5.38898
+18799383: 
+Set: 2.4151 Real:0.417844 Err:  1.99725  Speed: 5.34447
+P:  1.99725  * 0.5 =  0.998626
+Acc: 109.081 / 1.45441 * 3  = 4.36322
+P:  -0.0347444  * 0.5 =  -0.0173722
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.34447   now: 16
+Set:  2.4151  Real: 0.417844  Err: 1.99725Speed: 5.34447
+18817972: 
+Set: 2.39686 Real:0.418279 Err:  1.97859  Speed: 5.33506
+P:  1.97859  * 0.5 =  0.989293
+Acc: 108.878 / 1.4517 * 3  = 4.3551
+P:  -0.0186663  * 0.5 =  -0.00933313
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.33506   now: 16
+Set:  2.39686  Real: 0.418279  Err: 1.97859Speed: 5.33506
+18842512: 
+Set: 2.37249 Real:0.419801 Err:  1.95269  Speed: 5.3095
+P:  1.95269  * 0.5 =  0.976344
+Acc: 108.653 / 1.4487 * 3  = 4.3461
+P:  -0.0258978  * 0.5 =  -0.0129489
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.3095   now: 16
+Set:  2.37249  Real: 0.419801  Err: 1.95269Speed: 5.3095
+18862722: 
+Set: 2.34806 Real:0.419528 Err:  1.92853  Speed: 5.28851
+P:  1.92853  * 0.5 =  0.964266
+Acc: 108.408 / 1.44544 * 3  = 4.33632
+P:  -0.0241556  * 0.5 =  -0.0120778
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.28851   now: 16
+Set:  2.34806  Real: 0.419528  Err: 1.92853Speed: 5.28851
+18887146: 
+Set: 2.32979 Real:0.419119 Err:  1.91067  Speed: 5.27243
+P:  1.91067  * 0.5 =  0.955337
+Acc: 108.151 / 1.44201 * 3  = 4.32602
+P:  -0.017858  * 0.5 =  -0.00892901
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.27243   now: 16
+Set:  2.32979  Real: 0.419119  Err: 1.91067Speed: 5.27243
+18930546: 
+Set: 2.30538 Real:0.4076 Err:  1.89778  Speed: 5.25785
+P:  1.89778  * 0.5 =  0.948889
+Acc: 107.886 / 1.43847 * 3  = 4.31541
+P:  -0.0128962  * 0.5 =  -0.00644809
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.25785   now: 16
+Set:  2.30538  Real: 0.4076  Err: 1.89778Speed: 5.25785
+18931874: 
+Set: 2.28703 Real:0.396115 Err:  1.89091  Speed: 5.24676
+P:  1.89091  * 0.5 =  0.945456
+Acc: 107.619 / 1.43491 * 3  = 4.30474
+P:  -0.00686577  * 0.5 =  -0.00343288
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.24676   now: 16
+Set:  2.28703  Real: 0.396115  Err: 1.89091Speed: 5.24676
+18970559: 
+Set: 2.26249 Real:0.396152 Err:  1.86634  Speed: 5.21418
+P:  1.86634  * 0.5 =  0.933171
+Acc: 107.333 / 1.4311 * 3  = 4.2933
+P:  -0.0245704  * 0.5 =  -0.0122852
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.21418   now: 16
+Set:  2.26249  Real: 0.396152  Err: 1.86634Speed: 5.21418
+19006847: 
+Set: 2.24406 Real:0.38466 Err:  1.8594  Speed: 5.20804
+P:  1.8594  * 0.5 =  0.929702
+Acc: 107.046 / 1.42727 * 3  = 4.28181
+P:  -0.00693864  * 0.5 =  -0.00346932
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.20804   now: 16
+Set:  2.24406  Real: 0.38466  Err: 1.8594Speed: 5.20804
+19026385: 
+Set: 2.22559 Real:0.384886 Err:  1.8407  Speed: 5.1808
+P:  1.8407  * 0.5 =  0.920352
+Acc: 106.745 / 1.42327 * 3  = 4.2698
+P:  -0.018699  * 0.5 =  -0.00934951
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.1808   now: 16
+Set:  2.22559  Real: 0.384886  Err: 1.8407Speed: 5.1808
+19038696: 
+Set: 2.20706 Real:0.374397 Err:  1.83267  Speed: 5.17002
+P:  1.83267  * 0.5 =  0.916333
+Acc: 106.443 / 1.41924 * 3  = 4.25771
+P:  -0.00803885  * 0.5 =  -0.00401942
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.17002   now: 16
+Set:  2.20706  Real: 0.374397  Err: 1.83267Speed: 5.17002
+19062052: 
+Set: 2.1885 Real:0.373972 Err:  1.81452  Speed: 5.14333
+P:  1.81452  * 0.5 =  0.907262
+Acc: 106.129 / 1.41505 * 3  = 4.24514
+P:  -0.0181409  * 0.5 =  -0.00907044
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.14333   now: 16
+Set:  2.1885  Real: 0.373972  Err: 1.81452Speed: 5.14333
+19093501: 
+Set: 2.16988 Real:0.361496 Err:  1.80839  Speed: 5.13369
+P:  1.80839  * 0.5 =  0.904193
+Acc: 105.815 / 1.41086 * 3  = 4.23257
+P:  -0.00613961  * 0.5 =  -0.0030698
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.13369   now: 16
+Set:  2.16988  Real: 0.361496  Err: 1.80839Speed: 5.13369
+19127489: 
+Set: 2.14501 Real:0.349971 Err:  1.79504  Speed: 5.11056
+P:  1.79504  * 0.5 =  0.897518
+Acc: 105.493 / 1.40657 * 3  = 4.21972
+P:  -0.0133494  * 0.5 =  -0.00667468
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.11056   now: 16
+Set:  2.14501  Real: 0.349971  Err: 1.79504Speed: 5.11056
+19167437: 
+Set: 2.13254 Real:0.362401 Err:  1.77014  Speed: 5.07875
+P:  1.77014  * 0.5 =  0.885068
+Acc: 105.154 / 1.40204 * 3  = 4.20613
+P:  -0.0249  * 0.5 =  -0.01245
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.07875   now: 16
+Set:  2.13254  Real: 0.362401  Err: 1.77014Speed: 5.07875
+19167919: 
+Set: 2.11378 Real:0.351393 Err:  1.76239  Speed: 5.06982
+P:  1.76239  * 0.5 =  0.881194
+Acc: 104.813 / 1.3975 * 3  = 4.1925
+P:  -0.00774693  * 0.5 =  -0.00387347
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.06982   now: 16
+Set:  2.11378  Real: 0.351393  Err: 1.76239Speed: 5.06982
+19211015: 
+Set: 2.08873 Real:0.351426 Err:  1.7373  Speed: 5.03425
+P:  1.7373  * 0.5 =  0.86865
+Acc: 104.454 / 1.39272 * 3  = 4.17815
+P:  -0.0250883  * 0.5 =  -0.0125441
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.03425   now: 16
+Set:  2.08873  Real: 0.351426  Err: 1.7373Speed: 5.03425
+19219977: 
+Set: 2.06988 Real:0.361955 Err:  1.70793  Speed: 5.00218
+P:  1.70793  * 0.5 =  0.853965
+Acc: 104.073 / 1.38763 * 3  = 4.1629
+P:  -0.0293706  * 0.5 =  -0.0146853
+SPEED WAS NOT IN BOUNDARY; before (in mps): 5.00218   now: 16
+Set:  2.06988  Real: 0.361955  Err: 1.70793Speed: 5.00218
+19232118: 
+Set: 2.05108 Real:0.361964 Err:  1.68912  Speed: 4.98236
+P:  1.68912  * 0.5 =  0.844561
+Acc: 103.681 / 1.3824 * 3  = 4.14721
+P:  -0.0188086  * 0.5 =  -0.0094043
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.98236   now: 16
+Set:  2.05108  Real: 0.361964  Err: 1.68912Speed: 4.98236
+19256888: 
+Set: 2.02596 Real:0.362889 Err:  1.66307  Speed: 4.9493
+P:  1.66307  * 0.5 =  0.831536
+Acc: 103.27 / 1.37693 * 3  = 4.13078
+P:  -0.0260495  * 0.5 =  -0.0130248
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.9493   now: 16
+Set:  2.02596  Real: 0.362889  Err: 1.66307Speed: 4.9493
+19290276: 
+Set: 2.00708 Real:0.362202 Err:  1.64488  Speed: 4.92731
+P:  1.64488  * 0.5 =  0.82244
+Acc: 102.85 / 1.37132 * 3  = 4.11396
+P:  -0.0181921  * 0.5 =  -0.00909607
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.92731   now: 16
+Set:  2.00708  Real: 0.362202  Err: 1.64488Speed: 4.92731
+19308305: 
+Set: 1.98817 Real:0.350702 Err:  1.63747  Speed: 4.91221
+P:  1.63747  * 0.5 =  0.818734
+Acc: 102.43 / 1.36573 * 3  = 4.09718
+P:  -0.00741231  * 0.5 =  -0.00370616
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.91221   now: 16
+Set:  1.98817  Real: 0.350702  Err: 1.63747Speed: 4.91221
+19339928: 
+Set: 1.96922 Real:0.362176 Err:  1.60704  Speed: 4.86783
+P:  1.60704  * 0.5 =  0.803521
+Acc: 101.988 / 1.35984 * 3  = 4.07952
+P:  -0.0304251  * 0.5 =  -0.0152125
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.86783   now: 16
+Set:  1.96922  Real: 0.362176  Err: 1.60704Speed: 4.86783
+19361640: 
+Set: 1.95023 Real:0.351116 Err:  1.59911  Speed: 4.85749
+P:  1.59911  * 0.5 =  0.799557
+Acc: 101.548 / 1.35397 * 3  = 4.0619
+P:  -0.00792754  * 0.5 =  -0.00396377
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.85749   now: 16
+Set:  1.95023  Real: 0.351116  Err: 1.59911Speed: 4.85749
+19400198: 
+Set: 1.9312 Real:0.350214 Err:  1.58098  Speed: 4.82532
+P:  1.58098  * 0.5 =  0.790491
+Acc: 101.098 / 1.34797 * 3  = 4.0439
+P:  -0.0181323  * 0.5 =  -0.00906615
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.82532   now: 16
+Set:  1.9312  Real: 0.350214  Err: 1.58098Speed: 4.82532
+19424527: 
+Set: 1.91848 Real:0.349787 Err:  1.56869  Speed: 4.80397
+P:  1.56869  * 0.5 =  0.784347
+Acc: 100.645 / 1.34192 * 3  = 4.02577
+P:  -0.0122875  * 0.5 =  -0.00614376
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.80397   now: 16
+Set:  1.91848  Real: 0.349787  Err: 1.56869Speed: 4.80397
+19446835: 
+Set: 1.89302 Real:0.350691 Err:  1.54232  Speed: 4.76492
+P:  1.54232  * 0.5 =  0.771162
+Acc: 100.174 / 1.33565 * 3  = 4.00694
+P:  -0.026371  * 0.5 =  -0.0131855
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.76492   now: 16
+Set:  1.89302  Real: 0.350691  Err: 1.54232Speed: 4.76492
+19466656: 
+Set: 1.87388 Real:0.328175 Err:  1.54571  Speed: 4.76318
+P:  1.54571  * 0.5 =  0.772853
+Acc: 99.7162 / 1.32954 * 3  = 3.98863
+P:  0.00338209  * 0.5 =  0.00169104
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.76318   now: 16
+Set:  1.87388  Real: 0.328175  Err: 1.54571Speed: 4.76318
+19500155: 
+Set: 1.85471 Real:0.327966 Err:  1.52674  Speed: 4.72382
+P:  1.52674  * 0.5 =  0.763372
+Acc: 99.2486 / 1.32331 * 3  = 3.96993
+P:  -0.0189626  * 0.5 =  -0.0094813
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.72382   now: 16
+Set:  1.85471  Real: 0.327966  Err: 1.52674Speed: 4.72382
+19539769: 
+Set: 1.8419 Real:0.323909 Err:  1.51799  Speed: 4.70587
+P:  1.51799  * 0.5 =  0.758997
+Acc: 98.7816 / 1.31708 * 3  = 3.95125
+P:  -0.00874978  * 0.5 =  -0.00437489
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.70587   now: 16
+Set:  1.8419  Real: 0.323909  Err: 1.51799Speed: 4.70587
+19540155: 
+Set: 1.82265 Real:0.320486 Err:  1.50216  Speed: 4.67548
+P:  1.50216  * 0.5 =  0.751081
+Acc: 98.3082 / 1.31077 * 3  = 3.93231
+P:  -0.0158316  * 0.5 =  -0.00791581
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.67548   now: 16
+Set:  1.82265  Real: 0.320486  Err: 1.50216Speed: 4.67548
+19565023: 
+Set: 1.80336 Real:0.320759 Err:  1.4826  Speed: 4.64449
+P:  1.4826  * 0.5 =  0.741302
+Acc: 97.8246 / 1.30432 * 3  = 3.91297
+P:  -0.0195575  * 0.5 =  -0.00977875
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.64449   now: 16
+Set:  1.80336  Real: 0.320759  Err: 1.4826Speed: 4.64449
+19595859: 
+Set: 1.78404 Real:0.321305 Err:  1.46273  Speed: 4.61465
+P:  1.46273  * 0.5 =  0.731366
+Acc: 97.3309 / 1.29774 * 3  = 3.89322
+P:  -0.019873  * 0.5 =  -0.00993648
+SPEED WAS NOT IN BOUNDARY; before (in mps): 4.61465   now: 16
+Set:  1.78404  Real: 0.321305  Err: 1.46273Speed: 4.61465
+19617094: 
+Set: 0 Real:0.332824 Err:  -0.332824  Speed: 2.73785
+P:  -0.332824  * 0.5 =  -0.166412
+Acc: 95.0514 / 1.26735 * 3  = 3.80204
+P:  -1.79556  * 0.5 =  -0.897778
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.73785   now: 16
+Set:  0  Real: 0.332824  Err: -0.332824Speed: 2.73785
+19636002: 
+Set: 0 Real:0.321793 Err:  -0.321793  Speed: 3.55775
+P:  -0.321793  * 0.5 =  -0.160897
+Acc: 92.8286 / 1.23771 * 3  = 3.71313
+P:  0.0110309  * 0.5 =  0.00551543
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.55775   now: 16
+Set:  0  Real: 0.321793  Err: -0.321793Speed: 3.55775
+19668049: 
+Set: 0 Real:0.310739 Err:  -0.310739  Speed: 3.4766
+P:  -0.310739  * 0.5 =  -0.155369
+Acc: 90.6613 / 1.20881 * 3  = 3.62644
+P:  0.0110546  * 0.5 =  0.00552729
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.4766   now: 16
+Set:  0  Real: 0.310739  Err: -0.310739Speed: 3.4766
+19695227: 
+Set: 0 Real:0.31078 Err:  -0.31078  Speed: 3.38607
+P:  -0.31078  * 0.5 =  -0.15539
+Acc: 88.5373 / 1.18049 * 3  = 3.54148
+P:  -4.11272e-05  * 0.5 =  -2.05636e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.38607   now: 16
+Set:  0  Real: 0.31078  Err: -0.31078Speed: 3.38607
+19715731: 
+Set: 0 Real:0.322316 Err:  -0.322316  Speed: 3.29083
+P:  -0.322316  * 0.5 =  -0.161158
+Acc: 86.4442 / 1.15259 * 3  = 3.45776
+P:  -0.0115361  * 0.5 =  -0.00576805
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.29083   now: 16
+Set:  0  Real: 0.322316  Err: -0.322316Speed: 3.29083
+19738086: 
+Set: 0 Real:0.31151 Err:  -0.31151  Speed: 3.22579
+P:  -0.31151  * 0.5 =  -0.155755
+Acc: 84.4038 / 1.12538 * 3  = 3.37614
+P:  0.0108062  * 0.5 =  0.00540312
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.22579   now: 16
+Set:  0  Real: 0.31151  Err: -0.31151Speed: 3.22579
+19765621: 
+Set: 0 Real:0.303383 Err:  -0.303383  Speed: 3.14885
+P:  -0.303383  * 0.5 =  -0.151691
+Acc: 82.4124 / 1.09883 * 3  = 3.29648
+P:  0.00812703  * 0.5 =  0.00406352
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.14885   now: 16
+Set:  0  Real: 0.303383  Err: -0.303383Speed: 3.14885
+19804081: 
+Set: 0 Real:0.318005 Err:  -0.318005  Speed: 3.05152
+P:  -0.318005  * 0.5 =  -0.159002
+Acc: 80.4461 / 1.07261 * 3  = 3.21783
+P:  -0.014622  * 0.5 =  -0.00731099
+SPEED WAS NOT IN BOUNDARY; before (in mps): 3.05152   now: 16
+Set:  0  Real: 0.318005  Err: -0.318005Speed: 3.05152
+19815398: 
+Set: 0 Real:0.318606 Err:  -0.318606  Speed: 2.98113
+P:  -0.318606  * 0.5 =  -0.159303
+Acc: 78.5186 / 1.04691 * 3  = 3.14073
+P:  -0.00060153  * 0.5 =  -0.000300765
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.98113   now: 16
+Set:  0  Real: 0.318606  Err: -0.318606Speed: 2.98113
+19843318: 
+Set: 0 Real:0.30677 Err:  -0.30677  Speed: 2.91818
+P:  -0.30677  * 0.5 =  -0.153385
+Acc: 76.6415 / 1.02188 * 3  = 3.06565
+P:  0.0118363  * 0.5 =  0.00591817
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.91818   now: 16
+Set:  0  Real: 0.30677  Err: -0.30677Speed: 2.91818
+19863314: 
+Set: 0 Real:0.295475 Err:  -0.295475  Speed: 2.85042
+P:  -0.295475  * 0.5 =  -0.147738
+Acc: 74.8132 / 0.997505 * 3  = 2.99251
+P:  0.0112947  * 0.5 =  0.00564735
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.85042   now: 16
+Set:  0  Real: 0.295475  Err: -0.295475Speed: 2.85042
+19888752: 
+Set: 0 Real:0.295506 Err:  -0.295506  Speed: 2.77308
+P:  -0.295506  * 0.5 =  -0.147753
+Acc: 73.0214 / 0.973615 * 3  = 2.92084
+P:  -3.12328e-05  * 0.5 =  -1.56164e-05
+SPEED WAS NOT IN BOUNDARY; before (in mps): 2.77308   now: 16
+Set:  0  Real: 0.295506  Err: -0.295506Speed: 2.77308
+19914337: 
+Set: 0 Real:0.317557 Err:  -0.317557  Speed: 2.67992
+P:  -0.317557  * 0.5 =  -0.158778
+Acc: 71.2434 / 0.949908 * 3  = 2.84973
+P:  -0.0220502  * 0.5 =  -0.0110251
+transmit speed (in mps): 2.67992   absolut: 15.9127
+Set:  0  Real: 0.317557  Err: -0.317557Speed: 2.67992
+19944274: 
+Set: 0 Real:0.316827 Err:  -0.316827  Speed: 2.62201
+P:  -0.316827  * 0.5 =  -0.158413
+Acc: 69.5017 / 0.926686 * 3  = 2.78006
+P:  0.000729948  * 0.5 =  0.000364974
+transmit speed (in mps): 2.62201   absolut: 15.6609
+Set:  0  Real: 0.316827  Err: -0.316827Speed: 2.62201
+19967343: 
+Set: 0 Real:0.305546 Err:  -0.305546  Speed: 2.5651
+P:  -0.305546  * 0.5 =  -0.152773
+Acc: 67.8061 / 0.904078 * 3  = 2.71223
+P:  0.0112802  * 0.5 =  0.00564012
+transmit speed (in mps): 2.5651   absolut: 15.4135
+Set:  0  Real: 0.305546  Err: -0.305546Speed: 2.5651
+19989334: 
+Set: 0 Real:0.306022 Err:  -0.306022  Speed: 2.4925
+P:  -0.306022  * 0.5 =  -0.153011
+Acc: 66.144 / 0.881916 * 3  = 2.64575
+P:  -0.000475794  * 0.5 =  -0.000237897
+transmit speed (in mps): 2.4925   absolut: 15.0978
+Set:  0  Real: 0.306022  Err: -0.306022Speed: 2.4925
+20015329: 
+Set: 0 Real:0.317547 Err:  -0.317547  Speed: 2.4156
+P:  -0.317547  * 0.5 =  -0.158774
+Acc: 64.5036 / 0.860044 * 3  = 2.58013
+P:  -0.0115252  * 0.5 =  -0.00576259
+transmit speed (in mps): 2.4156   absolut: 14.7908
+Set:  0  Real: 0.317547  Err: -0.317547Speed: 2.4156
+20045595: 
+Set: 0 Real:0.305811 Err:  -0.305811  Speed: 2.36926
+P:  -0.305811  * 0.5 =  -0.152905
+Acc: 62.9077 / 0.838766 * 3  = 2.5163
+P:  0.0117364  * 0.5 =  0.0058682
+transmit speed (in mps): 2.36926   absolut: 14.6125
+Set:  0  Real: 0.305811  Err: -0.305811Speed: 2.36926
+20068839: 
+Set: 0 Real:0.302329 Err:  -0.302329  Speed: 2.30445
+P:  -0.302329  * 0.5 =  -0.151165
+Acc: 61.3472 / 0.81796 * 3  = 2.45388
+P:  0.00348151  * 0.5 =  0.00174075
+transmit speed (in mps): 2.30445   absolut: 14.3633
+Set:  0  Real: 0.302329  Err: -0.302329Speed: 2.30445
+20094165: 
+Set: 0 Real:0.310144 Err:  -0.310144  Speed: 2.23342
+P:  -0.310144  * 0.5 =  -0.155072
+Acc: 59.8101 / 0.797465 * 3  = 2.3924
+P:  -0.00781465  * 0.5 =  -0.00390732
+transmit speed (in mps): 2.23342   absolut: 14.0901
+Set:  0  Real: 0.310144  Err: -0.310144Speed: 2.23342
+20119558: 
+Set: 0 Real:0.320769 Err:  -0.320769  Speed: 2.16602
+P:  -0.320769  * 0.5 =  -0.160384
+Acc: 58.2931 / 0.777239 * 3  = 2.33172
+P:  -0.0106244  * 0.5 =  -0.00531222
+transmit speed (in mps): 2.16602   absolut: 13.8168
+Set:  0  Real: 0.320769  Err: -0.320769Speed: 2.16602
+20141825: 
+Set: 0 Real:0.309457 Err:  -0.309457  Speed: 2.12363
+P:  -0.309457  * 0.5 =  -0.154728
+Acc: 56.8178 / 0.757568 * 3  = 2.2727
+P:  0.0113118  * 0.5 =  0.0056559
+transmit speed (in mps): 2.12363   absolut: 13.6401
+Set:  0  Real: 0.309457  Err: -0.309457Speed: 2.12363
+20170096: 
+Set: 0 Real:0.298409 Err:  -0.298409  Speed: 2.07163
+P:  -0.298409  * 0.5 =  -0.149204
+Acc: 55.3831 / 0.738438 * 3  = 2.21531
+P:  0.0110479  * 0.5 =  0.00552396
+transmit speed (in mps): 2.07163   absolut: 13.4235
+Set:  0  Real: 0.298409  Err: -0.298409Speed: 2.07163
+20195190: 
+Set: 0 Real:0.287144 Err:  -0.287144  Speed: 2.02158
+P:  -0.287144  * 0.5 =  -0.143572
+Acc: 53.9883 / 0.719841 * 3  = 2.15952
+P:  0.0112647  * 0.5 =  0.00563233
+transmit speed (in mps): 2.02158   absolut: 13.2149
+Set:  0  Real: 0.287144  Err: -0.287144Speed: 2.02158
+20219269: 
+Set: 0 Real:0.286939 Err:  -0.286939  Speed: 1.96149
+P:  -0.286939  * 0.5 =  -0.14347
+Acc: 52.6216 / 0.701618 * 3  = 2.10485
+P:  0.000204861  * 0.5 =  0.000102431
+transmit speed (in mps): 1.96149   absolut: 12.9673
+Set:  0  Real: 0.286939  Err: -0.286939Speed: 1.96149
+20245208: 
+Set: 0 Real:0.298478 Err:  -0.298478  Speed: 1.89581
+P:  -0.298478  * 0.5 =  -0.149239
+Acc: 51.2706 / 0.683606 * 3  = 2.05082
+P:  -0.0115382  * 0.5 =  -0.00576909
+transmit speed (in mps): 1.89581   absolut: 12.7147
+Set:  0  Real: 0.298478  Err: -0.298478Speed: 1.89581
+20275798: 
+Set: 0 Real:0.286968 Err:  -0.286968  Speed: 1.86059
+P:  -0.286968  * 0.5 =  -0.143484
+Acc: 49.9583 / 0.666108 * 3  = 1.99832
+P:  0.0115097  * 0.5 =  0.00575483
+transmit speed (in mps): 1.86059   absolut: 12.5792
+Set:  0  Real: 0.286968  Err: -0.286968Speed: 1.86059
+20290759: 
+Set: 0 Real:0.276183 Err:  -0.276183  Speed: 1.81461
+P:  -0.276183  * 0.5 =  -0.138092
+Acc: 48.6829 / 0.649103 * 3  = 1.94731
+P:  0.0107846  * 0.5 =  0.00539228
+transmit speed (in mps): 1.81461   absolut: 12.4023
+Set:  0  Real: 0.276183  Err: -0.276183Speed: 1.81461
+20318706: 
+Set: 0 Real:0.279294 Err:  -0.279294  Speed: 1.75599
+P:  -0.279294  * 0.5 =  -0.139647
+Acc: 47.43 / 0.632397 * 3  = 1.89719
+P:  -0.00311032  * 0.5 =  -0.00155516
+transmit speed (in mps): 1.75599   absolut: 12.1769
+Set:  0  Real: 0.279294  Err: -0.279294Speed: 1.75599
+20344524: 
+Set: 0 Real:0.271283 Err:  -0.271283  Speed: 1.71676
+P:  -0.271283  * 0.5 =  -0.135642
+Acc: 46.2101 / 0.616132 * 3  = 1.8484
+P:  0.00801039  * 0.5 =  0.00400519
+transmit speed (in mps): 1.71676   absolut: 12.026
+Set:  0  Real: 0.271283  Err: -0.271283Speed: 1.71676
+20370564: 
+Set: 0 Real:0.272348 Err:  -0.272348  Speed: 1.66383
+P:  -0.272348  * 0.5 =  -0.136174
+Acc: 45.0135 / 0.600178 * 3  = 1.80053
+P:  -0.00106499  * 0.5 =  -0.000532493
+transmit speed (in mps): 1.66383   absolut: 11.8408
+Set:  0  Real: 0.272348  Err: -0.272348Speed: 1.66383
+20399085: 
+Set: 0 Real:0.272075 Err:  -0.272075  Speed: 1.61774
+P:  -0.272075  * 0.5 =  -0.136037
+Acc: 43.8412 / 0.584547 * 3  = 1.75364
+P:  0.000273377  * 0.5 =  0.000136688
+transmit speed (in mps): 1.61774   absolut: 11.6819
+Set:  0  Real: 0.272075  Err: -0.272075Speed: 1.61774
+20418158: 
+Set: 0 Real:0.2841 Err:  -0.2841  Speed: 1.55914
+P:  -0.2841  * 0.5 =  -0.14205
+Acc: 42.6803 / 0.569068 * 3  = 1.7072
+P:  -0.0120255  * 0.5 =  -0.00601277
+transmit speed (in mps): 1.55914   absolut: 11.4798
+Set:  0  Real: 0.2841  Err: -0.2841Speed: 1.55914
+20442038: 
+Set: 0 Real:0.284336 Err:  -0.284336  Speed: 1.5194
+P:  -0.284336  * 0.5 =  -0.142168
+Acc: 41.5423 / 0.553896 * 3  = 1.66169
+P:  -0.000235289  * 0.5 =  -0.000117645
+transmit speed (in mps): 1.5194   absolut: 11.3428
+Set:  0  Real: 0.284336  Err: -0.284336Speed: 1.5194
+20473804: 
+Set: 0 Real:0.295336 Err:  -0.295336  Speed: 1.46347
+P:  -0.295336  * 0.5 =  -0.147668
+Acc: 40.4161 / 0.53888 * 3  = 1.61664
+P:  -0.0110006  * 0.5 =  -0.00550029
+transmit speed (in mps): 1.46347   absolut: 11.1499
+Set:  0  Real: 0.295336  Err: -0.295336Speed: 1.46347
+20497506: 
+Set: 0 Real:0.283334 Err:  -0.283334  Speed: 1.43731
+P:  -0.283334  * 0.5 =  -0.141667
+Acc: 39.3245 / 0.524325 * 3  = 1.57297
+P:  0.0120019  * 0.5 =  0.00600095
+transmit speed (in mps): 1.43731   absolut: 11.0597
+Set:  0  Real: 0.283334  Err: -0.283334Speed: 1.43731
+20524187: 
+Set: 0 Real:0.293919 Err:  -0.293919  Speed: 1.37751
+P:  -0.293919  * 0.5 =  -0.146959
+Acc: 38.2441 / 0.509919 * 3  = 1.52976
+P:  -0.0105845  * 0.5 =  -0.00529227
+transmit speed (in mps): 1.37751   absolut: 9.88795
+Set:  0  Real: 0.293919  Err: -0.293919Speed: 1.37751
+20548212: 
+Set: 0 Real:0.316434 Err:  -0.316434  Speed: 1.31703
+P:  -0.316434  * 0.5 =  -0.158217
+Acc: 37.1628 / 0.495502 * 3  = 1.48651
+P:  -0.022515  * 0.5 =  -0.0112575
+transmit speed (in mps): 1.31703   absolut: 9.67942
+Set:  0  Real: 0.316434  Err: -0.316434Speed: 1.31703
+20573981: 
+Set: 0 Real:0.31638 Err:  -0.31638  Speed: 1.28596
+P:  -0.31638  * 0.5 =  -0.15819
+Acc: 36.1031 / 0.481373 * 3  = 1.44412
+P:  5.38826e-05  * 0.5 =  2.69413e-05
+transmit speed (in mps): 1.28596   absolut: 9.57226
+Set:  0  Real: 0.31638  Err: -0.31638Speed: 1.28596
+20603764: 
+Set: 0 Real:0.327447 Err:  -0.327447  Speed: 1.23288
+P:  -0.327447  * 0.5 =  -0.163723
+Acc: 35.0536 / 0.46738 * 3  = 1.40214
+P:  -0.0110668  * 0.5 =  -0.00553338
+transmit speed (in mps): 1.23288   absolut: 9.38925
+Set:  0  Real: 0.327447  Err: -0.327447Speed: 1.23288
+20625453: 
+Set: 0 Real:0.326144 Err:  -0.326144  Speed: 1.19863
+P:  -0.326144  * 0.5 =  -0.163072
+Acc: 34.0264 / 0.453684 * 3  = 1.36105
+P:  0.00130281  * 0.5 =  0.000651404
+transmit speed (in mps): 1.19863   absolut: 9.27114
+Set:  0  Real: 0.326144  Err: -0.326144Speed: 1.19863
+20653006: 
+Set: 0 Real:0.325662 Err:  -0.325662  Speed: 1.15821
+P:  -0.325662  * 0.5 =  -0.162831
+Acc: 33.0202 / 0.440268 * 3  = 1.3208
+P:  0.000481546  * 0.5 =  0.000240773
+transmit speed (in mps): 1.15821   absolut: 9.13177
+Set:  0  Real: 0.325662  Err: -0.325662Speed: 1.15821
+20673842: 
+Set: 0 Real:0.314287 Err:  -0.314287  Speed: 1.13036
+P:  -0.314287  * 0.5 =  -0.157144
+Acc: 32.0455 / 0.427272 * 3  = 1.28182
+P:  0.0113749  * 0.5 =  0.00568745
+transmit speed (in mps): 1.13036   absolut: 9.03572
+Set:  0  Real: 0.314287  Err: -0.314287Speed: 1.13036
+20705212: 
+Set: 0 Real:0.325156 Err:  -0.325156  Speed: 1.07516
+P:  -0.325156  * 0.5 =  -0.162578
+Acc: 31.0795 / 0.414391 * 3  = 1.24317
+P:  -0.0108685  * 0.5 =  -0.00543423
+transmit speed (in mps): 1.07516   absolut: 8.80505
+Set:  0  Real: 0.325156  Err: -0.325156Speed: 1.07516
+20728087: 
+Set: 0 Real:0.312921 Err:  -0.312921  Speed: 1.05545
+P:  -0.312921  * 0.5 =  -0.15646
+Acc: 30.145 / 0.401931 * 3  = 1.20579
+P:  0.0122354  * 0.5 =  0.00611772
+transmit speed (in mps): 1.05545   absolut: 8.71935
+Set:  0  Real: 0.312921  Err: -0.312921Speed: 1.05545
+20748434: 
+Set: 0 Real:0.312662 Err:  -0.312662  Speed: 1.01297
+P:  -0.312662  * 0.5 =  -0.156331
+Acc: 29.2294 / 0.389724 * 3  = 1.16917
+P:  0.000258446  * 0.5 =  0.000129223
+transmit speed (in mps): 1.01297   absolut: 8.53465
+Set:  0  Real: 0.312662  Err: -0.312662Speed: 1.01297
+20774266: 
+Set: 0 Real:0.313124 Err:  -0.313124  Speed: 0.97647
+P:  -0.313124  * 0.5 =  -0.156562
+Acc: 28.3317 / 0.377754 * 3  = 1.13326
+P:  -0.000461549  * 0.5 =  -0.000230774
+transmit speed (in mps): 0.97647   absolut: 8.37596
+Set:  0  Real: 0.313124  Err: -0.313124Speed: 0.97647
+20812223: 
+Set: 0 Real:0.291094 Err:  -0.291094  Speed: 0.964422
+P:  -0.291094  * 0.5 =  -0.145547
+Acc: 27.474 / 0.366318 * 3  = 1.09895
+P:  0.02203  * 0.5 =  0.011015
+transmit speed (in mps): 0.964422   absolut: 8.32357
+Set:  0  Real: 0.291094  Err: -0.291094Speed: 0.964422
+20827679: 
+Set: 0 Real:0.27962 Err:  -0.27962  Speed: 0.931717
+P:  -0.27962  * 0.5 =  -0.13981
+Acc: 26.6449 / 0.355263 * 3  = 1.06579
+P:  0.0114733  * 0.5 =  0.00573665
+transmit speed (in mps): 0.931717   absolut: 8.18138
+Set:  0  Real: 0.27962  Err: -0.27962Speed: 0.931717
+20846725: 
+Set: 0 Real:0.279614 Err:  -0.279614  Speed: 0.893486
+P:  -0.279614  * 0.5 =  -0.139807
+Acc: 25.8323 / 0.34443 * 3  = 1.03329
+P:  6.52671e-06  * 0.5 =  3.26335e-06
+transmit speed (in mps): 0.893486   absolut: 8.01516
+Set:  0  Real: 0.279614  Err: -0.279614Speed: 0.893486
+20872413: 
+Set: 0 Real:0.269013 Err:  -0.269013  Speed: 0.872657
+P:  -0.269013  * 0.5 =  -0.134507
+Acc: 25.0467 / 0.333955 * 3  = 1.00186
+P:  0.0106005  * 0.5 =  0.00530025
+transmit speed (in mps): 0.872657   absolut: 7.9402
+Set:  0  Real: 0.269013  Err: -0.269013Speed: 0.872657
+20907015: 
+Set: 0 Real:0.269557 Err:  -0.269557  Speed: 0.835993
+P:  -0.269557  * 0.5 =  -0.134779
+Acc: 24.2762 / 0.323681 * 3  = 0.971044
+P:  -0.000543952  * 0.5 =  -0.000271976
+transmit speed (in mps): 0.835993   absolut: 7.81377
+Set:  0  Real: 0.269557  Err: -0.269557Speed: 0.835993
+20925764: 
+Set: 0 Real:0.269864 Err:  -0.269864  Speed: 0.805744
+P:  -0.269864  * 0.5 =  -0.134932
+Acc: 23.5208 / 0.31361 * 3  = 0.940829
+P:  -0.000306398  * 0.5 =  -0.000153199
+transmit speed (in mps): 0.805744   absolut: 7.70946
+Set:  0  Real: 0.269864  Err: -0.269864Speed: 0.805744
+20948756: 
+Set: 0 Real:0.269716 Err:  -0.269716  Speed: 0.77644
+P:  -0.269716  * 0.5 =  -0.134858
+Acc: 22.7807 / 0.303741 * 3  = 0.911224
+P:  0.00014779  * 0.5 =  7.38949e-05
+transmit speed (in mps): 0.776439   absolut: 7.60841
+Set:  0  Real: 0.269716  Err: -0.269716Speed: 0.77644
+20976444: 
+Set: 0 Real:0.281683 Err:  -0.281683  Speed: 0.734906
+P:  -0.281683  * 0.5 =  -0.140842
+Acc: 22.0434 / 0.293911 * 3  = 0.881732
+P:  -0.0119674  * 0.5 =  -0.00598371
+transmit speed (in mps): 0.734906   absolut: 7.46519
+Set:  0  Real: 0.281683  Err: -0.281683Speed: 0.734906
+21009825: 
+Set: 0 Real:0.281701 Err:  -0.281701  Speed: 0.71197
+P:  -0.281701  * 0.5 =  -0.140851
+Acc: 21.3208 / 0.284276 * 3  = 0.852829
+P:  -1.78516e-05  * 0.5 =  -8.9258e-06
+transmit speed (in mps): 0.71197   absolut: 7.3861
+Set:  0  Real: 0.281701  Err: -0.281701Speed: 0.71197
+21032201: 
+Set: 0 Real:0.281435 Err:  -0.281435  Speed: 0.683931
+P:  -0.281435  * 0.5 =  -0.140717
+Acc: 20.613 / 0.274838 * 3  = 0.824515
+P:  0.000266284  * 0.5 =  0.000133142
+transmit speed (in mps): 0.683931   absolut: 7.28942
+Set:  0  Real: 0.281435  Err: -0.281435Speed: 0.683931
+21045662: 
+Set: 0 Real:0.292676 Err:  -0.292676  Speed: 0.644359
+P:  -0.292676  * 0.5 =  -0.146338
+Acc: 19.908 / 0.265439 * 3  = 0.796318
+P:  -0.0112412  * 0.5 =  -0.00562058
+transmit speed (in mps): 0.644359   absolut: 7.15296
+Set:  0  Real: 0.292676  Err: -0.292676Speed: 0.644359
+21074613: 
+Set: 0 Real:0.292934 Err:  -0.292934  Speed: 0.622079
+P:  -0.292934  * 0.5 =  -0.146467
+Acc: 19.2169 / 0.256225 * 3  = 0.768674
+P:  -0.000257492  * 0.5 =  -0.000128746
+transmit speed (in mps): 0.622079   absolut: 7.07613
+Set:  0  Real: 0.292934  Err: -0.292934Speed: 0.622079
+21096446: 
+Set: 0 Real:0.304441 Err:  -0.304441  Speed: 0
+P:  -0.304441  * 0.5 =  -0.15222
+Acc: 0 / 0 * 3  = 0.741123
+P:  -0.0115071  * 0.5 =  -0.00575356
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.304441  Err: -0.304441Speed: 0
+21122362: 
+Set: 0 Real:0.315926 Err:  -0.315926  Speed: 0
+P:  -0.315926  * 0.5 =  -0.157963
+Acc: 0 / 0 * 3  = -0.012637
+P:  -0.0114855  * 0.5 =  -0.00574277
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315926  Err: -0.315926Speed: 0
+21147987: 
+Set: 0 Real:0.315862 Err:  -0.315862  Speed: 0
+P:  -0.315862  * 0.5 =  -0.157931
+Acc: 0 / 0 * 3  = -0.0126344
+P:  6.38664e-05  * 0.5 =  3.19332e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315862  Err: -0.315862Speed: 0
+21174068: 
+Set: 0 Real:0.326336 Err:  -0.326336  Speed: 0
+P:  -0.326336  * 0.5 =  -0.163168
+Acc: 0 / 0 * 3  = -0.0130534
+P:  -0.0104737  * 0.5 =  -0.00523683
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.326336  Err: -0.326336Speed: 0
+21200776: 
+Set: 0 Real:0.326354 Err:  -0.326354  Speed: 0
+P:  -0.326354  * 0.5 =  -0.163177
+Acc: 0 / 0 * 3  = -0.0130541
+P:  -1.84476e-05  * 0.5 =  -9.22382e-06
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.326354  Err: -0.326354Speed: 0
+21225289: 
+Set: 0 Real:0.327766 Err:  -0.327766  Speed: 0
+P:  -0.327766  * 0.5 =  -0.163883
+Acc: 0 / 0 * 3  = -0.0131106
+P:  -0.00141117  * 0.5 =  -0.000705585
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327766  Err: -0.327766Speed: 0
+21249073: 
+Set: 0 Real:0.328262 Err:  -0.328262  Speed: 0
+P:  -0.328262  * 0.5 =  -0.164131
+Acc: 0 / 0 * 3  = -0.0131304
+P:  -0.00049606  * 0.5 =  -0.00024803
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328262  Err: -0.328262Speed: 0
+21274551: 
+Set: 0 Real:0.317239 Err:  -0.317239  Speed: 0
+P:  -0.317239  * 0.5 =  -0.158619
+Acc: 0 / 0 * 3  = -0.0126895
+P:  0.0110227  * 0.5 =  0.00551134
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317239  Err: -0.317239Speed: 0
+21303026: 
+Set: 0 Real:0.316738 Err:  -0.316738  Speed: 0
+P:  -0.316738  * 0.5 =  -0.158369
+Acc: 0 / 0 * 3  = -0.0126695
+P:  0.000500679  * 0.5 =  0.00025034
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316738  Err: -0.316738Speed: 0
+21325792: 
+Set: 0 Real:0.327959 Err:  -0.327959  Speed: 0
+P:  -0.327959  * 0.5 =  -0.16398
+Acc: 0 / 0 * 3  = -0.0131183
+P:  -0.0112209  * 0.5 =  -0.00561045
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327959  Err: -0.327959Speed: 0
+21352114: 
+Set: 0 Real:0.305889 Err:  -0.305889  Speed: 0
+P:  -0.305889  * 0.5 =  -0.152944
+Acc: 0 / 0 * 3  = -0.0122355
+P:  0.0220706  * 0.5 =  0.0110353
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.305889  Err: -0.305889Speed: 0
+21370439: 
+Set: 0 Real:0.305545 Err:  -0.305545  Speed: 0
+P:  -0.305545  * 0.5 =  -0.152772
+Acc: 0 / 0 * 3  = -0.0122217
+P:  0.000343859  * 0.5 =  0.00017193
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.305545  Err: -0.305545Speed: 0
+21411882: 
+Set: 0 Real:0.31646 Err:  -0.31646  Speed: 0
+P:  -0.31646  * 0.5 =  -0.15823
+Acc: 0 / 0 * 3  = -0.0126584
+P:  -0.0109155  * 0.5 =  -0.00545776
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.31646  Err: -0.31646Speed: 0
+21426476: 
+Set: 0 Real:0.303853 Err:  -0.303853  Speed: 0
+P:  -0.303853  * 0.5 =  -0.151927
+Acc: 0 / 0 * 3  = -0.0121541
+P:  0.0126069  * 0.5 =  0.00630347
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.303853  Err: -0.303853Speed: 0
+21455283: 
+Set: 0 Real:0.301386 Err:  -0.301386  Speed: 0
+P:  -0.301386  * 0.5 =  -0.150693
+Acc: 0 / 0 * 3  = -0.0120554
+P:  0.00246722  * 0.5 =  0.00123361
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.301386  Err: -0.301386Speed: 0
+21480884: 
+Set: 0 Real:0.289227 Err:  -0.289227  Speed: 0
+P:  -0.289227  * 0.5 =  -0.144614
+Acc: 0 / 0 * 3  = -0.0115691
+P:  0.0121586  * 0.5 =  0.00607932
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.289227  Err: -0.289227Speed: 0
+21509456: 
+Set: 0 Real:0.299351 Err:  -0.299351  Speed: 0
+P:  -0.299351  * 0.5 =  -0.149675
+Acc: 0 / 0 * 3  = -0.011974
+P:  -0.0101235  * 0.5 =  -0.00506175
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.299351  Err: -0.299351Speed: 0
+21535114: 
+Set: 0 Real:0.310197 Err:  -0.310197  Speed: 0
+P:  -0.310197  * 0.5 =  -0.155098
+Acc: 0 / 0 * 3  = -0.0124078
+P:  -0.0108456  * 0.5 =  -0.00542282
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.310197  Err: -0.310197Speed: 0
+21556253: 
+Set: 0 Real:0.310437 Err:  -0.310437  Speed: 0
+P:  -0.310437  * 0.5 =  -0.155218
+Acc: 0 / 0 * 3  = -0.0124174
+P:  -0.000240177  * 0.5 =  -0.000120088
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.310437  Err: -0.310437Speed: 0
+21583927: 
+Set: 0 Real:0.309952 Err:  -0.309952  Speed: 0
+P:  -0.309952  * 0.5 =  -0.154976
+Acc: 0 / 0 * 3  = -0.012398
+P:  0.000484377  * 0.5 =  0.000242189
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.309952  Err: -0.309952Speed: 0
+21612116: 
+Set: 0 Real:0.321412 Err:  -0.321412  Speed: 0
+P:  -0.321412  * 0.5 =  -0.160706
+Acc: 0 / 0 * 3  = -0.0128564
+P:  -0.0114597  * 0.5 =  -0.00572984
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.321412  Err: -0.321412Speed: 0
+21635234: 
+Set: 0 Real:0.321795 Err:  -0.321795  Speed: 0
+P:  -0.321795  * 0.5 =  -0.160897
+Acc: 0 / 0 * 3  = -0.0128717
+P:  -0.000382602  * 0.5 =  -0.000191301
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.321795  Err: -0.321795Speed: 0
+21651280: 
+Set: 0 Real:0.322443 Err:  -0.322443  Speed: 0
+P:  -0.322443  * 0.5 =  -0.161222
+Acc: 0 / 0 * 3  = -0.0128977
+P:  -0.000648588  * 0.5 =  -0.000324294
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.322443  Err: -0.322443Speed: 0
+21678041: 
+Set: 0 Real:0.312585 Err:  -0.312585  Speed: 0
+P:  -0.312585  * 0.5 =  -0.156293
+Acc: 0 / 0 * 3  = -0.0125034
+P:  0.00985804  * 0.5 =  0.00492902
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.312585  Err: -0.312585Speed: 0
+21709631: 
+Set: 0 Real:0.326613 Err:  -0.326613  Speed: 0
+P:  -0.326613  * 0.5 =  -0.163307
+Acc: 0 / 0 * 3  = -0.0130645
+P:  -0.0140278  * 0.5 =  -0.00701392
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.326613  Err: -0.326613Speed: 0
+21728956: 
+Set: 0 Real:0.338144 Err:  -0.338144  Speed: 0
+P:  -0.338144  * 0.5 =  -0.169072
+Acc: 0 / 0 * 3  = -0.0135257
+P:  -0.0115314  * 0.5 =  -0.00576571
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.338144  Err: -0.338144Speed: 0
+21755232: 
+Set: 0 Real:0.327786 Err:  -0.327786  Speed: 0
+P:  -0.327786  * 0.5 =  -0.163893
+Acc: 0 / 0 * 3  = -0.0131114
+P:  0.0103579  * 0.5 =  0.00517897
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327786  Err: -0.327786Speed: 0
+21776941: 
+Set: 0 Real:0.329136 Err:  -0.329136  Speed: 0
+P:  -0.329136  * 0.5 =  -0.164568
+Acc: 0 / 0 * 3  = -0.0131654
+P:  -0.00134933  * 0.5 =  -0.000674665
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.329136  Err: -0.329136Speed: 0
+21805482: 
+Set: 0 Real:0.317653 Err:  -0.317653  Speed: 0
+P:  -0.317653  * 0.5 =  -0.158827
+Acc: 0 / 0 * 3  = -0.0127061
+P:  0.0114825  * 0.5 =  0.00574127
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317653  Err: -0.317653Speed: 0
+21835760: 
+Set: 0 Real:0.329193 Err:  -0.329193  Speed: 0
+P:  -0.329193  * 0.5 =  -0.164596
+Acc: 0 / 0 * 3  = -0.0131677
+P:  -0.0115397  * 0.5 =  -0.00576986
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.329193  Err: -0.329193Speed: 0
+21854050: 
+Set: 0 Real:0.328784 Err:  -0.328784  Speed: 0
+P:  -0.328784  * 0.5 =  -0.164392
+Acc: 0 / 0 * 3  = -0.0131513
+P:  0.00040862  * 0.5 =  0.00020431
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328784  Err: -0.328784Speed: 0
+21877060: 
+Set: 0 Real:0.328317 Err:  -0.328317  Speed: 0
+P:  -0.328317  * 0.5 =  -0.164159
+Acc: 0 / 0 * 3  = -0.0131326
+P:  0.000467211  * 0.5 =  0.000233606
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328317  Err: -0.328317Speed: 0
+21915235: 
+Set: 0 Real:0.317452 Err:  -0.317452  Speed: 0
+P:  -0.317452  * 0.5 =  -0.158726
+Acc: 0 / 0 * 3  = -0.012698
+P:  0.010865  * 0.5 =  0.00543252
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317452  Err: -0.317452Speed: 0
+21936502: 
+Set: 0 Real:0.317698 Err:  -0.317698  Speed: 0
+P:  -0.317698  * 0.5 =  -0.158849
+Acc: 0 / 0 * 3  = -0.0127079
+P:  -0.00024578  * 0.5 =  -0.00012289
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317698  Err: -0.317698Speed: 0
+21953850: 
+Set: 0 Real:0.317751 Err:  -0.317751  Speed: 0
+P:  -0.317751  * 0.5 =  -0.158875
+Acc: 0 / 0 * 3  = -0.01271
+P:  -5.28991e-05  * 0.5 =  -2.64496e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317751  Err: -0.317751Speed: 0
+21978698: 
+Set: 0 Real:0.317751 Err:  -0.317751  Speed: 0
+P:  -0.317751  * 0.5 =  -0.158875
+Acc: 0 / 0 * 3  = -0.01271
+P:  -2.98023e-08  * 0.5 =  -1.49012e-08
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317751  Err: -0.317751Speed: 0
+22009249: 
+Set: 0 Real:0.328776 Err:  -0.328776  Speed: 0
+P:  -0.328776  * 0.5 =  -0.164388
+Acc: 0 / 0 * 3  = -0.013151
+P:  -0.0110247  * 0.5 =  -0.00551234
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328776  Err: -0.328776Speed: 0
+22030550: 
+Set: 0 Real:0.316827 Err:  -0.316827  Speed: 0
+P:  -0.316827  * 0.5 =  -0.158414
+Acc: 0 / 0 * 3  = -0.012673
+P:  0.0119484  * 0.5 =  0.0059742
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316827  Err: -0.316827Speed: 0
+22055804: 
+Set: 0 Real:0.338527 Err:  -0.338527  Speed: 0
+P:  -0.338527  * 0.5 =  -0.169263
+Acc: 0 / 0 * 3  = -0.013541
+P:  -0.0216995  * 0.5 =  -0.0108498
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.338527  Err: -0.338527Speed: 0
+22081546: 
+Set: 0 Real:0.327032 Err:  -0.327032  Speed: 0
+P:  -0.327032  * 0.5 =  -0.163516
+Acc: 0 / 0 * 3  = -0.0130812
+P:  0.0114946  * 0.5 =  0.00574732
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327032  Err: -0.327032Speed: 0
+22112361: 
+Set: 0 Real:0.31549 Err:  -0.31549  Speed: 0
+P:  -0.31549  * 0.5 =  -0.157745
+Acc: 0 / 0 * 3  = -0.0126195
+P:  0.0115422  * 0.5 =  0.0057711
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.31549  Err: -0.31549Speed: 0
+22130400: 
+Set: 0 Real:0.315464 Err:  -0.315464  Speed: 0
+P:  -0.315464  * 0.5 =  -0.157732
+Acc: 0 / 0 * 3  = -0.0126185
+P:  2.5928e-05  * 0.5 =  1.2964e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315464  Err: -0.315464Speed: 0
+22159382: 
+Set: 0 Real:0.337317 Err:  -0.337317  Speed: 0
+P:  -0.337317  * 0.5 =  -0.168659
+Acc: 0 / 0 * 3  = -0.0134926
+P:  -0.0218536  * 0.5 =  -0.0109268
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.337317  Err: -0.337317Speed: 0
+22182742: 
+Set: 0 Real:0.337264 Err:  -0.337264  Speed: 0
+P:  -0.337264  * 0.5 =  -0.168632
+Acc: 0 / 0 * 3  = -0.0134905
+P:  5.3674e-05  * 0.5 =  2.6837e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.337264  Err: -0.337264Speed: 0
+22211382: 
+Set: 0 Real:0.327038 Err:  -0.327038  Speed: 0
+P:  -0.327038  * 0.5 =  -0.163519
+Acc: 0 / 0 * 3  = -0.0130815
+P:  0.0102257  * 0.5 =  0.00511284
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327038  Err: -0.327038Speed: 0
+22226327: 
+Set: 0 Real:0.315538 Err:  -0.315538  Speed: 0
+P:  -0.315538  * 0.5 =  -0.157769
+Acc: 0 / 0 * 3  = -0.0126215
+P:  0.0114998  * 0.5 =  0.00574988
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315538  Err: -0.315538Speed: 0
+22255552: 
+Set: 0 Real:0.315594 Err:  -0.315594  Speed: 0
+P:  -0.315594  * 0.5 =  -0.157797
+Acc: 0 / 0 * 3  = -0.0126237
+P:  -5.52535e-05  * 0.5 =  -2.76268e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315594  Err: -0.315594Speed: 0
+22279267: 
+Set: 0 Real:0.338123 Err:  -0.338123  Speed: 0
+P:  -0.338123  * 0.5 =  -0.169062
+Acc: 0 / 0 * 3  = -0.0135249
+P:  -0.0225297  * 0.5 =  -0.0112648
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.338123  Err: -0.338123Speed: 0
+22305022: 
+Set: 0 Real:0.327473 Err:  -0.327473  Speed: 0
+P:  -0.327473  * 0.5 =  -0.163737
+Acc: 0 / 0 * 3  = -0.0130989
+P:  0.0106501  * 0.5 =  0.00532503
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327473  Err: -0.327473Speed: 0
+22331029: 
+Set: 0 Real:0.316912 Err:  -0.316912  Speed: 0
+P:  -0.316912  * 0.5 =  -0.158456
+Acc: 0 / 0 * 3  = -0.0126764
+P:  0.0105612  * 0.5 =  0.0052806
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316912  Err: -0.316912Speed: 0
+22361219: 
+Set: 0 Real:0.328497 Err:  -0.328497  Speed: 0
+P:  -0.328497  * 0.5 =  -0.164248
+Acc: 0 / 0 * 3  = -0.0131398
+P:  -0.0115846  * 0.5 =  -0.00579232
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328497  Err: -0.328497Speed: 0
+22390989: 
+Set: 0 Real:0.340026 Err:  -0.340026  Speed: 0
+P:  -0.340026  * 0.5 =  -0.170013
+Acc: 0 / 0 * 3  = -0.013601
+P:  -0.0115296  * 0.5 =  -0.00576478
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.340026  Err: -0.340026Speed: 0
+22405242: 
+Set: 0 Real:0.317497 Err:  -0.317497  Speed: 0
+P:  -0.317497  * 0.5 =  -0.158749
+Acc: 0 / 0 * 3  = -0.0126999
+P:  0.0225287  * 0.5 =  0.0112644
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317497  Err: -0.317497Speed: 0
+22431902: 
+Set: 0 Real:0.328362 Err:  -0.328362  Speed: 0
+P:  -0.328362  * 0.5 =  -0.164181
+Acc: 0 / 0 * 3  = -0.0131344
+P:  -0.0108641  * 0.5 =  -0.00543205
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328362  Err: -0.328362Speed: 0
+22456472: 
+Set: 0 Real:0.338505 Err:  -0.338505  Speed: 0
+P:  -0.338505  * 0.5 =  -0.169253
+Acc: 0 / 0 * 3  = -0.0135402
+P:  -0.0101435  * 0.5 =  -0.00507173
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.338505  Err: -0.338505Speed: 0
+22478009: 
+Set: 0 Real:0.349448 Err:  -0.349448  Speed: 0
+P:  -0.349448  * 0.5 =  -0.174724
+Acc: 0 / 0 * 3  = -0.0139779
+P:  -0.0109426  * 0.5 =  -0.00547132
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.349448  Err: -0.349448Speed: 0
+22521207: 
+Set: 0 Real:0.350535 Err:  -0.350535  Speed: 0
+P:  -0.350535  * 0.5 =  -0.175267
+Acc: 0 / 0 * 3  = -0.0140213
+P:  -0.00108683  * 0.5 =  -0.000543416
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.350535  Err: -0.350535Speed: 0
+22531737: 
+Set: 0 Real:0.339963 Err:  -0.339963  Speed: 0
+P:  -0.339963  * 0.5 =  -0.169982
+Acc: 0 / 0 * 3  = -0.0135985
+P:  0.0105712  * 0.5 =  0.00528561
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.339963  Err: -0.339963Speed: 0
+22560600: 
+Set: 0 Real:0.339928 Err:  -0.339928  Speed: 0
+P:  -0.339928  * 0.5 =  -0.169964
+Acc: 0 / 0 * 3  = -0.0135971
+P:  3.55244e-05  * 0.5 =  1.77622e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.339928  Err: -0.339928Speed: 0
+22587171: 
+Set: 0 Real:0.339427 Err:  -0.339427  Speed: 0
+P:  -0.339427  * 0.5 =  -0.169713
+Acc: 0 / 0 * 3  = -0.013577
+P:  0.000501007  * 0.5 =  0.000250503
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.339427  Err: -0.339427Speed: 0
+22608597: 
+Set: 0 Real:0.339394 Err:  -0.339394  Speed: 0
+P:  -0.339394  * 0.5 =  -0.169697
+Acc: 0 / 0 * 3  = -0.0135757
+P:  3.31402e-05  * 0.5 =  1.65701e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.339394  Err: -0.339394Speed: 0
+22632181: 
+Set: 0 Real:0.328822 Err:  -0.328822  Speed: 0
+P:  -0.328822  * 0.5 =  -0.164411
+Acc: 0 / 0 * 3  = -0.0131528
+P:  0.0105714  * 0.5 =  0.00528571
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328822  Err: -0.328822Speed: 0
+22654522: 
+Set: 0 Real:0.328876 Err:  -0.328876  Speed: 0
+P:  -0.328876  * 0.5 =  -0.164438
+Acc: 0 / 0 * 3  = -0.013155
+P:  -5.41508e-05  * 0.5 =  -2.70754e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328876  Err: -0.328876Speed: 0
+22682172: 
+Set: 0 Real:0.317835 Err:  -0.317835  Speed: 0
+P:  -0.317835  * 0.5 =  -0.158917
+Acc: 0 / 0 * 3  = -0.0127133
+P:  0.0110418  * 0.5 =  0.00552092
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317835  Err: -0.317835Speed: 0
+22707947: 
+Set: 0 Real:0.306827 Err:  -0.306827  Speed: 0
+P:  -0.306827  * 0.5 =  -0.153414
+Acc: 0 / 0 * 3  = -0.0122731
+P:  0.011007  * 0.5 =  0.00550352
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.306827  Err: -0.306827Speed: 0
+22732352: 
+Set: 0 Real:0.295879 Err:  -0.295879  Speed: 0
+P:  -0.295879  * 0.5 =  -0.14794
+Acc: 0 / 0 * 3  = -0.0118351
+P:  0.0109484  * 0.5 =  0.00547421
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.295879  Err: -0.295879Speed: 0
+22762001: 
+Set: 0 Real:0.283735 Err:  -0.283735  Speed: 0
+P:  -0.283735  * 0.5 =  -0.141867
+Acc: 0 / 0 * 3  = -0.0113493
+P:  0.0121443  * 0.5 =  0.00607216
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.283735  Err: -0.283735Speed: 0
+22786401: 
+Set: 0 Real:0.291482 Err:  -0.291482  Speed: 0
+P:  -0.291482  * 0.5 =  -0.145741
+Acc: 0 / 0 * 3  = -0.0116592
+P:  -0.00774688  * 0.5 =  -0.00387344
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.291482  Err: -0.291482Speed: 0
+22810099: 
+Set: 0 Real:0.289296 Err:  -0.289296  Speed: 0
+P:  -0.289296  * 0.5 =  -0.144648
+Acc: 0 / 0 * 3  = -0.0115718
+P:  0.00218537  * 0.5 =  0.00109269
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.289296  Err: -0.289296Speed: 0
+22838851: 
+Set: 0 Real:0.289055 Err:  -0.289055  Speed: 0
+P:  -0.289055  * 0.5 =  -0.144527
+Acc: 0 / 0 * 3  = -0.0115621
+P:  0.000241458  * 0.5 =  0.000120729
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.289055  Err: -0.289055Speed: 0
+22860647: 
+Set: 0 Real:0.288567 Err:  -0.288567  Speed: 0
+P:  -0.288567  * 0.5 =  -0.144284
+Acc: 0 / 0 * 3  = -0.0115427
+P:  0.000487298  * 0.5 =  0.000243649
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.288567  Err: -0.288567Speed: 0
+22886632: 
+Set: 0 Real:0.276984 Err:  -0.276984  Speed: 0
+P:  -0.276984  * 0.5 =  -0.138492
+Acc: 0 / 0 * 3  = -0.0110793
+P:  0.011583  * 0.5 =  0.00579152
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.276984  Err: -0.276984Speed: 0
+22913772: 
+Set: 0 Real:0.299413 Err:  -0.299413  Speed: 0
+P:  -0.299413  * 0.5 =  -0.149707
+Acc: 0 / 0 * 3  = -0.0119765
+P:  -0.0224286  * 0.5 =  -0.0112143
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.299413  Err: -0.299413Speed: 0
+22940591: 
+Set: 0 Real:0.31022 Err:  -0.31022  Speed: 0
+P:  -0.31022  * 0.5 =  -0.15511
+Acc: 0 / 0 * 3  = -0.0124087
+P:  -0.0108067  * 0.5 =  -0.00540337
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.31022  Err: -0.31022Speed: 0
+22968701: 
+Set: 0 Real:0.309796 Err:  -0.309796  Speed: 0
+P:  -0.309796  * 0.5 =  -0.154898
+Acc: 0 / 0 * 3  = -0.0123918
+P:  0.00042361  * 0.5 =  0.000211805
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.309796  Err: -0.309796Speed: 0
+22984129: 
+Set: 0 Real:0.321293 Err:  -0.321293  Speed: 0
+P:  -0.321293  * 0.5 =  -0.160647
+Acc: 0 / 0 * 3  = -0.0128517
+P:  -0.0114968  * 0.5 =  -0.00574842
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.321293  Err: -0.321293Speed: 0
+23007463: 
+Set: 0 Real:0.332773 Err:  -0.332773  Speed: 0
+P:  -0.332773  * 0.5 =  -0.166386
+Acc: 0 / 0 * 3  = -0.0133109
+P:  -0.0114799  * 0.5 =  -0.00573994
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.332773  Err: -0.332773Speed: 0
+23033252: 
+Set: 0 Real:0.324139 Err:  -0.324139  Speed: 0
+P:  -0.324139  * 0.5 =  -0.16207
+Acc: 0 / 0 * 3  = -0.0129655
+P:  0.00863382  * 0.5 =  0.00431691
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.324139  Err: -0.324139Speed: 0
+23058271: 
+Set: 0 Real:0.315777 Err:  -0.315777  Speed: 0
+P:  -0.315777  * 0.5 =  -0.157888
+Acc: 0 / 0 * 3  = -0.012631
+P:  0.00836226  * 0.5 =  0.00418113
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.315777  Err: -0.315777Speed: 0
+23082133: 
+Set: 0 Real:0.327513 Err:  -0.327513  Speed: 0
+P:  -0.327513  * 0.5 =  -0.163757
+Acc: 0 / 0 * 3  = -0.0131005
+P:  -0.0117366  * 0.5 =  -0.0058683
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327513  Err: -0.327513Speed: 0
+23113213: 
+Set: 0 Real:0.33903 Err:  -0.33903  Speed: 0
+P:  -0.33903  * 0.5 =  -0.169515
+Acc: 0 / 0 * 3  = -0.0135611
+P:  -0.0115164  * 0.5 =  -0.00575818
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.33903  Err: -0.33903Speed: 0
+23135444: 
+Set: 0 Real:0.327564 Err:  -0.327564  Speed: 0
+P:  -0.327564  * 0.5 =  -0.163782
+Acc: 0 / 0 * 3  = -0.0131025
+P:  0.0114654  * 0.5 =  0.00573269
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.327564  Err: -0.327564Speed: 0
+23161509: 
+Set: 0 Real:0.316588 Err:  -0.316588  Speed: 0
+P:  -0.316588  * 0.5 =  -0.158294
+Acc: 0 / 0 * 3  = -0.0126635
+P:  0.0109767  * 0.5 =  0.00548835
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316588  Err: -0.316588Speed: 0
+23187855: 
+Set: 0 Real:0.317707 Err:  -0.317707  Speed: 0
+P:  -0.317707  * 0.5 =  -0.158854
+Acc: 0 / 0 * 3  = -0.0127082
+P:  -0.0011197  * 0.5 =  -0.000559852
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317707  Err: -0.317707Speed: 0
+23211737: 
+Set: 0 Real:0.306825 Err:  -0.306825  Speed: 0
+P:  -0.306825  * 0.5 =  -0.153412
+Acc: 0 / 0 * 3  = -0.0122729
+P:  0.0108829  * 0.5 =  0.00544146
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.306825  Err: -0.306825Speed: 0
+23236527: 
+Set: 0 Real:0.295513 Err:  -0.295513  Speed: 0
+P:  -0.295513  * 0.5 =  -0.147756
+Acc: 0 / 0 * 3  = -0.0118205
+P:  0.0113118  * 0.5 =  0.00565588
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.295513  Err: -0.295513Speed: 0
+23261403: 
+Set: 0 Real:0.295521 Err:  -0.295521  Speed: 0
+P:  -0.295521  * 0.5 =  -0.147761
+Acc: 0 / 0 * 3  = -0.0118208
+P:  -8.64267e-06  * 0.5 =  -4.32134e-06
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.295521  Err: -0.295521Speed: 0
+23291226: 
+Set: 0 Real:0.295271 Err:  -0.295271  Speed: 0
+P:  -0.295271  * 0.5 =  -0.147636
+Acc: 0 / 0 * 3  = -0.0118108
+P:  0.000250161  * 0.5 =  0.00012508
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.295271  Err: -0.295271Speed: 0
+23310351: 
+Set: 0 Real:0.295303 Err:  -0.295303  Speed: 0
+P:  -0.295303  * 0.5 =  -0.147652
+Acc: 0 / 0 * 3  = -0.0118121
+P:  -3.18885e-05  * 0.5 =  -1.59442e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.295303  Err: -0.295303Speed: 0
+23338036: 
+Set: 0 Real:0.284094 Err:  -0.284094  Speed: 0
+P:  -0.284094  * 0.5 =  -0.142047
+Acc: 0 / 0 * 3  = -0.0113637
+P:  0.0112089  * 0.5 =  0.00560445
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.284094  Err: -0.284094Speed: 0
+23363715: 
+Set: 0 Real:0.272591 Err:  -0.272591  Speed: 0
+P:  -0.272591  * 0.5 =  -0.136295
+Acc: 0 / 0 * 3  = -0.0109036
+P:  0.0115032  * 0.5 =  0.00575162
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.272591  Err: -0.272591Speed: 0
+23382875: 
+Set: 0 Real:0.306188 Err:  -0.306188  Speed: 0
+P:  -0.306188  * 0.5 =  -0.153094
+Acc: 0 / 0 * 3  = -0.0122475
+P:  -0.0335966  * 0.5 =  -0.0167983
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.306188  Err: -0.306188Speed: 0
+23407808: 
+Set: 0 Real:0.294675 Err:  -0.294675  Speed: 0
+P:  -0.294675  * 0.5 =  -0.147337
+Acc: 0 / 0 * 3  = -0.0117869
+P:  0.011513  * 0.5 =  0.0057565
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.294675  Err: -0.294675Speed: 0
+23433504: 
+Set: 0 Real:0.294251 Err:  -0.294251  Speed: 0
+P:  -0.294251  * 0.5 =  -0.147126
+Acc: 0 / 0 * 3  = -0.01177
+P:  0.000423193  * 0.5 =  0.000211596
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.294251  Err: -0.294251Speed: 0
+23463984: 
+Set: 0 Real:0.316621 Err:  -0.316621  Speed: 0
+P:  -0.316621  * 0.5 =  -0.15831
+Acc: 0 / 0 * 3  = -0.0126648
+P:  -0.0223693  * 0.5 =  -0.0111846
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316621  Err: -0.316621Speed: 0
+23486946: 
+Set: 0 Real:0.316862 Err:  -0.316862  Speed: 0
+P:  -0.316862  * 0.5 =  -0.158431
+Acc: 0 / 0 * 3  = -0.0126744
+P:  -0.000241607  * 0.5 =  -0.000120804
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316862  Err: -0.316862Speed: 0
+23511560: 
+Set: 0 Real:0.316827 Err:  -0.316827  Speed: 0
+P:  -0.316827  * 0.5 =  -0.158413
+Acc: 0 / 0 * 3  = -0.012673
+P:  3.53456e-05  * 0.5 =  1.76728e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316827  Err: -0.316827Speed: 0
+23538258: 
+Set: 0 Real:0.317017 Err:  -0.317017  Speed: 0
+P:  -0.317017  * 0.5 =  -0.158508
+Acc: 0 / 0 * 3  = -0.0126806
+P:  -0.000189811  * 0.5 =  -9.49055e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317017  Err: -0.317017Speed: 0
+23560816: 
+Set: 0 Real:0.316747 Err:  -0.316747  Speed: 0
+P:  -0.316747  * 0.5 =  -0.158373
+Acc: 0 / 0 * 3  = -0.0126698
+P:  0.000270158  * 0.5 =  0.000135079
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.316747  Err: -0.316747Speed: 0
+23588822: 
+Set: 0 Real:0.339451 Err:  -0.339451  Speed: 0
+P:  -0.339451  * 0.5 =  -0.169725
+Acc: 0 / 0 * 3  = -0.013578
+P:  -0.0227044  * 0.5 =  -0.0113522
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.339451  Err: -0.339451Speed: 0
+23617125: 
+Set: 0 Real:0.328622 Err:  -0.328622  Speed: 0
+P:  -0.328622  * 0.5 =  -0.164311
+Acc: 0 / 0 * 3  = -0.0131448
+P:  0.010829  * 0.5 =  0.00541452
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.328622  Err: -0.328622Speed: 0
+23638485: 
+Set: 0 Real:0.317403 Err:  -0.317403  Speed: 0
+P:  -0.317403  * 0.5 =  -0.158702
+Acc: 0 / 0 * 3  = -0.0126961
+P:  0.0112188  * 0.5 =  0.00560939
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317403  Err: -0.317403Speed: 0
+23659941: 
+Set: 0 Real:0.329007 Err:  -0.329007  Speed: 0
+P:  -0.329007  * 0.5 =  -0.164504
+Acc: 0 / 0 * 3  = -0.0131602
+P:  -0.0116042  * 0.5 =  -0.00580208
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.329007  Err: -0.329007Speed: 0
+23682291: 
+Set: 0 Real:0.317535 Err:  -0.317535  Speed: 0
+P:  -0.317535  * 0.5 =  -0.158768
+Acc: 0 / 0 * 3  = -0.0127014
+P:  0.0114719  * 0.5 =  0.00573593
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317535  Err: -0.317535Speed: 0
+23713212: 
+Set: 0 Real:0.317559 Err:  -0.317559  Speed: 0
+P:  -0.317559  * 0.5 =  -0.15878
+Acc: 0 / 0 * 3  = -0.0127023
+P:  -2.36034e-05  * 0.5 =  -1.18017e-05
+transmit speed (in mps): 0   absolut: 0
+Set:  0  Real: 0.317559  Err: -0.317559Speed: 0

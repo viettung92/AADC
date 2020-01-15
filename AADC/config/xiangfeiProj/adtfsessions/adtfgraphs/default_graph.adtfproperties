@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<property_file xmlns="adtf/xsd/properties">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <property_packages>
+    <property_package>
+      <name>default</name>
+      <property_sets>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/sample_streams/feedback</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/connections/Driver Module.feedback_to_scm_feedback.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module/output_pins/feedback_to_scm</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/streaming_in_ports/jury_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/streaming_in_ports/maneuver_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/connections/jury_in._Driver Module.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module/input_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/connections/maneuver_in._Driver Module.maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module/input_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/sample_streams/action</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/connections/action._Driver Module.action_from_scm</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module/input_pins/action_from_scm</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/streaming_out_ports/driver_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/connections/Driver Module.driver_struct_driver_out.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/Driver Module/output_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sources/Jury Communication TCP Receiver</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sinks/Jury Communication TCP Sender</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/binding_proxys/Binding Proxy</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/connections/Jury Communication TCP Receiver.socket_Binding Proxy.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sources/Jury Communication TCP Receiver/binding_servers/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/connections/Binding Proxy._Jury Communication TCP Sender.socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sinks/Jury Communication TCP Sender/binding_clients/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_dock_in_ports/jury_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/connections/Jury Communication TCP Receiver.jury_struct_Filter Graph Dock.jury_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sources/Jury Communication TCP Receiver/output_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_dock_in_ports/maneuver_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/connections/Jury Communication TCP Receiver.maneuver_list_Filter Graph Dock.maneuver_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sources/Jury Communication TCP Receiver/output_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_dock_out_ports/driver_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/connections/Filter Graph Dock.driver_out_Jury Communication TCP Sender.driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/communication/streaming_sinks/Jury Communication TCP Sender/input_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/IntersectionDetectorFilterNew</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/SelectSpeedFilter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/TimerFilter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/communication/filters/StateControlManagement</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/kernel.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/qt_xsystem.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/reference_clock.service.adtf</name>
+          <properties/>
+        </property_set>
+      </property_sets>
+    </property_package>
+  </property_packages>
+</property_file>

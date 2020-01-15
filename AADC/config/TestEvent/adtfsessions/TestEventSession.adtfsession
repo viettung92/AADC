@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<session xmlns="adtf/xsd/session">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <name>TestEventSession</name>
+  <adtfsystem>
+    <url>./adtfsystems/default_system.adtfsystem</url>
+    <properties_url>./adtfsystems/default_system.adtfproperties</properties_url>
+    <property_set/>
+    <name>default_system</name>
+  </adtfsystem>
+  <adtfgraph>
+    <url>./adtfgraphs/TestEventGraph.adtfgraph</url>
+    <properties_url>./adtfgraphs/TestEventGraph.adtfproperties</properties_url>
+    <property_set/>
+    <name>TestEventGraph</name>
+  </adtfgraph>
+  <active_streaming_graph>0710_Ella_test</active_streaming_graph>
+  <active_filter_graph>test2_0710</active_filter_graph>
+</session>

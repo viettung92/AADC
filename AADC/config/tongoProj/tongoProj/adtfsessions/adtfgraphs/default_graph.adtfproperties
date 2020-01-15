@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<property_file xmlns="adtf/xsd/properties">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <property_packages>
+    <property_package>
+      <name>default</name>
+      <property_sets>
+        <property_set>
+          <name>graphs/default_filter_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/SteeringStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/SpeedStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/head_lightStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/turn_signal_leftStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/turn_signal_rightStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/break_lightStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/hazard_lightStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/reverse_lightStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.SteeringStream_Arduino Actuator.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.SpeedStream_Arduino Actuator.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.head_lightStream_Arduino Actuator.head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.turn_signal_leftStream_Arduino Actuator.turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.turn_signal_rightStream_Arduino Actuator.turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.break_lightStream_Arduino Actuator.brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.hazard_lightStream_Arduino Actuator.hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.reverse_lightStream_Arduino Actuator.reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Car Controller/output_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream_3</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream_4</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream_5</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream_6</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sample Stream_7</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.head_light_Sample Stream_3.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.turn_signal_left_Sample Stream_4.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.turn_signal_right_Sample Stream_5.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.brake_light_Sample Stream_6.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.hazard_light_Sample Stream_7.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.reverse_light_Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/steeringOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/speedOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/headLightOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/turnLeftOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream_3._headLightOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream_4._turnLeftOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/turnRightOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream_5._turnRightOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/breakLightOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream_6._breakLightOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/hazardLightOut</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream_7._hazardLightOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/streaming_out_ports/reverseLight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream._reverseLight.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.steering_steeringOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Car Controller.speed_speedOut.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/kernel.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/reference_clock.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/qt_xsystem.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/LaneDetection</name>
+          <properties/>
+        </property_set>
+      </property_sets>
+    </property_package>
+  </property_packages>
+</property_file>

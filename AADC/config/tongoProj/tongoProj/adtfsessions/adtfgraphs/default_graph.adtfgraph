@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<graph_file xmlns="adtf/xsd/graph">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <name>default_graph</name>
+  <graphs>
+    <graph>
+      <name>default_filter_graph</name>
+      <filters>
+        <filter>
+          <name>Car Controller</name>
+          <class_id>car_controller.filter.demo.aadc.cid</class_id>
+          <input_pins/>
+          <output_pins>
+            <pin>
+              <name>steering</name>
+            </pin>
+            <pin>
+              <name>speed</name>
+            </pin>
+            <pin>
+              <name>head_light</name>
+            </pin>
+            <pin>
+              <name>turn_signal_left</name>
+            </pin>
+            <pin>
+              <name>turn_signal_right</name>
+            </pin>
+            <pin>
+              <name>brake_light</name>
+            </pin>
+            <pin>
+              <name>hazard_light</name>
+            </pin>
+            <pin>
+              <name>reverse_light</name>
+            </pin>
+          </output_pins>
+          <runners/>
+          <init_priority>0</init_priority>
+          <binding_servers/>
+          <binding_clients/>
+        </filter>
+        <filter>
+          <name>LaneDetection</name>
+          <class_id>lane_detection.filter.user.aadc.cid</class_id>
+          <input_pins/>
+          <output_pins/>
+          <runners/>
+          <init_priority>0</init_priority>
+          <binding_servers/>
+          <binding_clients/>
+        </filter>
+      </filters>
+      <subgraphs/>
+      <input_data_ports/>
+      <output_data_ports/>
+      <input_interface_ports/>
+      <output_interface_ports/>
+      <output_runner_ports/>
+      <input_runner_ports/>
+      <streaming_in_ports/>
+      <streaming_out_ports>
+        <streaming_out_port>
+          <name>steeringOut</name>
+          <portname>SteeringStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>speedOut</name>
+          <portname>SpeedStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>headLightOut</name>
+          <portname>head_lightStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>turnLeftOut</name>
+          <portname>turn_signal_leftStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>turnRightOut</name>
+          <portname>turn_signal_rightStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>breakLightOut</name>
+          <portname>break_lightStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>hazardLightOut</name>
+          <portname>hazard_lightStream</portname>
+        </streaming_out_port>
+        <streaming_out_port>
+          <name>reverseLight</name>
+          <portname>reverse_lightStream</portname>
+        </streaming_out_port>
+      </streaming_out_ports>
+      <sample_streams>
+        <sample_stream>
+          <name>Sample Stream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>Sample Stream_3</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>Sample Stream_4</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>Sample Stream_5</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>Sample Stream_6</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>Sample Stream_7</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+      </sample_streams>
+      <active_runners/>
+      <binding_proxys/>
+      <connections>
+        <connection>
+          <name>Car Controller.head_light_Sample Stream_3.</name>
+          <source_connector_path>
+            <connector>head_light</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream_3</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.turn_signal_left_Sample Stream_4.</name>
+          <source_connector_path>
+            <connector>turn_signal_left</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream_4</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.turn_signal_right_Sample Stream_5.</name>
+          <source_connector_path>
+            <connector>turn_signal_right</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream_5</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.brake_light_Sample Stream_6.</name>
+          <source_connector_path>
+            <connector>brake_light</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream_6</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.hazard_light_Sample Stream_7.</name>
+          <source_connector_path>
+            <connector>hazard_light</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream_7</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.reverse_light_Sample Stream.</name>
+          <source_connector_path>
+            <connector>reverse_light</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>Sample Stream</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream_3._headLightOut.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream_3</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>headLightOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream_4._turnLeftOut.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream_4</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>turnLeftOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream_5._turnRightOut.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream_5</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>turnRightOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream_6._breakLightOut.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream_6</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>breakLightOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream_7._hazardLightOut.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream_7</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>hazardLightOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Sample Stream._reverseLight.</name>
+          <source_connector_path>
+            <connector/>
+            <component>Sample Stream</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>reverseLight</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.steering_steeringOut.</name>
+          <source_connector_path>
+            <connector>steering</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>steeringOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Car Controller.speed_speedOut.</name>
+          <source_connector_path>
+            <connector>speed</connector>
+            <component>Car Controller</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector/>
+            <component>speedOut</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+      </connections>
+      <streaming_interface_in_ports/>
+      <streaming_interface_out_ports/>
+    </graph>
+  </graphs>
+  <streaming_graphs>
+    <streaming_graph>
+      <name>default_streaming_graph</name>
+      <streaming_sources/>
+      <streaming_dock_in_ports/>
+      <streaming_dock_out_ports>
+        <sample_stream>
+          <name>SteeringStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>SpeedStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>head_lightStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>turn_signal_leftStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>turn_signal_rightStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>break_lightStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>hazard_lightStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+        <sample_stream>
+          <name>reverse_lightStream</name>
+          <class_id>default_sample_stream.streaming.adtf.cid</class_id>
+        </sample_stream>
+      </streaming_dock_out_ports>
+      <streaming_sinks>
+        <streaming_sink>
+          <name>Arduino Actuator</name>
+          <class_id>arduino_actuator.streaming_sink.base.aadc.cid</class_id>
+          <input_pins>
+            <pin>
+              <name>steering</name>
+            </pin>
+            <pin>
+              <name>speed</name>
+            </pin>
+            <pin>
+              <name>head_light</name>
+            </pin>
+            <pin>
+              <name>turn_signal_left</name>
+            </pin>
+            <pin>
+              <name>turn_signal_right</name>
+            </pin>
+            <pin>
+              <name>brake_light</name>
+            </pin>
+            <pin>
+              <name>hazard_light</name>
+            </pin>
+            <pin>
+              <name>reverse_light</name>
+            </pin>
+          </input_pins>
+          <output_pins/>
+          <runners/>
+          <init_priority>0</init_priority>
+          <binding_servers/>
+          <binding_clients/>
+        </streaming_sink>
+      </streaming_sinks>
+      <sample_streams/>
+      <connections>
+        <connection>
+          <name>Filter Graph Dock.SteeringStream_Arduino Actuator.steering</name>
+          <source_connector_path>
+            <connector>SteeringStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>steering</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.SpeedStream_Arduino Actuator.speed</name>
+          <source_connector_path>
+            <connector>SpeedStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>speed</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.head_lightStream_Arduino Actuator.head_light</name>
+          <source_connector_path>
+            <connector>head_lightStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>head_light</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.turn_signal_leftStream_Arduino Actuator.turn_signal_left</name>
+          <source_connector_path>
+            <connector>turn_signal_leftStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>turn_signal_left</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.turn_signal_rightStream_Arduino Actuator.turn_signal_right</name>
+          <source_connector_path>
+            <connector>turn_signal_rightStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>turn_signal_right</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.break_lightStream_Arduino Actuator.brake_light</name>
+          <source_connector_path>
+            <connector>break_lightStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>brake_light</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.hazard_lightStream_Arduino Actuator.hazard_light</name>
+          <source_connector_path>
+            <connector>hazard_lightStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>hazard_light</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+        <connection>
+          <name>Filter Graph Dock.reverse_lightStream_Arduino Actuator.reverse_light</name>
+          <source_connector_path>
+            <connector>reverse_lightStream</connector>
+            <component>Filter Graph Dock</component>
+            <portbindingobject/>
+          </source_connector_path>
+          <destination_connector_path>
+            <connector>reverse_light</connector>
+            <component>Arduino Actuator</component>
+            <portbindingobject/>
+          </destination_connector_path>
+          <priority>0</priority>
+          <sync>true</sync>
+        </connection>
+      </connections>
+      <binding_proxys/>
+      <streaming_dock_interface_in_ports/>
+      <streaming_dock_interface_out_ports/>
+      <streaming_dock_runner_in_ports/>
+    </streaming_graph>
+  </streaming_graphs>
+</graph_file>
